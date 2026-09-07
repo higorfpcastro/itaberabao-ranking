@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ranking Itaberabão</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Fonte Noto Sans para combinar com o estilo Lichess -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Biblioteca Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <p class="eyebrow">XADREZ • ITABERABÃO</p>
+      <h1>Ranking SalentChess</h1>
+      <p class="subtitle">Classificação atualizada automaticamente a partir dos torneios do Lichess.</p>
+      <div id="status" class="status">Carregando dados...</div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="cards" id="cards"></section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <div>
+          <h2>Classificação geral</h2>
+          <p>Ordenação por pontos e critérios de desempate.</p>
+        </div>
+        <input id="search" type="search" placeholder="Pesquisar jogador...">
+      </div>
+
+      <div class="table-wrap">
+        <table id="ranking">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Jogador</th>
+              <th>Pontos</th>
+              <th>Desempenho</th>
+              <th>1º</th>
+              <th>2º</th>
+              <th>3º</th>
+              <th>Rating</th>
+              <th>Participações</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="grid">
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <h2>Maiores vencedores</h2>
+            <p>Quantidade de vitórias nos torneios considerados.</p>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table id="winners">
+            <thead>
+              <tr><th>#</th><th>Jogador</th><th>Vitórias</th><th>Pontos</th></tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <h2>Por categoria de rating</h2>
+            <p>Até cinco jogadores por faixa.</p>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table id="categories">
+            <thead>
+              <tr><th>Categoria</th><th>Jogador</th><th>Rating</th><th>Pontos</th></tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <div>
+          <h2>Últimos torneios</h2>
+          <p>Fonte: Lichess.</p>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table id="tournaments">
+          <thead>
+            <tr><th>Data</th><th>Torneio</th><th>Vencedor</th><th></th></tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <span>Ranking Itaberabão</span>
+      <span>Dados obtidos da API pública do Lichess.</span>
+    </div>
+  </footer>
+
+  <!-- Modal de detalhes do jogador -->
+  <div id="player-modal" class="modal hidden" aria-hidden="true">
+    <div class="modal-content">
+      <button id="close-modal" class="close" aria-label="Fechar">×</button>
+      <div id="player-details"></div>
+      <!-- Canvas para o gráfico -->
+      <canvas id="performance-chart"></canvas>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
