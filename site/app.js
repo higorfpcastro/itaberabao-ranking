@@ -1,4 +1,4 @@
-const DATA = "site/";
+const DATA = "";
 
 let ranking = [];
 let winners = [];
