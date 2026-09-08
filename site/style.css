@@ -267,3 +267,9 @@ footer .container {
 .muted {
   color: var(--muted);
 }
+/* 🔹 Rolagem vertical nas tabelas */
+.table-wrap {
+  max-height: 500px;   /* limite de altura visível */
+  overflow-y: auto;    /* cria barra de rolagem vertical */
+  overflow-x: auto;    /* mantém rolagem horizontal se necessário */
+}
