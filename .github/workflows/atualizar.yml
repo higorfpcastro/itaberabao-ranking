@@ -25,7 +25,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Rodar script de atualização
-        run: python itaberabao-ranking/python/atualizar.py
+        run: python python/atualizar.py
 
       - name: Commit e push dos dados
         run: |
