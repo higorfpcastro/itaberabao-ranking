@@ -4,6 +4,13 @@ on:
   push:
     branches:
       - main
+
+  workflow_run:
+    workflows:
+      - "Atualizar ranking Itaberabão"
+    types:
+      - completed
+
   workflow_dispatch:
 
 permissions:
@@ -13,7 +20,10 @@ permissions:
 
 jobs:
   deploy:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repositório
         uses: actions/checkout@v4
@@ -21,10 +31,15 @@ jobs:
       - name: Configurar Pages
         uses: actions/configure-pages@v4
 
+      - name: Copiar dados para site
+        run: |
+          mkdir -p itaberabao-ranking/site/data
+          cp -r itaberabao-ranking/data/* itaberabao-ranking/site/data/
+
       - name: Upload artefatos
         uses: actions/upload-pages-artifact@v3
         with:
-          path: site   # publica tudo que está dentro da pasta site/
+          path: itaberabao-ranking/site
 
       - name: Publicar no GitHub Pages
         uses: actions/deploy-pages@v4
