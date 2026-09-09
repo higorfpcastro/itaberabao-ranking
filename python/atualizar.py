@@ -25,7 +25,8 @@ import requests
 # ============================================================
 
 TEAM_ID = "itaberabao"
-START_TIMESTAMP_MS = 1755563400000  # 18/08/2025 00:00 UTC aproximadamente
+START_TIMESTAMP_MS = int(datetime(2025, 9, 7, 0, 0, tzinfo=timezone.utc).timestamp() * 1000)
+END_TIMESTAMP_MS   = int(datetime(2025, 9, 9, 0, 0, tzinfo=timezone.utc).timestamp() * 1000)
 EXCLUDED_TOURNAMENTS = {"WOE0IJur"}
 NAME_PATTERN = re.compile(r"ITABERAB|Embaixador", re.IGNORECASE)
 
@@ -128,17 +129,12 @@ def records(df: pd.DataFrame):
 # LICHESS
 # ============================================================
 
-def get_team_tournaments():
+def get_team_tournaments(start_ms=None, end_ms=None):
     url = f"https://lichess.org/api/team/{TEAM_ID}/arena?max=2000"
     response = SESSION.get(url, timeout=60)
     response.raise_for_status()
 
-    # Endpoint retorna NDJSON.
-    items = []
-    for line in response.text.splitlines():
-        if line.strip():
-            items.append(json.loads(line))
-
+    items = [json.loads(line) for line in response.text.splitlines() if line.strip()]
     if not items:
         return pd.DataFrame()
 
@@ -147,29 +143,23 @@ def get_team_tournaments():
     if "startsAt" not in df.columns:
         raise RuntimeError("A resposta do Lichess não contém 'startsAt'.")
 
-    # Regra temporal original.
-    df = df[df["startsAt"].fillna(0) >= START_TIMESTAMP_MS].copy()
+    # 🔹 Filtro por intervalo de datas
+    if start_ms is not None:
+        df = df[df["startsAt"].fillna(0) >= start_ms].copy()
+    if end_ms is not None:
+        df = df[df["startsAt"].fillna(0) <= end_ms].copy()
 
-    # Data/hora em UTC.
     df["startsAt_dt"] = pd.to_datetime(df["startsAt"], unit="ms", utc=True)
-
-    # Equivalente à filtragem por sábado/domingo da versão original.
     df = df[~df["startsAt_dt"].dt.dayofweek.isin([5, 6])].copy()
 
     if "id" in df.columns:
         df = df[~df["id"].isin(EXCLUDED_TOURNAMENTS)].copy()
-
     if "fullName" in df.columns:
-        df = df[
-            df["fullName"].fillna("").str.contains(NAME_PATTERN)
-        ].copy()
-
+        df = df[df["fullName"].fillna("").str.contains(NAME_PATTERN)].copy()
     if "winner" in df.columns:
         df = df[df["winner"].fillna(False).astype(bool)].copy()
 
-    # Mais antigo → mais recente.
-    df = df.sort_values("startsAt").reset_index(drop=True)
-    return df
+    return df.sort_values("startsAt").reset_index(drop=True)
 
 
 def fetch_tournament_results(tournament_id: str):
@@ -434,7 +424,10 @@ def main():
     started = datetime.now(timezone.utc)
 
     print("Consultando torneios do Itaberabão...")
-    tournaments = get_team_tournaments()
+    tournaments = get_team_tournaments(
+        start_ms=START_TIMESTAMP_MS,
+        end_ms=END_TIMESTAMP_MS
+    )
     print(f"Torneios selecionados: {len(tournaments)}")
 
     results = download_all_results(tournaments)
