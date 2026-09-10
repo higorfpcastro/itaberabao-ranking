@@ -25,7 +25,7 @@ import requests
 # ============================================================
 
 TEAM_ID = "itaberabao"
-START_TIMESTAMP_MS = int(datetime(2026, 9, 7, 0, 0, tzinfo=timezone.utc).timestamp() * 1000)
+START_TIMESTAMP_MS = int(datetime(2025, 9, 7, 0, 0, tzinfo=timezone.utc).timestamp() * 1000)
 END_TIMESTAMP_MS   = int(datetime(2026, 12, 31, 0, 0, tzinfo=timezone.utc).timestamp() * 1000)
 EXCLUDED_TOURNAMENTS = {"WOE0IJur"}
 NAME_PATTERN = re.compile(r"ITABERAB|Embaixador", re.IGNORECASE)
