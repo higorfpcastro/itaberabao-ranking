@@ -2,7 +2,7 @@ name: Atualizar ranking Itaberabão
 
 on:
   schedule:
-    - cron: '01 0 * * *'   # roda diariamente às 00h06 (horário de Brasília)
+    - cron: '0 1 * * *'   # roda diariamente às 00h06 (horário de Brasília)
   workflow_dispatch:        # permite rodar manualmente
 
 permissions:
