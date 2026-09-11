@@ -1,18 +1,10 @@
 name: Publicar GitHub Pages
 
 on:
-
-  # Publica quando houver alteração no main.
   push:
     branches:
       - main
 
-  # Importante:
-  # o commit feito pelo workflow atualizar.yml usa
-  # GITHUB_TOKEN e pode não disparar outro workflow via push.
-  #
-  # Por isso o Pages também é acionado quando a atualização
-  # automática termina com sucesso.
   workflow_run:
     workflows:
       - "Atualizar ranking Itaberabão"
@@ -21,24 +13,17 @@ on:
 
   workflow_dispatch:
 
-
 permissions:
   contents: read
   pages: write
   id-token: write
 
-
 concurrency:
   group: pages
   cancel-in-progress: true
 
-
 jobs:
-
   deploy:
-
-    # No workflow_run, só publica se a atualização terminou
-    # com sucesso.
     if: >
       github.event_name != 'workflow_run' ||
       github.event.workflow_run.conclusion == 'success'
@@ -47,34 +32,18 @@ jobs:
 
     steps:
 
-      # ======================================================
-      # CHECKOUT
-      # ======================================================
-
       - name: Checkout repositório
         uses: actions/checkout@v4
         with:
           ref: main
 
-      # ======================================================
-      # CONFIGURAÇÃO DO GITHUB PAGES
-      # ======================================================
-
-      - name: Configurar Pages
+      - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
 
-      # ======================================================
-      # UPLOAD DO SITE
-      # ======================================================
-
       - name: Preparar artefato do site
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: site
-
-      # ======================================================
-      # PUBLICAÇÃO
-      # ======================================================
 
       - name: Publicar no GitHub Pages
         uses: actions/deploy-pages@v4
