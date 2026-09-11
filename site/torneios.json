@@ -504,18 +504,18 @@
     "url": "https://lichess.org/tournament/C5YwWdan"
   },
   {
-    "id": "bqU2PCTi",
-    "name": "iTABERABÃO de Terça Arena",
-    "winner": "Luiz_GO",
-    "startsAt": "2025-12-17T00:30:00+00:00",
-    "url": "https://lichess.org/tournament/bqU2PCTi"
-  },
-  {
     "id": "z90m07N9",
     "name": "iTABERABÃO de Terça Arena",
     "winner": "JPRICKARDOSALAZAR",
     "startsAt": "2025-12-17T00:30:00+00:00",
     "url": "https://lichess.org/tournament/z90m07N9"
+  },
+  {
+    "id": "bqU2PCTi",
+    "name": "iTABERABÃO de Terça Arena",
+    "winner": "Luiz_GO",
+    "startsAt": "2025-12-17T00:30:00+00:00",
+    "url": "https://lichess.org/tournament/bqU2PCTi"
   },
   {
     "id": "vNe0lmys",
@@ -1463,18 +1463,18 @@
     "url": "https://lichess.org/tournament/vTCO8ZyQ"
   },
   {
-    "id": "C11XYtgy",
-    "name": "iTABERABÃO Arena",
-    "winner": "estevaoluiz",
-    "startsAt": "2026-06-25T00:30:00+00:00",
-    "url": "https://lichess.org/tournament/C11XYtgy"
-  },
-  {
     "id": "PFGTRMMU",
     "name": "ITABERABÃO Arena",
     "winner": "Tanzinho",
     "startsAt": "2026-06-25T00:30:00+00:00",
     "url": "https://lichess.org/tournament/PFGTRMMU"
+  },
+  {
+    "id": "C11XYtgy",
+    "name": "iTABERABÃO Arena",
+    "winner": "estevaoluiz",
+    "startsAt": "2026-06-25T00:30:00+00:00",
+    "url": "https://lichess.org/tournament/C11XYtgy"
   },
   {
     "id": "sMKUux64",
@@ -1846,5 +1846,26 @@
     "winner": "LCesarini27",
     "startsAt": "2026-09-08T00:30:00+00:00",
     "url": "https://lichess.org/tournament/4WJPIoI0"
+  },
+  {
+    "id": "VVuBVHOq",
+    "name": "iTABERABÃO De Terça Arena",
+    "winner": "Tanzinho",
+    "startsAt": "2026-09-09T00:30:00+00:00",
+    "url": "https://lichess.org/tournament/VVuBVHOq"
+  },
+  {
+    "id": "CHKxM4Cy",
+    "name": "ITABERABÃO Arena",
+    "winner": "Mikhailtaldonordeste",
+    "startsAt": "2026-09-10T00:30:00+00:00",
+    "url": "https://lichess.org/tournament/CHKxM4Cy"
+  },
+  {
+    "id": "j9XGj7uj",
+    "name": "iTABERABÃO Arena",
+    "winner": "marcoskaparov",
+    "startsAt": "2026-09-11T00:30:00+00:00",
+    "url": "https://lichess.org/tournament/j9XGj7uj"
   }
 ]
