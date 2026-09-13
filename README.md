@@ -110,12 +110,12 @@ As correções de pontuação do programa original também foram preservadas.
 
 ## Correções de pontuação preservadas
 
-- `batolsai`, `Hunter04`, `Herzog_Treinamentos`: +2
-- `princeofchess`: +3
-- `motacta30`, `CCapivara`, `Jesus33`, `macgyversp`, `lafitt`, `danger-perigo`: +4
-- `j_erry`: +6
-- `AnyPeople`: +8
-- `XADREZCSC`: −153
+- `batolsai`, `Hunter04`, `Herzog_Treinamentos`: 0
+- `princeofchess`: 0
+- `motacta30`, `CCapivara`, `Jesus33`, `macgyversp`, `lafitt`, `danger-perigo`: 0
+- `j_erry`: 0
+- `AnyPeople`: 0
+- `XADREZCSC`: 0
 
 ## Google Sheets
 
