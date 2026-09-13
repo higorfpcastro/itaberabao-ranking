@@ -69,19 +69,8 @@ NICK_REPLACEMENTS = {
 # ============================================================
 
 POINT_CORRECTIONS = {
-    "batolsai": 2,
-    "Hunter04": 2,
-    "Herzog_Treinamentos": 2,
-    "princeofchess": 3,
-    "motacta30": 4,
-    "CCapivara": 4,
-    "Jesus33": 4,
-    "macgyversp": 4,
-    "lafitt": 4,
-    "danger-perigo": 4,
-    "j_erry": 6,
-    "AnyPeople": 8,
-    "XADREZCSC": -153,
+    "batolsai": 0,
+    "Hunter04": 0,
 }
 
 
