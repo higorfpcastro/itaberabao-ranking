@@ -1113,18 +1113,18 @@
     "url": "https://lichess.org/tournament/RroUTiY2"
   },
   {
-    "id": "2mpuZS7P",
-    "name": "iTABERABÃO Arena",
-    "winner": "wilsom7",
-    "startsAt": "2026-04-17T00:30:00+00:00",
-    "url": "https://lichess.org/tournament/2mpuZS7P"
-  },
-  {
     "id": "6fHE6D87",
     "name": "iTABERABÃO Arena",
     "winner": "motacta30",
     "startsAt": "2026-04-17T00:30:00+00:00",
     "url": "https://lichess.org/tournament/6fHE6D87"
+  },
+  {
+    "id": "2mpuZS7P",
+    "name": "iTABERABÃO Arena",
+    "winner": "wilsom7",
+    "startsAt": "2026-04-17T00:30:00+00:00",
+    "url": "https://lichess.org/tournament/2mpuZS7P"
   },
   {
     "id": "QqTfDhwY",
@@ -1867,5 +1867,12 @@
     "winner": "marcoskaparov",
     "startsAt": "2026-09-11T00:30:00+00:00",
     "url": "https://lichess.org/tournament/j9XGj7uj"
+  },
+  {
+    "id": "uZXA3edT",
+    "name": "iTABERABÃO Sunday Arena",
+    "winner": "na10042011",
+    "startsAt": "2026-09-14T00:30:00+00:00",
+    "url": "https://lichess.org/tournament/uZXA3edT"
   }
 ]
