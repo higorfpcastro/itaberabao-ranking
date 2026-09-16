@@ -23,9 +23,10 @@ from __future__ import annotations
 import json
 import math
 import re
+import time
 from datetime import datetime, timezone
 from pathlib import Path
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from zoneinfo import ZoneInfo
 
 import pandas as pd
 import requests
@@ -47,6 +48,9 @@ START_TIMESTAMP_MS = int(
 END_TIMESTAMP_MS = None
 
 EXCLUDED_TOURNAMENTS = {"WOE0IJur"}
+
+# Fuso horário usado para as regras de calendário do ranking.
+BR_TZ = ZoneInfo("America/Sao_Paulo")
 
 NAME_PATTERN = re.compile(
     r"ITABERAB|Embaixador",
@@ -266,6 +270,13 @@ def add_ranking_movement(ranking, previous_positions):
 # ============================================================
 
 def get_team_tournaments(start_ms=None, end_ms=None):
+    """
+    Obtém os torneios da equipe e aplica os filtros do ranking.
+
+    A data da semana é avaliada no horário de Brasília, e não em UTC.
+    Isso evita que torneios próximos da meia-noite UTC sejam classificados
+    no dia errado.
+    """
 
     url = (
         f"https://lichess.org/api/team/"
@@ -295,6 +306,11 @@ def get_team_tournaments(start_ms=None, end_ms=None):
             "A resposta do Lichess não contém 'startsAt'."
         )
 
+    if "id" not in df.columns:
+        raise RuntimeError(
+            "A resposta do Lichess não contém 'id'."
+        )
+
     # --------------------------------------------------------
     # Intervalo
     # --------------------------------------------------------
@@ -319,33 +335,48 @@ def get_team_tournaments(start_ms=None, end_ms=None):
         utc=True
     )
 
-    # Apenas segunda a sexta.
+    # Converte para Brasília antes de aplicar o filtro de dias.
+    df["startsAt_brt"] = df["startsAt_dt"].dt.tz_convert(BR_TZ)
+
+    # Apenas segunda a sexta, considerando o calendário de Brasília.
     df = df[
-        ~df["startsAt_dt"].dt.dayofweek.isin([5, 6])
+        df["startsAt_brt"].dt.dayofweek < 5
     ].copy()
 
     # --------------------------------------------------------
     # Exclusões
     # --------------------------------------------------------
 
-    if "id" in df.columns:
-        df = df[
-            ~df["id"].isin(EXCLUDED_TOURNAMENTS)
-        ].copy()
+    df = df[
+        ~df["id"].isin(EXCLUDED_TOURNAMENTS)
+    ].copy()
 
     if "fullName" in df.columns:
         df = df[
             df["fullName"]
             .fillna("")
-            .str.contains(NAME_PATTERN)
+            .str.contains(NAME_PATTERN, na=False)
         ].copy()
 
-    if "winner" in df.columns:
-        df = df[
-            df["winner"]
-            .fillna(False)
-            .astype(bool)
-        ].copy()
+    # --------------------------------------------------------
+    # Somente torneios finalizados
+    # --------------------------------------------------------
+
+    # O endpoint de arena fornece 'winner' para torneios finalizados.
+    # Se o campo não vier, não é seguro publicar o ranking.
+    if "winner" not in df.columns:
+        raise RuntimeError(
+            "A resposta do Lichess não contém 'winner'; "
+            "não é possível confirmar quais torneios terminaram."
+        )
+
+    df = df[
+        df["winner"].notna()
+        & df["winner"].astype(bool)
+    ].copy()
+
+    # Evita que um eventual ID repetido seja processado duas vezes.
+    df = df.drop_duplicates(subset=["id"], keep="first")
 
     return (
         df
@@ -358,7 +389,19 @@ def get_team_tournaments(start_ms=None, end_ms=None):
 # LICHESS — RESULTADOS
 # ============================================================
 
-def fetch_tournament_results(tournament_id: str):
+def fetch_tournament_results(
+    tournament_id: str,
+    max_attempts: int = 4
+):
+    """
+    Baixa os resultados de um torneio com tratamento de rate limit.
+
+    Em caso de HTTP 429, aguarda pelo menos 60 segundos antes de tentar
+    novamente. Outros erros usam espera exponencial.
+
+    Uma resposta vazia é considerada erro, pois não é seguro interpretar
+    um resultado vazio como um torneio sem participantes.
+    """
 
     url = (
         f"https://lichess.org/api/tournament/"
@@ -375,23 +418,6 @@ def fetch_tournament_results(tournament_id: str):
         "team": "true",
     }
 
-    response = SESSION.get(
-        url,
-        headers={
-            "Accept": "application/x-ndjson"
-        },
-        params=params,
-        timeout=60,
-    )
-
-    response.raise_for_status()
-
-    rows = []
-
-    for line in response.text.splitlines():
-        if line.strip():
-            rows.append(json.loads(line))
-
     wanted = [
         "username",
         "rating",
@@ -400,70 +426,173 @@ def fetch_tournament_results(tournament_id: str):
         "rank"
     ]
 
-    data = []
+    last_error = None
 
-    for row in rows:
+    for attempt in range(1, max_attempts + 1):
+        try:
+            response = SESSION.get(
+                url,
+                headers={
+                    "Accept": "application/x-ndjson"
+                },
+                params=params,
+                timeout=60,
+            )
 
-        data.append({
-            "username": row.get("username"),
-            "rating": row.get("rating"),
-            "score": row.get("score"),
-            "performance": row.get("performance"),
-            "rank": row.get("rank"),
-        })
+            # ------------------------------------------------
+            # Rate limit do Lichess
+            # ------------------------------------------------
 
-    return pd.DataFrame(
-        data,
-        columns=wanted
+            if response.status_code == 429:
+                retry_after = response.headers.get("Retry-After")
+
+                try:
+                    wait_seconds = int(retry_after)
+                except (TypeError, ValueError):
+                    wait_seconds = 60
+
+                # Nunca aguardar menos de 60 s para HTTP 429.
+                wait_seconds = max(wait_seconds, 60)
+
+                if attempt < max_attempts:
+                    print(
+                        f"RATE LIMIT no torneio {tournament_id} "
+                        f"(tentativa {attempt}/{max_attempts}). "
+                        f"Aguardando {wait_seconds}s..."
+                    )
+                    time.sleep(wait_seconds)
+                    continue
+
+                raise RuntimeError(
+                    f"HTTP 429 após {max_attempts} tentativas."
+                )
+
+            response.raise_for_status()
+
+            rows = []
+
+            for line in response.text.splitlines():
+                if line.strip():
+                    rows.append(json.loads(line))
+
+            data = []
+
+            for row in rows:
+                data.append({
+                    "username": row.get("username"),
+                    "rating": row.get("rating"),
+                    "score": row.get("score"),
+                    "performance": row.get("performance"),
+                    "rank": row.get("rank"),
+                })
+
+            df = pd.DataFrame(
+                data,
+                columns=wanted
+            )
+
+            # Resposta vazia não pode ser publicada como se fosse válida.
+            if df.empty:
+                raise RuntimeError(
+                    "A API retornou zero participantes."
+                )
+
+            return df
+
+        except Exception as exc:
+            last_error = exc
+
+            if attempt >= max_attempts:
+                raise RuntimeError(
+                    f"Falha ao obter resultados do torneio "
+                    f"{tournament_id} após {max_attempts} tentativas: "
+                    f"{exc}"
+                ) from exc
+
+            # Backoff para erros que não sejam 429.
+            wait_seconds = 10 * (2 ** (attempt - 1))
+
+            print(
+                f"ERRO no torneio {tournament_id} "
+                f"(tentativa {attempt}/{max_attempts}): {exc}. "
+                f"Nova tentativa em {wait_seconds}s..."
+            )
+
+            time.sleep(wait_seconds)
+
+    raise RuntimeError(
+        f"Falha inesperada ao obter resultados: {last_error}"
     )
 
 
 def download_all_results(tournaments):
+    """
+    Baixa os resultados de todos os torneios de forma sequencial.
+
+    O objetivo é evitar várias requisições simultâneas à API do Lichess.
+    Se qualquer torneio falhar definitivamente, a execução inteira é
+    interrompida para impedir a publicação de um ranking incompleto.
+    """
 
     results = {}
 
     if tournaments.empty:
         return results
 
-    with ThreadPoolExecutor(
-        max_workers=4
-    ) as executor:
+    failed = []
+    tournament_ids = tournaments["id"].tolist()
+    total = len(tournament_ids)
 
-        futures = {
-            executor.submit(
-                fetch_tournament_results,
-                tid
-            ): tid
-            for tid in tournaments["id"].tolist()
-        }
+    print(
+        f"Iniciando download dos resultados de {total} torneios..."
+    )
 
-        for future in as_completed(futures):
+    for i, tid in enumerate(tournament_ids, start=1):
+        print(
+            f"[{i}/{total}] Baixando resultados do torneio {tid}..."
+        )
 
-            tid = futures[future]
+        try:
+            results[tid] = fetch_tournament_results(tid)
 
-            try:
+            print(
+                f"OK: resultados {tid} "
+                f"({len(results[tid])} participantes)"
+            )
 
-                results[tid] = future.result()
+            # Pequeno intervalo entre requisições bem-sucedidas.
+            if i < total:
+                time.sleep(1)
 
-                print(
-                    f"OK: resultados {tid}"
-                )
+        except Exception as exc:
+            print(
+                f"ERRO no torneio {tid}: {exc}"
+            )
+            failed.append((tid, str(exc)))
 
-            except Exception as exc:
+    # --------------------------------------------------------
+    # Integridade: não publicar dados parciais
+    # --------------------------------------------------------
 
-                print(
-                    f"ERRO no torneio {tid}: {exc}"
-                )
+    if failed:
+        mensagem = "\n".join(
+            f"- {tid}: {erro}"
+            for tid, erro in failed
+        )
 
-                results[tid] = pd.DataFrame(
-                    columns=[
-                        "username",
-                        "rating",
-                        "score",
-                        "performance",
-                        "rank"
-                    ]
-                )
+        raise RuntimeError(
+            "ERRO: NÃO FOI POSSÍVEL OBTER TODOS OS RESULTADOS\n"
+            f"Total de torneios selecionados: {total}\n"
+            f"Torneios obtidos com sucesso: {len(results)}\n"
+            f"Torneios com erro: {len(failed)}\n"
+            "O ranking NÃO será atualizado para evitar a publicação "
+            "de dados incompletos.\n"
+            f"Torneios com erro:\n{mensagem}"
+        )
+
+    print(
+        f"Todos os {total} torneios foram obtidos com sucesso."
+    )
 
     return results
 
@@ -476,17 +605,26 @@ def build_participation_table(
     tournaments,
     results
 ):
+    """
+    Monta a tabela completa de participações.
+
+    Cada linha representa a participação de um usuário em um torneio.
+    Também são armazenados o horário UTC original e o horário de Brasília
+    para facilitar auditoria e apresentação no site.
+    """
 
     frames = []
 
     for _, tournament in tournaments.iterrows():
-
         tid = tournament["id"]
-
         df = results.get(tid)
 
         if df is None or df.empty:
-            continue
+            # Isso não deveria ocorrer porque download_all_results()
+            # interrompe a execução em caso de falha.
+            raise RuntimeError(
+                f"Não há resultados válidos para o torneio {tid}."
+            )
 
         temp = df.copy()
 
@@ -503,10 +641,20 @@ def build_participation_table(
             tournament.get("startsAt")
         )
 
+        starts_at_brt = tournament.get("startsAt_brt")
+
+        if pd.notna(starts_at_brt):
+            temp["startsAt_brt"] = starts_at_brt.isoformat()
+            temp["data_hora_brt"] = starts_at_brt.strftime(
+                "%d/%m/%Y %H:%M"
+            )
+        else:
+            temp["startsAt_brt"] = None
+            temp["data_hora_brt"] = None
+
         frames.append(temp)
 
     if not frames:
-
         return pd.DataFrame(
             columns=[
                 "username",
@@ -516,7 +664,9 @@ def build_participation_table(
                 "rank",
                 "tournament_id",
                 "tournament_name",
-                "startsAt"
+                "startsAt",
+                "startsAt_brt",
+                "data_hora_brt"
             ]
         )
 
@@ -562,6 +712,27 @@ def build_participation_table(
     all_results = all_results[
         all_results["username"].str.strip() != ""
     ].copy()
+
+    # --------------------------------------------------------
+    # Verificação de integridade
+    # --------------------------------------------------------
+
+    selected_ids = set(
+        tournaments["id"].astype(str)
+    )
+
+    participation_ids = set(
+        all_results["tournament_id"].astype(str)
+    )
+
+    missing_ids = selected_ids - participation_ids
+
+    if missing_ids:
+        missing_text = ", ".join(sorted(missing_ids))
+        raise RuntimeError(
+            "Há torneios selecionados sem participações no resultado "
+            f"final: {missing_text}"
+        )
 
     # --------------------------------------------------------
     # URL do torneio
@@ -1056,6 +1227,18 @@ def main():
     results = download_all_results(
         tournaments
     )
+
+    # Verificação adicional: todos os torneios selecionados precisam ter
+    # sido baixados antes que qualquer JSON seja substituído.
+    expected_ids = set(tournaments["id"].astype(str))
+    obtained_ids = set(str(tid) for tid in results.keys())
+    missing_ids = expected_ids - obtained_ids
+
+    if missing_ids:
+        raise RuntimeError(
+            "Resultados incompletos. Torneios ausentes: "
+            + ", ".join(sorted(missing_ids))
+        )
 
     # --------------------------------------------------------
     # Participações
