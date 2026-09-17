@@ -497,18 +497,18 @@
     "url": "https://lichess.org/tournament/C5YwWdan"
   },
   {
-    "id": "bqU2PCTi",
-    "name": "iTABERABÃO de Terça Arena",
-    "winner": "Luiz_GO",
-    "startsAt": "2025-12-17T00:30:00+00:00",
-    "url": "https://lichess.org/tournament/bqU2PCTi"
-  },
-  {
     "id": "z90m07N9",
     "name": "iTABERABÃO de Terça Arena",
     "winner": "JPRICKARDOSALAZAR",
     "startsAt": "2025-12-17T00:30:00+00:00",
     "url": "https://lichess.org/tournament/z90m07N9"
+  },
+  {
+    "id": "bqU2PCTi",
+    "name": "iTABERABÃO de Terça Arena",
+    "winner": "Luiz_GO",
+    "startsAt": "2025-12-17T00:30:00+00:00",
+    "url": "https://lichess.org/tournament/bqU2PCTi"
   },
   {
     "id": "vNe0lmys",
@@ -1204,18 +1204,18 @@
     "url": "https://lichess.org/tournament/Qr9WjbQR"
   },
   {
-    "id": "MyuFiqUE",
-    "name": "ITABERABÃO SEXTOUU Arena",
-    "winner": "MauroAmaral",
-    "startsAt": "2026-05-02T00:30:00+00:00",
-    "url": "https://lichess.org/tournament/MyuFiqUE"
-  },
-  {
     "id": "MYlcxGIA",
     "name": "ITABERABÃO Arena",
     "winner": "gaelpov",
     "startsAt": "2026-05-02T00:30:00+00:00",
     "url": "https://lichess.org/tournament/MYlcxGIA"
+  },
+  {
+    "id": "MyuFiqUE",
+    "name": "ITABERABÃO SEXTOUU Arena",
+    "winner": "MauroAmaral",
+    "startsAt": "2026-05-02T00:30:00+00:00",
+    "url": "https://lichess.org/tournament/MyuFiqUE"
   },
   {
     "id": "CZZ40W50",
@@ -1477,18 +1477,18 @@
     "url": "https://lichess.org/tournament/vTCO8ZyQ"
   },
   {
-    "id": "PFGTRMMU",
-    "name": "ITABERABÃO Arena",
-    "winner": "Tanzinho",
-    "startsAt": "2026-06-25T00:30:00+00:00",
-    "url": "https://lichess.org/tournament/PFGTRMMU"
-  },
-  {
     "id": "C11XYtgy",
     "name": "iTABERABÃO Arena",
     "winner": "estevaoluiz",
     "startsAt": "2026-06-25T00:30:00+00:00",
     "url": "https://lichess.org/tournament/C11XYtgy"
+  },
+  {
+    "id": "PFGTRMMU",
+    "name": "ITABERABÃO Arena",
+    "winner": "Tanzinho",
+    "startsAt": "2026-06-25T00:30:00+00:00",
+    "url": "https://lichess.org/tournament/PFGTRMMU"
   },
   {
     "id": "sMKUux64",
@@ -1902,5 +1902,12 @@
     "winner": "macgyversp",
     "startsAt": "2026-09-16T00:30:00+00:00",
     "url": "https://lichess.org/tournament/gmFc0aqV"
+  },
+  {
+    "id": "zELFZ7nu",
+    "name": "ITABERABÃO Arena",
+    "winner": "nibrchess",
+    "startsAt": "2026-09-17T00:30:00+00:00",
+    "url": "https://lichess.org/tournament/zELFZ7nu"
   }
 ]
