@@ -875,18 +875,18 @@
     "url": "https://lichess.org/tournament/J1EYTz6r"
   },
   {
-    "id": "wupHfEGD",
-    "name": "iTABERABÃO SEXTOUU Arena",
-    "winner": "Cirov",
-    "startsAt": "2026-02-28T00:30:00+00:00",
-    "url": "https://lichess.org/tournament/wupHfEGD"
-  },
-  {
     "id": "on0tmmbQ",
     "name": "iTABERABÃO SEXTOUU Arena",
     "winner": "Bauruzinho7",
     "startsAt": "2026-02-28T00:30:00+00:00",
     "url": "https://lichess.org/tournament/on0tmmbQ"
+  },
+  {
+    "id": "wupHfEGD",
+    "name": "iTABERABÃO SEXTOUU Arena",
+    "winner": "Cirov",
+    "startsAt": "2026-02-28T00:30:00+00:00",
+    "url": "https://lichess.org/tournament/wupHfEGD"
   },
   {
     "id": "HMycucFj",
@@ -1204,18 +1204,18 @@
     "url": "https://lichess.org/tournament/Qr9WjbQR"
   },
   {
-    "id": "MyuFiqUE",
-    "name": "ITABERABÃO SEXTOUU Arena",
-    "winner": "MauroAmaral",
-    "startsAt": "2026-05-02T00:30:00+00:00",
-    "url": "https://lichess.org/tournament/MyuFiqUE"
-  },
-  {
     "id": "MYlcxGIA",
     "name": "ITABERABÃO Arena",
     "winner": "gaelpov",
     "startsAt": "2026-05-02T00:30:00+00:00",
     "url": "https://lichess.org/tournament/MYlcxGIA"
+  },
+  {
+    "id": "MyuFiqUE",
+    "name": "ITABERABÃO SEXTOUU Arena",
+    "winner": "MauroAmaral",
+    "startsAt": "2026-05-02T00:30:00+00:00",
+    "url": "https://lichess.org/tournament/MyuFiqUE"
   },
   {
     "id": "CZZ40W50",
@@ -1916,5 +1916,12 @@
     "winner": "mhaykov",
     "startsAt": "2026-09-18T00:30:00+00:00",
     "url": "https://lichess.org/tournament/J3ssLMw9"
+  },
+  {
+    "id": "vm5HMgA8",
+    "name": "ITABERABÃO SEXTOUU Arena",
+    "winner": "LCesarini27",
+    "startsAt": "2026-09-19T00:30:00+00:00",
+    "url": "https://lichess.org/tournament/vm5HMgA8"
   }
 ]
