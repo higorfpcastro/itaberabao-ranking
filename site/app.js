@@ -137,6 +137,13 @@ function escapeHTML(value) {
 }
 
 
+function cssVar(name) {
+  return getComputedStyle(document.documentElement)
+    .getPropertyValue(name)
+    .trim();
+}
+
+
 /* ============================================================
    MOVIMENTO
    ============================================================ */
@@ -327,28 +334,28 @@ function renderRanking(filter = "") {
         ${escapeHTML(player.Nick ?? "—")}
       </td>
 
-      <td class="points-cell">
+      <td>
         <strong>
           ${fmt(player.Pontos)}
         </strong>
       </td>
-      
+
       <td>
         ${fmt(player.Desempenho_Medio)}
       </td>
-      
-      <td class="podium-first">
+
+      <td>
         ${fmt(player.podio_primeiro)}
       </td>
-      
-      <td class="podium-second">
+
+      <td>
         ${fmt(player.podio_segundo)}
       </td>
-      
-      <td class="podium-third">
+
+      <td>
         ${fmt(player.podio_terceiro)}
       </td>
-      
+
       <td>
         ${fmt(player.Rating_Medio)}
       </td>
@@ -413,7 +420,7 @@ function renderWinners() {
             ${fmt(player.vitorias)}
           </td>
 
-          <td>
+          <td class="points-cell">
             ${fmt(player.Pontos)}
           </td>
 
@@ -449,7 +456,7 @@ function renderCategories() {
             ${fmt(player.Rating_Medio)}
           </td>
 
-          <td>
+          <td class="points-cell">
             ${fmt(player.Pontos)}
           </td>
 
@@ -813,6 +820,10 @@ function renderPointsChart(
 
           tension: 0.25,
 
+          borderColor: cssVar("--positive"),
+          pointBackgroundColor: cssVar("--positive"),
+          pointBorderColor: cssVar("--positive"),
+
           fill: false
 
         }
@@ -878,13 +889,13 @@ function renderPointsChart(
 
           ticks: {
 
-            color: "#9a9a9a"
+            color: cssVar("--muted")
 
           },
 
           grid: {
 
-            color: "#3b3b3b"
+            color: cssVar("--line")
 
           }
 
@@ -897,13 +908,13 @@ function renderPointsChart(
 
           ticks: {
 
-            color: "#9a9a9a"
+            color: cssVar("--muted")
 
           },
 
           grid: {
 
-            color: "#3b3b3b"
+            color: cssVar("--line")
 
           }
 
@@ -1004,6 +1015,10 @@ function renderPositionChart(history) {
 
           tension: 0.25,
 
+          borderColor: cssVar("--accent"),
+          pointBackgroundColor: cssVar("--accent"),
+          pointBorderColor: cssVar("--accent"),
+
           fill: false
 
         }
@@ -1069,13 +1084,13 @@ function renderPositionChart(history) {
 
           ticks: {
 
-            color: "#9a9a9a"
+            color: cssVar("--muted")
 
           },
 
           grid: {
 
-            color: "#3b3b3b"
+            color: cssVar("--line")
 
           }
 
@@ -1095,7 +1110,7 @@ function renderPositionChart(history) {
 
           ticks: {
 
-            color: "#9a9a9a",
+            color: cssVar("--muted"),
 
             precision: 0,
 
@@ -1106,7 +1121,7 @@ function renderPositionChart(history) {
 
           grid: {
 
-            color: "#3b3b3b"
+            color: cssVar("--line")
 
           }
 
@@ -1204,7 +1219,7 @@ function renderParticipationsTable(history) {
 
           </td>
 
-          <td>
+          <td class="points-cell">
             <strong>
               ${fmt(item.score)}
             </strong>
