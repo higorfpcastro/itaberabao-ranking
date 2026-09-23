@@ -392,9 +392,9 @@ tbody tr {
 }
 
 
-tbody tr:hover {
+#ranking tbody tr:hover {
 
-  background: var(--accent-soft);
+  background: var(--accent-soft) !important;
 
   cursor: pointer;
 }
