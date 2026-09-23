@@ -456,6 +456,41 @@ tbody tr:hover {
 
 
 /* ============================================================
+   CORES DA CLASSIFICAÇÃO
+   ============================================================ */
+
+   /* Pontuação */
+   #ranking .points-cell {
+     color: #7bc47f;
+   }
+   
+   #ranking .points-cell strong {
+     color: inherit;
+     font-weight: 700;
+   }
+   
+   
+   /* Primeiro lugar — dourado */
+   #ranking .podium-first {
+     color: #d4af37;
+     font-weight: 700;
+   }
+   
+   
+   /* Segundo lugar — prata */
+   #ranking .podium-second {
+     color: #c0c0c0;
+     font-weight: 700;
+   }
+   
+   
+   /* Terceiro lugar — bronze */
+   #ranking .podium-third {
+     color: #cd7f32;
+     font-weight: 700;
+   }
+
+/* ============================================================
    LINKS
    ============================================================ */
 
