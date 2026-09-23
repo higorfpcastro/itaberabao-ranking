@@ -383,6 +383,15 @@ tbody tr {
 }
 
 
+#ranking tbody tr:nth-child(odd) {
+  background: var(--surface);
+}
+
+#ranking tbody tr:nth-child(even) {
+  background: var(--surface-2);
+}
+
+
 tbody tr:hover {
 
   background: var(--accent-soft);
