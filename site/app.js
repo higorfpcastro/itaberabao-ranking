@@ -334,25 +334,25 @@ function renderRanking(filter = "") {
         ${escapeHTML(player.Nick ?? "—")}
       </td>
 
-      <td>
+      <td class="points-cell">
         <strong>
           ${fmt(player.Pontos)}
         </strong>
       </td>
-
+      
       <td>
         ${fmt(player.Desempenho_Medio)}
       </td>
-
-      <td>
+      
+      <td class="podium-first">
         ${fmt(player.podio_primeiro)}
       </td>
-
-      <td>
+      
+      <td class="podium-second">
         ${fmt(player.podio_segundo)}
       </td>
-
-      <td>
+      
+      <td class="podium-third">
         ${fmt(player.podio_terceiro)}
       </td>
 
