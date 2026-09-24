@@ -8,29 +8,33 @@
 
 :root {
 
-  --bg: #1a1a1a;
+  --bg: #101820;
 
-  --surface: #2e2e2e;
+  --surface: #172b3d;
 
-  --surface-2: #252525;
+  --surface-2: #1d3449;
 
-  --surface-3: #202020;
+  --surface-3: #122333;
 
-  --text: #e0e0e0;
+  --text: #f1f4f6;
 
-  --muted: #9a9a9a;
+  --muted: #a9bac8;
 
-  --line: #3b3b3b;
+  --line: #2d465b;
 
-  --accent: #d4af37;
+  --accent: #f2c500;
 
-  --accent-soft: #444;
+  --accent-soft: #29445a;
 
-  --positive: #7bc47f;
+  --positive: #72d572;
 
   --negative: #e57373;
 
-  --shadow: rgba(0, 0, 0, 0.35);
+  --silver: #c9d0d6;
+
+  --bronze: #cd7f32;
+
+  --shadow: rgba(0, 0, 0, 0.40);
 }
 
 
@@ -358,15 +362,17 @@ th {
 
   color: var(--muted);
 
-  font-weight: 650;
+  font-weight: 700;
 
-  background: var(--surface);
+  background: var(--surface-3);
 
   position: sticky;
 
   top: 0;
 
   z-index: 2;
+
+  border-bottom: 2px solid var(--accent);
 }
 
 
@@ -383,18 +389,17 @@ tbody tr {
 }
 
 
-#ranking tbody tr:nth-child(odd) {
+tbody tr:nth-child(odd) {
   background: var(--surface);
 }
 
-#ranking tbody tr:nth-child(even) {
+tbody tr:nth-child(even) {
   background: var(--surface-2);
 }
 
+tbody tr:hover {
 
-#ranking tbody tr:hover {
-
-  background: var(--accent-soft) !important;
+  background: var(--accent-soft);
 
   cursor: pointer;
 }
@@ -468,36 +473,53 @@ tbody tr {
    CORES DA CLASSIFICAÇÃO
    ============================================================ */
 
-   /* Pontuação */
-   #ranking .points-cell {
-     color: #7bc47f;
-   }
-   
-   #ranking .points-cell strong {
-     color: inherit;
-     font-weight: 700;
-   }
-   
-   
-   /* Primeiro lugar — dourado */
-   #ranking .podium-first {
-     color: #d4af37;
-     font-weight: 700;
-   }
-   
-   
-   /* Segundo lugar — prata */
-   #ranking .podium-second {
-     color: #c0c0c0;
-     font-weight: 700;
-   }
-   
-   
-   /* Terceiro lugar — bronze */
-   #ranking .podium-third {
-     color: #cd7f32;
-     font-weight: 700;
-   }
+#ranking .points-cell,
+.points-cell {
+  color: var(--positive);
+}
+
+#ranking .points-cell strong {
+  color: inherit;
+  font-weight: 700;
+}
+
+#ranking .podium-first {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+#ranking .podium-second {
+  color: var(--silver);
+  font-weight: 700;
+}
+
+#ranking .podium-third {
+  color: var(--bronze);
+  font-weight: 700;
+}
+
+
+/* ============================================================
+   CABEÇALHOS DO PÓDIO
+   ============================================================ */
+
+.podium-header {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.podium-header-first {
+  color: var(--accent);
+}
+
+.podium-header-second {
+  color: var(--silver);
+}
+
+.podium-header-third {
+  color: var(--bronze);
+}
+
 
 /* ============================================================
    LINKS
