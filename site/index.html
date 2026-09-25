@@ -13,47 +13,44 @@
   <!-- Fonte Noto Sans -->
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-  <!-- Font Awesome (Ícones do Mockup) -->
+  <!-- Font Awesome para os Ícones -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-  <!-- Chart.js para os gráficos -->
+  <!-- Chart.js -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body>
 
   <!-- =========================================================
-       CABEÇALHO / HERO COM LOGO
+       Navegação e Cabeçalho Superior (Igual ao Mockup)
        ========================================================= -->
 
-  <header class="hero">
-
-    <div class="container hero-container">
-
-      <!-- Logo do Projeto -->
-      <img src="logo.png" alt="Logo Itaberabão" class="hero-logo">
-
-      <div class="hero-text">
-        <p class="eyebrow">XADREZ • ITABERABÃO</p>
-
-        <h1>ITABERABÃO</h1>
-
-        <p class="subtitle">
-          Classificação atualizada automaticamente a partir dos torneios do Lichess.
-        </p>
-
-        <div id="status" class="status">
-          Carregando dados...
-        </div>
-
-        <div id="interval" class="interval">
-          Período: carregando...
+  <header class="navbar">
+    <div class="container nav-container">
+      
+      <div class="brand">
+        <img src="logo.png" alt="Logo Itaberabão" class="brand-logo" style="width: 65px; height: 65px; max-width: 65px; border-radius: 50%; object-fit: cover;">
+        <div class="brand-titles">
+          <h1 class="brand-name">ITABERABÃO</h1>
+          <span class="brand-sub">Ranking Online</span>
+          <span class="badge-season">PRÉ-TEMPORADA</span>
         </div>
       </div>
 
-    </div>
+      <nav class="nav-links">
+        <a href="#ranking-section" class="nav-item active"><i class="fa-solid fa-chart-column"></i> Ranking</a>
+        <a href="#tournaments-section" class="nav-item"><i class="fa-solid fa-trophy"></i> Torneios</a>
+        <a href="#participations-section" class="nav-item"><i class="fa-solid fa-clock-rotate-left"></i> Histórico</a>
+        <a href="#footer-section" class="nav-item"><i class="fa-solid fa-circle-info"></i> Sobre</a>
+      </nav>
 
+    </div>
   </header>
+
+  <!-- Informações de Status Ocultas para os scripts -->
+  <div id="status" class="status-hidden" style="display:none;">Carregando...</div>
+  <div id="interval" class="interval-hidden" style="display:none;">Período...</div>
 
 
   <!-- =========================================================
@@ -62,28 +59,16 @@
 
   <main class="container">
 
-
-    <!-- =======================================================
-         CARDS DE ESTATÍSTICAS
-         ======================================================= -->
-
+    <!-- CARDS DE ESTATÍSTICAS -->
     <section class="cards" id="cards"></section>
 
-
-    <!-- =======================================================
-         CLASSIFICAÇÃO GERAL
-         ======================================================= -->
-
-    <section class="panel">
+    <!-- CLASSIFICAÇÃO GERAL -->
+    <section class="panel" id="ranking-section">
 
       <div class="panel-head">
-
         <div>
           <h2>Classificação geral</h2>
-
-          <p>
-            Ordenação por pontos e critérios de desempate.
-          </p>
+          <p>Ordenação por pontos e critérios de desempate.</p>
         </div>
 
         <input
@@ -92,16 +77,11 @@
           placeholder="Pesquisar jogador..."
           autocomplete="off"
         >
-
       </div>
 
-
       <div class="table-wrap ranking-wrap">
-
         <table id="ranking">
-
           <thead>
-
             <tr>
               <th class="col-position">#</th>
               <th>Mov.</th>
@@ -114,150 +94,89 @@
               <th>Rating</th>
               <th>Participações</th>
             </tr>
-
           </thead>
-
           <tbody></tbody>
-
         </table>
-
       </div>
 
     </section>
 
-
-    <!-- =======================================================
-         DESEMPENHO DOS PARTICIPANTES
-         ======================================================= -->
-
-    <section class="panel performance-panel">
+    <!-- DESEMPENHO DOS PARTICIPANTES -->
+    <section class="panel performance-panel" id="participations-section">
 
       <div class="panel-head performance-header">
-
         <div>
           <h2>Desempenho dos participantes</h2>
-
-          <p>
-            Consulte a evolução individual de cada jogador.
-          </p>
+          <p>Consulte a evolução individual de cada jogador.</p>
         </div>
 
         <select id="player-select">
           <option value="">Selecione um jogador...</option>
         </select>
-
       </div>
-
 
       <div id="player-performance" class="player-performance hidden">
 
-        <!-- Informações do jogador -->
-
         <div class="player-heading">
-
           <div>
             <span class="player-label">Jogador</span>
-
             <h3 id="selected-player-name">—</h3>
           </div>
-
-          <div id="selected-player-position" class="current-position">
-            —
-          </div>
-
+          <div id="selected-player-position" class="current-position">—</div>
         </div>
 
-
-        <!-- Cards do jogador -->
-
         <div class="player-cards">
-
           <div class="mini-card">
             <span>Participações</span>
             <strong id="player-participations">—</strong>
           </div>
-
           <div class="mini-card">
             <span>Pontos</span>
             <strong id="player-points">—</strong>
           </div>
-
           <div class="mini-card">
             <span>Posição</span>
             <strong id="player-ranking-position">—</strong>
           </div>
-
           <div class="mini-card">
             <span>Pontos / torneio</span>
             <strong id="player-points-average">—</strong>
           </div>
-
         </div>
 
-
-        <!-- Gráficos -->
-
         <div class="charts-grid">
-
           <div class="chart-card">
-
             <div class="chart-title">
               <h3>Pontos por torneio</h3>
-
-              <p>
-                Evolução cronológica da pontuação obtida.
-              </p>
+              <p>Evolução cronológica da pontuação obtida.</p>
             </div>
-
             <div class="chart-container">
               <canvas id="points-chart"></canvas>
             </div>
-
           </div>
 
-
           <div class="chart-card">
-
             <div class="chart-title">
               <h3>Evolução da posição</h3>
-
-              <p>
-                Quanto mais próximo do topo, melhor a posição.
-              </p>
+              <p>Quanto mais próximo do topo, melhor a posição.</p>
             </div>
-
             <div class="chart-container">
               <canvas id="position-chart"></canvas>
             </div>
-
           </div>
-
         </div>
 
-
-        <!-- Histórico -->
-
         <div class="participations-section">
-
           <div class="section-title">
-
             <div>
               <h3>Histórico de participações</h3>
-
-              <p>
-                Torneios utilizados para compor o ranking.
-              </p>
+              <p>Torneios utilizados para compor o ranking.</p>
             </div>
-
           </div>
 
-
           <div class="table-wrap">
-
             <table id="participations-table">
-
               <thead>
-
                 <tr>
                   <th>Data</th>
                   <th>Torneio</th>
@@ -267,193 +186,110 @@
                   <th>Desempenho</th>
                   <th></th>
                 </tr>
-
               </thead>
-
               <tbody></tbody>
-
             </table>
-
           </div>
-
         </div>
 
       </div>
 
-
       <div id="player-empty" class="player-empty">
-
         <div class="empty-icon"><i class="fa-solid fa-chess-pawn"></i></div>
-
         <h3>Selecione um jogador</h3>
-
-        <p>
-          Escolha um participante acima para visualizar seus dados,
-          gráficos e histórico de torneios.
-        </p>
-
+        <p>Escolha um participante acima para visualizar seus dados, gráficos e histórico de torneios.</p>
       </div>
 
     </section>
 
-
-    <!-- =======================================================
-         VENCEDORES / CATEGORIAS
-         ======================================================= -->
-
+    <!-- VENCEDORES / CATEGORIAS -->
     <section class="grid">
 
-
-      <!-- Vencedores -->
-
       <section class="panel">
-
         <div class="panel-head">
-
           <div>
             <h2>Maiores vencedores</h2>
-
-            <p>
-              Quantidade de vitórias nos torneios considerados.
-            </p>
+            <p>Quantidade de vitórias nos torneios considerados.</p>
           </div>
-
         </div>
 
-
         <div class="table-wrap">
-
           <table id="winners">
-
             <thead>
-
               <tr>
                 <th>#</th>
                 <th class="th-left">Jogador</th>
                 <th>Vitórias</th>
                 <th>Pontos</th>
               </tr>
-
             </thead>
-
             <tbody></tbody>
-
           </table>
-
         </div>
-
       </section>
 
-
-      <!-- Categorias -->
-
       <section class="panel">
-
         <div class="panel-head">
-
           <div>
             <h2>Por categoria de rating</h2>
-
-            <p>
-              Até cinco jogadores por faixa.
-            </p>
+            <p>Até cinco jogadores por faixa.</p>
           </div>
-
         </div>
 
-
         <div class="table-wrap">
-
           <table id="categories">
-
             <thead>
-
               <tr>
                 <th>Categoria</th>
                 <th class="th-left">Jogador</th>
                 <th>Rating</th>
                 <th>Pontos</th>
               </tr>
-
             </thead>
-
             <tbody></tbody>
-
           </table>
-
         </div>
-
       </section>
 
     </section>
 
-
-    <!-- =======================================================
-         ÚLTIMOS TORNEIOS
-         ======================================================= -->
-
-    <section class="panel">
+    <!-- ÚLTIMOS TORNEIOS -->
+    <section class="panel" id="tournaments-section">
 
       <div class="panel-head">
-
         <div>
           <h2>Últimos torneios</h2>
-
-          <p>
-            Torneios considerados no ranking.
-          </p>
+          <p>Torneios considerados no ranking.</p>
         </div>
-
       </div>
 
-
       <div class="table-wrap">
-
         <table id="tournaments">
-
           <thead>
-
             <tr>
               <th>Data</th>
               <th class="th-left">Torneio</th>
               <th class="th-left">Vencedor</th>
               <th></th>
             </tr>
-
           </thead>
-
           <tbody></tbody>
-
         </table>
-
       </div>
 
     </section>
 
   </main>
 
-
-  <!-- =========================================================
-       RODAPÉ
-       ========================================================= -->
-
-  <footer>
-
+  <!-- RODAPÉ -->
+  <footer id="footer-section">
     <div class="container">
-
       <span>Ranking Itaberabão</span>
-
-      <span>
-        Dados obtidos da API pública do Lichess.
-      </span>
-
+      <span>Dados obtidos da API pública do Lichess.</span>
     </div>
-
   </footer>
-
 
   <script src="app.js"></script>
 
 </body>
-
 </html>
