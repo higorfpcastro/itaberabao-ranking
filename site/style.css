@@ -257,6 +257,28 @@ tbody tr:hover {
   cursor: pointer;
 }
 
+tbody tr:hover {
+  background-color: var(--surface-hover);
+  cursor: pointer;
+}
+
+/* Links das tabelas (Torneios e Jogadores) em Branco */
+table a {
+  color: var(--text-primary) !important;
+  text-decoration: underline;
+}
+
+/* Símbolo/Ícone da última coluna (link do Lichess) */
+table td:last-child a,
+table td:last-child i {
+  color: var(--text-primary) !important;
+  text-decoration: none;
+}
+
+/* ============================================================
+   PÓDIO E CORES DAS COLUNAS (CONFORME MOCKUP)
+   ============================================================ */
+
 /* ============================================================
    PÓDIO E CORES DAS COLUNAS (CONFORME MOCKUP)
    ============================================================ */
