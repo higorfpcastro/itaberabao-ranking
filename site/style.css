@@ -252,13 +252,14 @@ th {
   text-transform: uppercase;
 }
 
-tbody tr:hover {
-  background-color: var(--surface-hover);
-  cursor: pointer;
+/* Linhas intercaladas (efeito zebrado nas linhas pares) */
+tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.035);
 }
 
+/* Destaque ao passar o rato */
 tbody tr:hover {
-  background-color: var(--surface-hover);
+  background-color: var(--surface-hover) !important;
   cursor: pointer;
 }
 
@@ -274,6 +275,11 @@ table td:last-child i {
   color: var(--text-primary) !important;
   text-decoration: none;
 }
+
+/* ============================================================
+   PÓDIO E CORES DAS COLUNAS (CONFORME MOCKUP)
+   ============================================================ */
+
 
 /* ============================================================
    PÓDIO E CORES DAS COLUNAS (CONFORME MOCKUP)
