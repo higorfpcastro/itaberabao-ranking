@@ -5,42 +5,50 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Ranking Itaberabão</title>
+  <title>ITABERABÃO - Ranking Online</title>
 
+  <!-- CSS Principal -->
   <link rel="stylesheet" href="style.css">
 
-  <link
-    href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800&display=swap"
-    rel="stylesheet"
-  >
+  <!-- Fonte Noto Sans -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
+  <!-- Font Awesome (Ícones do Mockup) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Chart.js para os gráficos -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body>
 
   <!-- =========================================================
-       CABEÇALHO
+       CABEÇALHO / HERO COM LOGO
        ========================================================= -->
 
   <header class="hero">
 
-    <div class="container">
+    <div class="container hero-container">
 
-      <p class="eyebrow">XADREZ • ITABERABÃO</p>
+      <!-- Logo do Projeto -->
+      <img src="logo.png" alt="Logo Itaberabão" class="hero-logo">
 
-      <h1>Ranking Itaberabão</h1>
+      <div class="hero-text">
+        <p class="eyebrow">XADREZ • ITABERABÃO</p>
 
-      <p class="subtitle">
-        Classificação atualizada automaticamente a partir dos torneios do Lichess.
-      </p>
+        <h1>ITABERABÃO</h1>
 
-      <div id="status" class="status">
-        Carregando dados...
-      </div>
+        <p class="subtitle">
+          Classificação atualizada automaticamente a partir dos torneios do Lichess.
+        </p>
 
-      <div id="interval" class="interval">
-        Período: carregando...
+        <div id="status" class="status">
+          Carregando dados...
+        </div>
+
+        <div id="interval" class="interval">
+          Período: carregando...
+        </div>
       </div>
 
     </div>
@@ -56,7 +64,7 @@
 
 
     <!-- =======================================================
-         CARDS
+         CARDS DE ESTATÍSTICAS
          ======================================================= -->
 
     <section class="cards" id="cards"></section>
@@ -97,12 +105,12 @@
             <tr>
               <th class="col-position">#</th>
               <th>Mov.</th>
-              <th>Jogador</th>
+              <th class="th-left">Jogador</th>
               <th>Pontos</th>
               <th>Desempenho</th>
-              <th>🥇</th>
-              <th>🥈</th>
-              <th>🥉</th>
+              <th class="podium-header podium-header-first"><i class="fa-solid fa-trophy"></i> 1º</th>
+              <th class="podium-header podium-header-second"><i class="fa-solid fa-trophy"></i> 2º</th>
+              <th class="podium-header podium-header-third"><i class="fa-solid fa-trophy"></i> 3º</th>
               <th>Rating</th>
               <th>Participações</th>
             </tr>
@@ -275,7 +283,7 @@
 
       <div id="player-empty" class="player-empty">
 
-        <div class="empty-icon">♟</div>
+        <div class="empty-icon"><i class="fa-solid fa-chess-pawn"></i></div>
 
         <h3>Selecione um jogador</h3>
 
@@ -321,7 +329,7 @@
 
               <tr>
                 <th>#</th>
-                <th>Jogador</th>
+                <th class="th-left">Jogador</th>
                 <th>Vitórias</th>
                 <th>Pontos</th>
               </tr>
@@ -362,7 +370,7 @@
 
               <tr>
                 <th>Categoria</th>
-                <th>Jogador</th>
+                <th class="th-left">Jogador</th>
                 <th>Rating</th>
                 <th>Pontos</th>
               </tr>
@@ -407,8 +415,8 @@
 
             <tr>
               <th>Data</th>
-              <th>Torneio</th>
-              <th>Vencedor</th>
+              <th class="th-left">Torneio</th>
+              <th class="th-left">Vencedor</th>
               <th></th>
             </tr>
 
