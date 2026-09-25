@@ -252,13 +252,25 @@ th {
   text-transform: uppercase;
 }
 
-/* Linhas intercaladas (efeito zebrado nas linhas pares) */
-tbody tr:nth-child(even) {
-  background-color: rgba(255, 255, 255, 0.035);
+/* ============================================================
+   LINHAS INTERCALADAS (ZEBRA STRIPING - CORREÇÃO DE SOBREPOSIÇÃO)
+   ============================================================ */
+
+/* Aplica o azul mais claro nas células das linhas pares */
+tbody tr:nth-child(even),
+tbody tr:nth-child(even) td {
+  background-color: #002247 !important;
 }
 
-/* Destaque ao passar o rato */
-tbody tr:hover {
+/* Mantém o fundo padrão nas linhas ímpares */
+tbody tr:nth-child(odd),
+tbody tr:nth-child(odd) td {
+  background-color: var(--surface-panel);
+}
+
+/* Destaque completo ao passar o cursor sobre qualquer linha */
+tbody tr:hover,
+tbody tr:hover td {
   background-color: var(--surface-hover) !important;
   cursor: pointer;
 }
@@ -275,15 +287,6 @@ table td:last-child i {
   color: var(--text-primary) !important;
   text-decoration: none;
 }
-
-/* ============================================================
-   PÓDIO E CORES DAS COLUNAS (CONFORME MOCKUP)
-   ============================================================ */
-
-
-/* ============================================================
-   PÓDIO E CORES DAS COLUNAS (CONFORME MOCKUP)
-   ============================================================ */
 
 /* ============================================================
    PÓDIO E CORES DAS COLUNAS (CONFORME MOCKUP)
