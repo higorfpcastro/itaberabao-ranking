@@ -1,4 +1,20 @@
 /* ============================================================
+   AVATARES DOS JOGADORES
+   ============================================================ */
+
+const playerAvatars = {
+  "Aprendiz17": "avatars/Aprendiz17.jpg",
+  "higorfpcastro": "avatars/higorfpcastro.ppg"
+};
+
+function getPlayerAvatar(username) {
+  if (username && playerAvatars[username]) {
+    return playerAvatars[username];
+  }
+  return "https://lichess1.org/assets/images/placeholder.avatar.png";
+}
+
+/* ============================================================
    RANKING ITABERABÃO
    ============================================================ */
 
@@ -351,9 +367,16 @@ function renderRanking(filter = "") {
       </td>
 
       <td class="player">
-        ${escapeHTML(player.Nick ?? "—")}
+        <div class="player-cell">
+          <img 
+            src="${getPlayerAvatar(player.Nick)}" 
+            alt="${escapeHTML(player.Nick ?? '')}" 
+            class="player-avatar"
+          >
+          <span>${escapeHTML(player.Nick ?? "—")}</span>
+        </div>
       </td>
-
+      
       <td class="points-cell">
         <strong>
           ${fmt(player.Pontos)}
@@ -432,10 +455,17 @@ function renderWinners() {
             ${index + 1}
           </td>
 
-          <td class="player">
-            ${escapeHTML(player.vencedores ?? "—")}
+         <td class="player">
+            <div class="player-cell">
+              <img 
+                src="${getPlayerAvatar(player.vencedores)}" 
+                alt="${escapeHTML(player.vencedores ?? '')}" 
+                class="player-avatar"
+              >
+              <span>${escapeHTML(player.vencedores ?? "—")}</span>
+            </div>
           </td>
-
+          
           <td>
             ${fmt(player.vitorias)}
           </td>
