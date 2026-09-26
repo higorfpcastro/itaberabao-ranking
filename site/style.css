@@ -36,7 +36,7 @@ body {
 }
 
 /* ============================================================
-   NAVBAR & HEADER (IGUAL AO MOCKUP)
+   NAVBAR & HEADER (OPÇÃO A: BADGE COM INTERVALO DE DATAS)
    ============================================================ */
 
 .navbar {
@@ -88,13 +88,20 @@ body {
 }
 
 .badge-season {
-  font-size: 0.7rem;
+  font-size: 0.72rem;
   font-weight: 700;
   color: var(--accent-gold);
   border-bottom: 2px solid var(--accent-gold);
   display: inline-block;
-  margin-top: 4px;
+  margin-top: 5px;
   width: fit-content;
+  letter-spacing: 0.5px;
+}
+
+/* Destaque das datas no cabeçalho */
+.badge-season .tournament-period {
+  color: #FFFFFF;
+  font-weight: 600;
 }
 
 .nav-links {
