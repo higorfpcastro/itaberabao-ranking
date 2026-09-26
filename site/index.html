@@ -22,7 +22,7 @@
 
 <body>
 
-  <!-- =========================================================
+<!-- =========================================================
         Navegação e Cabeçalho Superior
         ========================================================= -->
 
@@ -30,15 +30,18 @@
     <div class="container nav-container">
       
       <div class="brand">
-        <img src="logo.png" alt="Logo Itaberabão" class="brand-logo" style="width: 65px; height: 65px; max-width: 65px; border-radius: 50%; object-fit: cover;">
+        <img src="logo.png" alt="Logo Itaberabão" class="brand-logo">
         <div class="brand-titles">
           <h1 class="brand-name">ITABERABÃO</h1>
           <span class="brand-sub">Ranking Online</span>
           
-          <!-- OPÇÃO A: Badge da temporada com intervalo de datas -->
-          <span class="badge-season">
-            PRÉ-TEMPORADA • <span id="tournament-period" class="tournament-period">15/01/2026 - 20/12/2026</span>
-          </span>
+          <!-- Badge da temporada no estilo do modelo -->
+          <div class="badge-season-container">
+            <span class="badge-line"></span>
+            <span class="badge-season">
+              PRÉ-TEMPORADA <span id="tournament-period" class="tournament-period">15/01/2026 - 20/12/2026</span>
+            </span>
+          </div>
         </div>
       </div>
 
@@ -51,11 +54,6 @@
 
     </div>
   </header>
-
-  <!-- Informações de Status Ocultas para os scripts -->
-  <div id="status" class="status-hidden" style="display:none;">Carregando...</div>
-  <div id="interval" class="interval-hidden" style="display:none;">Período...</div>
-
 
   <!-- =========================================================
         CONTEÚDO PRINCIPAL
