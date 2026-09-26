@@ -3,7 +3,7 @@
    ============================================================ */
 
 const playerAvatars = {
-  "Aprendiz17": "avatars/Aprendiz17.jpg",
+  "Aprendiz17": "avatars/Aprendiz17.ppg",
   "higorfpcastro": "avatars/higorfpcastro.ppg"
 };
 
