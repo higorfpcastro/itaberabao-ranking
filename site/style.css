@@ -36,13 +36,18 @@ body {
 }
 
 /* ============================================================
-   NAVBAR & HEADER (OPÇÃO A: BADGE COM INTERVALO DE DATAS)
+   NAVBAR & HEADER (ESTILO MODELO)
    ============================================================ */
 
 .navbar {
-  background-color: var(--bg-color);
-  padding: 20px 0;
-  border-bottom: 1px solid var(--border-color);
+  /* Gradiente Azul em diagonal com cantos superiores arredondados */
+  background: linear-gradient(135deg, #0b4182 0%, #031c3a 65%, #021226 100%);
+  padding: 16px 0;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: none;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  margin-top: 15px;
 }
 
 .nav-container {
@@ -54,7 +59,7 @@ body {
 .brand {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 16px;
 }
 
 .brand-logo {
@@ -63,7 +68,7 @@ body {
   max-width: 65px !important;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid var(--border-color);
+  border: 2px solid rgba(255, 255, 255, 0.2);
   flex-shrink: 0;
 }
 
@@ -75,55 +80,76 @@ body {
 .brand-name {
   margin: 0;
   font-size: 1.8rem;
-  font-weight: 800;
-  letter-spacing: 0.5px;
-  color: var(--text-primary);
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: #FFFFFF;
   line-height: 1;
 }
 
 .brand-sub {
-  font-size: 0.88rem;
-  color: var(--text-muted);
+  font-size: 0.85rem;
+  color: #7ba3d0;
   margin-top: 3px;
+  font-weight: 500;
+}
+
+/* Badge com a barrinha amarela/dourada antes do texto */
+.badge-season-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.badge-line {
+  display: inline-block;
+  width: 18px;
+  height: 3px;
+  background-color: var(--accent-gold);
+  border-radius: 2px;
 }
 
 .badge-season {
-  font-size: 0.72rem;
-  font-weight: 700;
+  font-size: 0.75rem;
+  font-weight: 800;
   color: var(--accent-gold);
-  border-bottom: 2px solid var(--accent-gold);
-  display: inline-block;
-  margin-top: 5px;
-  width: fit-content;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  border-bottom: none; /* Removida a borda inferior antiga */
 }
 
-/* Destaque das datas no cabeçalho */
 .badge-season .tournament-period {
-  color: #FFFFFF;
+  color: #a0c0e7;
   font-weight: 600;
+  margin-left: 4px;
 }
 
+/* LINKS DO MENU */
 .nav-links {
   display: flex;
-  gap: 25px;
+  gap: 20px;
+  align-items: center;
 }
 
 .nav-item {
-  color: var(--text-muted);
+  color: #a0c0e7;
   text-decoration: none;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 600;
   display: flex;
   align-items: center;
   gap: 8px;
-  padding-bottom: 4px;
-  transition: color 0.2s, border-bottom 0.2s;
+  padding: 6px 10px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
 }
 
-.nav-item.active,
 .nav-item:hover {
-  color: var(--text-primary);
+  color: #FFFFFF;
+}
+
+.nav-item.active {
+  color: var(--accent-gold);
   border-bottom: 2px solid var(--accent-gold);
 }
 
