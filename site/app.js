@@ -292,6 +292,26 @@ function renderInterval() {
 
 
 /* ============================================================
+   PERÍODO DO TORNEIO (CABEÇALHO)
+   ============================================================ */
+
+function renderTournamentPeriod() {
+  const element = document.querySelector("#tournament-period");
+  if (!element || !tournaments || tournaments.length === 0) return;
+
+  const timestamps = tournaments
+    .map(t => new Date(t.startsAt).getTime())
+    .filter(time => !isNaN(time));
+
+  if (timestamps.length === 0) return;
+
+  const minDate = new Date(Math.min(...timestamps));
+  const maxDate = new Date(Math.max(...timestamps));
+
+  element.textContent = `${dateOnly(minDate)} - ${dateOnly(maxDate)}`;
+}
+
+/* ============================================================
    RANKING GERAL
    ============================================================ */
 
@@ -1381,6 +1401,8 @@ async function init() {
     renderCards();
 
     renderInterval();
+
+    renderTournamentPeriod();
 
     renderRanking();
 
