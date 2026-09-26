@@ -762,190 +762,79 @@ function renderPlayerSummary(
    GRÁFICO DE PONTOS
    ============================================================ */
 
-function renderPointsChart(
-  player,
-  history
-) {
-
-  const canvas =
-    document.querySelector("#points-chart");
-
+function renderPointsChart(player, history) {
+  const canvas = document.querySelector("#points-chart");
 
   if (pointsChart) {
-
     pointsChart.destroy();
-
     pointsChart = null;
-
   }
 
-
-  if (!history.length) {
-
-    return;
-
-  }
-
-
-  const labels =
-    history.map(item => {
-
-      const date =
-        new Date(item.startsAt);
-
-      return new Intl.DateTimeFormat(
-        "pt-BR",
-        {
-          day: "2-digit",
-          month: "2-digit"
-        }
-      ).format(date);
-
-    });
-
-
-  const data =
-    history.map(item =>
-      Number(item.score ?? 0)
-    );
-
-
-  const names =
-    history.map(item =>
-      item.tournament_name ?? "Torneio"
-    );
-
-
-  pointsChart = new Chart(canvas, {
-
-    type: "line",
-
-    data: {
-
-      labels,
-
-      datasets: [
-
-        {
-
-          label: "Pontos",
-
-          data,
-
-          borderWidth: 2,
-
-          pointRadius: 4,
-
-          pointHoverRadius: 6,
-
-          tension: 0.25,
-
-          borderColor: cssVar("--positive"),
-          pointBackgroundColor: cssVar("--positive"),
-          pointBorderColor: cssVar("--positive"),
-
-          fill: false
-
-        }
-
-      ]
-
-    },
-
-
-    options: {
-
-      responsive: true,
-
-      maintainAspectRatio: false,
-
-
-      interaction: {
-
-        mode: "index",
-
-        intersect: false
-
-      },
-
-
-      plugins: {
-
-        legend: {
-
-          display: false
-
-        },
-
-
-        tooltip: {
-
-          callbacks: {
-
-            title: items => {
-
-              const index =
-                items[0].dataIndex;
-
-              return names[index];
-
-            },
-
-
-            label: context =>
-
-              ` Pontos: ${fmt(context.raw)}`
-
-          }
-
-        }
-
-      },
-
-
-      scales: {
-
-        x: {
-
-          ticks: {
-
-            color: cssVar("--muted")
-
-          },
-
-          grid: {
-
-            color: cssVar("--line")
-
-          }
-
-        },
-
-
-        y: {
-
-          beginAtZero: true,
-
-          ticks: {
-
-            color: cssVar("--muted")
-
-          },
-
-          grid: {
-
-            color: cssVar("--line")
-
-          }
-
-        }
-
-      }
-
-    }
-
+  if (!history.length) return;
+
+  const labels = history.map(item => {
+    const date = new Date(item.startsAt);
+    return new Intl.DateTimeFormat("pt-BR", { day: "2-digit", month: "2-digit" }).format(date);
   });
 
+  const data = history.map(item => Number(item.score ?? 0));
+  const names = history.map(item => item.tournament_name ?? "Torneio");
+
+  pointsChart = new Chart(canvas, {
+    type: "line",
+    data: {
+      labels,
+      datasets: [
+        {
+          label: "Pontos",
+          data,
+          borderWidth: 2,
+          pointRadius: history.length > 40 ? 2 : 4,
+          pointHoverRadius: 6,
+          tension: 0.2,
+          borderColor: "#2ecc71",
+          backgroundColor: "rgba(46, 204, 113, 0.1)",
+          pointBackgroundColor: "#2ecc71",
+          pointBorderColor: "#101923",
+          fill: true
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: "index", intersect: false },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: "#101923",
+          titleColor: "#ffffff",
+          bodyColor: "#2ecc71",
+          borderColor: "rgba(255, 255, 255, 0.2)",
+          borderWidth: 1,
+          callbacks: {
+            title: items => names[items[0].dataIndex],
+            label: context => ` Pontos: ${fmt(context.raw)}`
+          }
+        }
+      },
+      scales: {
+        x: {
+          ticks: {
+            color: "rgba(255, 255, 255, 0.7)",
+            maxTicksLimit: 8, // Limita as datas no eixo X para não embolar
+            maxRotation: 0
+          },
+          grid: { color: "rgba(255, 255, 255, 0.08)" }
+        },
+        y: {
+          beginAtZero: true,
+          ticks: { color: "rgba(255, 255, 255, 0.7)" },
+          grid: { color: "rgba(255, 255, 255, 0.08)" }
+        }
+      }
+    }
+  });
 }
 
 
@@ -954,208 +843,86 @@ function renderPointsChart(
    ============================================================ */
 
 function renderPositionChart(history) {
-
-  const canvas =
-    document.querySelector("#position-chart");
-
+  const canvas = document.querySelector("#position-chart");
 
   if (positionChart) {
-
     positionChart.destroy();
-
     positionChart = null;
-
   }
 
-
-  if (!history.length) {
-
-    return;
-
-  }
-
-
-  const labels =
-    history.map(item => {
-
-      const date =
-        new Date(item.startsAt);
-
-      return new Intl.DateTimeFormat(
-        "pt-BR",
-        {
-          day: "2-digit",
-          month: "2-digit"
-        }
-      ).format(date);
-
-    });
-
-
-  const positions =
-    history.map(item =>
-      Number(item.rank ?? 0)
-    );
-
-
-  const names =
-    history.map(item =>
-      item.tournament_name ?? "Torneio"
-    );
-
-
-  const maxPosition =
-    Math.max(
-      ...positions,
-      1
-    );
-
-
-  positionChart = new Chart(canvas, {
-
-    type: "line",
-
-    data: {
-
-      labels,
-
-      datasets: [
-
-        {
-
-          label: "Posição",
-
-          data: positions,
-
-          borderWidth: 2,
-
-          pointRadius: 4,
-
-          pointHoverRadius: 6,
-
-          tension: 0.25,
-
-          borderColor: cssVar("--accent"),
-          pointBackgroundColor: cssVar("--accent"),
-          pointBorderColor: cssVar("--accent"),
-
-          fill: false
-
-        }
-
-      ]
-
-    },
-
-
-    options: {
-
-      responsive: true,
-
-      maintainAspectRatio: false,
-
-
-      interaction: {
-
-        mode: "index",
-
-        intersect: false
-
-      },
-
-
-      plugins: {
-
-        legend: {
-
-          display: false
-
-        },
-
-
-        tooltip: {
-
-          callbacks: {
-
-            title: items => {
-
-              const index =
-                items[0].dataIndex;
-
-              return names[index];
-
-            },
-
-
-            label: context =>
-
-              ` Colocação: ${fmt(context.raw)}º`
-
-          }
-
-        }
-
-      },
-
-
-      scales: {
-
-        x: {
-
-          ticks: {
-
-            color: cssVar("--muted")
-
-          },
-
-          grid: {
-
-            color: cssVar("--line")
-
-          }
-
-        },
-
-
-        y: {
-
-          reverse: true,
-
-          min: 1,
-
-          max: Math.max(
-            maxPosition,
-            5
-          ),
-
-          ticks: {
-
-            color: cssVar("--muted"),
-
-            precision: 0,
-
-            callback: value =>
-              `${value}º`
-
-          },
-
-          grid: {
-
-            color: cssVar("--line")
-
-          }
-
-        }
-
-      }
-
-    }
-
+  if (!history.length) return;
+
+  const labels = history.map(item => {
+    const date = new Date(item.startsAt);
+    return new Intl.DateTimeFormat("pt-BR", { day: "2-digit", month: "2-digit" }).format(date);
   });
 
+  const positions = history.map(item => Number(item.rank ?? 0));
+  const names = history.map(item => item.tournament_name ?? "Torneio");
+  const maxPosition = Math.max(...positions, 1);
+
+  positionChart = new Chart(canvas, {
+    type: "line",
+    data: {
+      labels,
+      datasets: [
+        {
+          label: "Posição",
+          data: positions,
+          borderWidth: 2,
+          pointRadius: history.length > 40 ? 2 : 4,
+          pointHoverRadius: 6,
+          tension: 0.2,
+          borderColor: "#f1c40f",
+          backgroundColor: "rgba(241, 196, 15, 0.1)",
+          pointBackgroundColor: "#f1c40f",
+          pointBorderColor: "#101923",
+          fill: true
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: "index", intersect: false },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: "#101923",
+          titleColor: "#ffffff",
+          bodyColor: "#f1c40f",
+          borderColor: "rgba(255, 255, 255, 0.2)",
+          borderWidth: 1,
+          callbacks: {
+            title: items => names[items[0].dataIndex],
+            label: context => ` Colocação: ${fmt(context.raw)}º`
+          }
+        }
+      },
+      scales: {
+        x: {
+          ticks: {
+            color: "rgba(255, 255, 255, 0.7)",
+            maxTicksLimit: 8, // Limita as datas no eixo X para não embolar
+            maxRotation: 0
+          },
+          grid: { color: "rgba(255, 255, 255, 0.08)" }
+        },
+        y: {
+          reverse: true,
+          min: 1,
+          max: Math.max(maxPosition, 5),
+          ticks: {
+            color: "rgba(255, 255, 255, 0.7)",
+            precision: 0,
+            callback: value => `${value}º`
+          },
+          grid: { color: "rgba(255, 255, 255, 0.08)" }
+        }
+      }
+    }
+  });
 }
-
-
 /* ============================================================
    TABELA DE PARTICIPAÇÕES
    ============================================================ */
