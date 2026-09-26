@@ -36,18 +36,13 @@ body {
 }
 
 /* ============================================================
-   NAVBAR & HEADER (ESTILO MODELO)
+   NAVBAR & HEADER (OPÇÃO A: BADGE COM INTERVALO DE DATAS)
    ============================================================ */
 
 .navbar {
-  /* Gradiente Azul em diagonal com cantos superiores arredondados */
-  background: linear-gradient(135deg, #0b4182 0%, #031c3a 65%, #021226 100%);
-  padding: 16px 0;
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  border-bottom: none;
-  border-radius: 20px 20px 0 0;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
-  margin-top: 15px;
+  background-color: var(--bg-color);
+  padding: 20px 0;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .nav-container {
@@ -59,7 +54,7 @@ body {
 .brand {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 15px;
 }
 
 .brand-logo {
@@ -68,7 +63,7 @@ body {
   max-width: 65px !important;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid rgba(255, 255, 255, 0.2);
+  border: 2px solid var(--border-color);
   flex-shrink: 0;
 }
 
@@ -80,76 +75,55 @@ body {
 .brand-name {
   margin: 0;
   font-size: 1.8rem;
-  font-weight: 900;
-  letter-spacing: 1px;
-  color: #FFFFFF;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: var(--text-primary);
   line-height: 1;
 }
 
 .brand-sub {
-  font-size: 0.85rem;
-  color: #7ba3d0;
+  font-size: 0.88rem;
+  color: var(--text-muted);
   margin-top: 3px;
-  font-weight: 500;
-}
-
-/* Badge com a barrinha amarela/dourada antes do texto */
-.badge-season-container {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-top: 6px;
-}
-
-.badge-line {
-  display: inline-block;
-  width: 18px;
-  height: 3px;
-  background-color: var(--accent-gold);
-  border-radius: 2px;
 }
 
 .badge-season {
-  font-size: 0.75rem;
-  font-weight: 800;
+  font-size: 0.72rem;
+  font-weight: 700;
   color: var(--accent-gold);
-  letter-spacing: 0.8px;
-  text-transform: uppercase;
-  border-bottom: none; /* Removida a borda inferior antiga */
+  border-bottom: 2px solid var(--accent-gold);
+  display: inline-block;
+  margin-top: 5px;
+  width: fit-content;
+  letter-spacing: 0.5px;
 }
 
+/* Destaque das datas no cabeçalho */
 .badge-season .tournament-period {
-  color: #a0c0e7;
+  color: #FFFFFF;
   font-weight: 600;
-  margin-left: 4px;
 }
 
-/* LINKS DO MENU */
 .nav-links {
   display: flex;
-  gap: 20px;
-  align-items: center;
+  gap: 25px;
 }
 
 .nav-item {
-  color: #a0c0e7;
+  color: var(--text-muted);
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   font-weight: 600;
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 6px 10px;
-  border-bottom: 2px solid transparent;
-  transition: all 0.2s ease;
+  padding-bottom: 4px;
+  transition: color 0.2s, border-bottom 0.2s;
 }
 
+.nav-item.active,
 .nav-item:hover {
-  color: #FFFFFF;
-}
-
-.nav-item.active {
-  color: var(--accent-gold);
+  color: var(--text-primary);
   border-bottom: 2px solid var(--accent-gold);
 }
 
@@ -289,32 +263,27 @@ th {
    LINHAS INTERCALADAS (ZEBRA STRIPING - CORREÇÃO DE SOBREPOSIÇÃO)
    ============================================================ */
 
-/* Aplica o azul mais claro nas células das linhas pares */
 tbody tr:nth-child(even),
 tbody tr:nth-child(even) td {
   background-color: #002247 !important;
 }
 
-/* Mantém o fundo padrão nas linhas ímpares */
 tbody tr:nth-child(odd),
 tbody tr:nth-child(odd) td {
   background-color: var(--surface-panel);
 }
 
-/* Destaque completo ao passar o cursor sobre qualquer linha */
 tbody tr:hover,
 tbody tr:hover td {
   background-color: var(--surface-hover) !important;
   cursor: pointer;
 }
 
-/* Links das tabelas (Torneios e Jogadores) em Branco */
 table a {
   color: var(--text-primary) !important;
   text-decoration: underline;
 }
 
-/* Símbolo/Ícone da última coluna (link do Lichess) */
 table td:last-child a,
 table td:last-child i {
   color: var(--text-primary) !important;
@@ -325,14 +294,12 @@ table td:last-child i {
    PÓDIO E CORES DAS COLUNAS (CONFORME MOCKUP)
    ============================================================ */
 
-/* Pontos sempre em Verde */
 #ranking .points-cell,
 .points-cell {
   color: var(--accent-green) !important;
   font-weight: 700;
 }
 
-/* Coluna de 1º Lugar em Dourado */
 .podium-header-first,
 #ranking .podium-first,
 .podium-first {
@@ -340,7 +307,6 @@ table td:last-child i {
   font-weight: 700;
 }
 
-/* 2º e 3º lugares */
 .podium-header-second,
 #ranking .podium-second {
   color: var(--silver);
@@ -351,7 +317,6 @@ table td:last-child i {
   color: var(--bronze);
 }
 
-/* Movimentação */
 .movement.up { color: var(--accent-green); }
 .movement.down { color: #F87171; }
 .movement.same { color: var(--text-muted); }
