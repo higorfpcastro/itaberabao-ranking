@@ -1,5 +1,5 @@
 /* ============================================================
-   AVATARES DOS JOGADORES
+   1. GESTÃO DE AVATARES DOS JOGADORES
    ============================================================ */
 
 const playerAvatars = {
@@ -14,8 +14,9 @@ function getPlayerAvatar(username) {
   return "https://lichess1.org/assets/images/placeholder.avatar.png";
 }
 
+
 /* ============================================================
-   RANKING ITABERABÃO
+   2. ESTADO GLOBAL DA APLICAÇÃO
    ============================================================ */
 
 const DATA = "";
@@ -32,284 +33,120 @@ let positionChart = null;
 
 
 /* ============================================================
-   CARREGAMENTO DOS JSONs
+   3. HELPER DE CARREGAMENTO (JSON)
    ============================================================ */
 
 async function loadJSON(file) {
-
   const response = await fetch(DATA + file);
-
   if (!response.ok) {
-
     throw new Error(`Falha ao carregar ${file}`);
-
   }
-
   return response.json();
 }
 
 
 /* ============================================================
-   FORMATAÇÃO
+   4. FUNÇÕES DE FORMATAÇÃO
    ============================================================ */
 
 function fmt(value, digits = 0) {
-
-  if (
-    value === null ||
-    value === undefined ||
-    Number.isNaN(Number(value))
-  ) {
-
+  if (value === null || value === undefined || Number.isNaN(Number(value))) {
     return "—";
-
   }
-
   return Number(value).toLocaleString("pt-BR", {
-
     maximumFractionDigits: digits,
-
     minimumFractionDigits: digits
-
   });
 }
 
-
 function dateFmt(value) {
-
-  if (!value) {
-
-    return "—";
-
-  }
-
+  if (!value) return "—";
   const date = new Date(value);
-
-  if (Number.isNaN(date.getTime())) {
-
-    return "—";
-
-  }
+  if (Number.isNaN(date.getTime())) return "—";
 
   return new Intl.DateTimeFormat("pt-BR", {
-
     dateStyle: "short",
-
     timeStyle: "short"
-
   }).format(date);
-
 }
 
-
 function dateOnly(value) {
-
-  if (!value) {
-
-    return "—";
-
-  }
-
+  if (!value) return "—";
   const date = new Date(value);
-
-  if (Number.isNaN(date.getTime())) {
-
-    return "—";
-
-  }
+  if (Number.isNaN(date.getTime())) return "—";
 
   return new Intl.DateTimeFormat("pt-BR", {
-
     dateStyle: "short"
-
   }).format(date);
-
 }
 
 
 /* ============================================================
-   SEGURANÇA
+   5. SEGURANÇA E AUXILIARES
    ============================================================ */
 
 function escapeHTML(value) {
-
-  if (value === null || value === undefined) {
-
-    return "";
-
-  }
-
+  if (value === null || value === undefined) return "";
   return String(value)
-
     .replaceAll("&", "&amp;")
-
     .replaceAll("<", "&lt;")
-
     .replaceAll(">", "&gt;")
-
     .replaceAll('"', "&quot;")
-
     .replaceAll("'", "&#039;");
 }
 
-
-function cssVar(name) {
-  return getComputedStyle(document.documentElement)
-    .getPropertyValue(name)
-    .trim();
-}
-
-
-/* ============================================================
-   MOVIMENTO
-   ============================================================ */
-
 function movementHTML(player) {
-
   const text = player.Movimento_Texto;
 
   if (!text || text === "NOVO") {
-
-    return `
-      <span class="movement new">
-        NOVO
-      </span>
-    `;
-
+    return `<span class="movement new">NOVO</span>`;
   }
-
   if (text === "—") {
-
-    return `
-      <span class="movement same">
-        —
-      </span>
-    `;
-
+    return `<span class="movement same">—</span>`;
   }
-
   if (text.startsWith("↑")) {
-
-    return `
-      <span class="movement up">
-        ${escapeHTML(text)}
-      </span>
-    `;
-
+    return `<span class="movement up">${escapeHTML(text)}</span>`;
   }
-
   if (text.startsWith("↓")) {
-
-    return `
-      <span class="movement down">
-        ${escapeHTML(text)}
-      </span>
-    `;
-
+    return `<span class="movement down">${escapeHTML(text)}</span>`;
   }
-
-  return `
-    <span class="movement same">
-      ${escapeHTML(text)}
-    </span>
-  `;
+  return `<span class="movement same">${escapeHTML(text)}</span>`;
 }
 
 
 /* ============================================================
-   CARDS PRINCIPAIS
+   6. RENDERIZAÇÃO DO CABEÇALHO E CARDS
    ============================================================ */
 
 function renderCards() {
-
-  const updated = status.updated_at
-    ? dateFmt(status.updated_at)
-    : "—";
-
+  const updated = status.updated_at ? dateFmt(status.updated_at) : "—";
 
   const cards = [
-
-    [
-      "Jogadores",
-      status.players ?? ranking.length
-    ],
-
-    [
-      "Torneios",
-      status.tournaments ?? tournaments.length
-    ],
-
-    [
-      "Participações",
-      status.participations ?? participations.length
-    ],
-
-    [
-      "Atualizado",
-      updated
-    ]
-
+    ["Jogadores", status.players ?? ranking.length],
+    ["Torneios", status.tournaments ?? tournaments.length],
+    ["Participações", status.participations ?? participations.length],
+    ["Atualizado", updated]
   ];
 
-
-  document.querySelector("#cards").innerHTML =
-
-    cards.map(([label, value]) => `
-
+  document.querySelector("#cards").innerHTML = cards
+    .map(([label, value]) => `
       <div class="card">
-
-        <span class="card-label">
-          ${escapeHTML(label)}
-        </span>
-
-        <strong class="card-value">
-          ${escapeHTML(value)}
-        </strong>
-
+        <span class="card-label">${escapeHTML(label)}</span>
+        <strong class="card-value">${escapeHTML(value)}</strong>
       </div>
-
     `).join("");
 }
 
-
-/* ============================================================
-   INTERVALO DOS DADOS
-   ============================================================ */
-
 function renderInterval() {
-
-  const element =
-    document.querySelector("#interval");
-
-
-  if (
-    !status.interval_start ||
-    !status.interval_end
-  ) {
-
-    element.textContent =
-      "Período dos dados: —";
-
+  const element = document.querySelector("#interval");
+  if (!status.interval_start || !status.interval_end) {
+    element.textContent = "Período dos dados: —";
     return;
-
   }
-
-
-  const start =
-    dateOnly(status.interval_start);
-
-  const end =
-    dateOnly(status.interval_end);
-
-
-  element.textContent =
-    `Período dos dados: ${start} a ${end}`;
+  const start = dateOnly(status.interval_start);
+  const end = dateOnly(status.interval_end);
+  element.textContent = `Período dos dados: ${start} a ${end}`;
 }
-
-
-/* ============================================================
-   PERÍODO DO TORNEIO (CABEÇALHO)
-   ============================================================ */
 
 function renderTournamentPeriod() {
   const element = document.querySelector("#tournament-period");
@@ -327,45 +164,20 @@ function renderTournamentPeriod() {
   element.textContent = `${dateOnly(minDate)} - ${dateOnly(maxDate)}`;
 }
 
+
 /* ============================================================
-   RANKING GERAL
+   7. RENDERIZAÇÃO DAS TABELAS
    ============================================================ */
 
 function renderRanking(filter = "") {
-
-  const query =
-    filter.trim().toLowerCase();
-
-
-  const rows =
-    ranking.filter(player =>
-
-      (player.Nick || "")
-        .toLowerCase()
-        .includes(query)
-
-    );
-
-
-  const tbody =
-    document.querySelector("#ranking tbody");
-
+  const query = filter.trim().toLowerCase();
+  const rows = ranking.filter(player => (player.Nick || "").toLowerCase().includes(query));
+  const tbody = document.querySelector("#ranking tbody");
 
   tbody.innerHTML = rows.map(player => `
-
-    <tr
-      data-player="${escapeHTML(player.Nick)}"
-      title="Clique para visualizar o desempenho"
-    >
-
-      <td class="rank">
-        ${fmt(player.Posicao)}
-      </td>
-
-      <td class="movement">
-        ${movementHTML(player)}
-      </td>
-
+    <tr data-player="${escapeHTML(player.Nick)}" title="Clique para visualizar o desempenho">
+      <td class="rank">${fmt(player.Posicao)}</td>
+      <td class="movement">${movementHTML(player)}</td>
       <td class="player">
         <div class="player-cell">
           <img 
@@ -378,420 +190,189 @@ function renderRanking(filter = "") {
           <span>${escapeHTML(player.Nick ?? "—")}</span>
         </div>
       </td>
-      
-      <td class="points-cell">
-        <strong>
-          ${fmt(player.Pontos)}
-        </strong>
-      </td>
-      
-      <td>
-        ${fmt(player.Desempenho_Medio)}
-      </td>
-      
-      <td class="podium-first">
-        ${fmt(player.podio_primeiro)}
-      </td>
-      
-      <td class="podium-second">
-        ${fmt(player.podio_segundo)}
-      </td>
-      
-      <td class="podium-third">
-        ${fmt(player.podio_terceiro)}
-      </td>
-
-      <td>
-        ${fmt(player.Rating_Medio)}
-      </td>
-
-      <td>
-        ${fmt(player.Participacoes)}
-      </td>
-
+      <td class="points-cell"><strong>${fmt(player.Pontos)}</strong></td>
+      <td>${fmt(player.Desempenho_Medio)}</td>
+      <td class="podium-first">${fmt(player.podio_primeiro)}</td>
+      <td class="podium-second">${fmt(player.podio_segundo)}</td>
+      <td class="podium-third">${fmt(player.podio_terceiro)}</td>
+      <td>${fmt(player.Rating_Medio)}</td>
+      <td>${fmt(player.Participacoes)}</td>
     </tr>
-
   `).join("");
 
-
-  tbody
-    .querySelectorAll("tr")
-    .forEach(row => {
-
-      row.addEventListener("click", () => {
-
-        const nick =
-          row.dataset.player;
-
-        selectPlayer(nick);
-
-        document
-          .getElementById("player-performance")
-          .scrollIntoView({
-            behavior: "smooth",
-            block: "start"
-          });
-
+  tbody.querySelectorAll("tr").forEach(row => {
+    row.addEventListener("click", () => {
+      const nick = row.dataset.player;
+      selectPlayer(nick);
+      document.getElementById("player-performance").scrollIntoView({
+        behavior: "smooth",
+        block: "start"
       });
-
     });
-
+  });
 }
-
-
-/* ============================================================
-   VENCEDORES
-   ============================================================ */
 
 function renderWinners() {
-
-  document.querySelector("#winners tbody").innerHTML =
-
-    winners
-      .slice(0, 20)
-      .map((player, index) => `
-
-        <tr>
-
-          <td class="rank">
-            ${index + 1}
-          </td>
-
-         <td class="player">
-            <div class="player-cell">
-              <img 
-                src="${getPlayerAvatar(player.vencedores)}" 
-                alt="${escapeHTML(player.vencedores ?? '')}" 
-                class="player-avatar"
-              >
-              <span>${escapeHTML(player.vencedores ?? "—")}</span>
-            </div>
-          </td>
-          
-          <td>
-            ${fmt(player.vitorias)}
-          </td>
-
-          <td class="points-cell">
-            ${fmt(player.Pontos)}
-          </td>
-
-        </tr>
-
-      `)
-      .join("");
+  document.querySelector("#winners tbody").innerHTML = winners
+    .slice(0, 20)
+    .map((player, index) => `
+      <tr>
+        <td class="rank">${index + 1}</td>
+        <td class="player">
+          <div class="player-cell">
+            <img 
+              src="${getPlayerAvatar(player.vencedores)}" 
+              alt="${escapeHTML(player.vencedores ?? '')}" 
+              class="player-avatar"
+              onclick="event.stopPropagation(); openAvatarModal(this.src, '${escapeHTML(player.vencedores ?? '')}')"
+            >
+            <span>${escapeHTML(player.vencedores ?? "—")}</span>
+          </div>
+        </td>
+        <td>${fmt(player.vitorias)}</td>
+        <td class="points-cell">${fmt(player.Pontos)}</td>
+      </tr>
+    `).join("");
 }
-
-
-/* ============================================================
-   CATEGORIAS
-   ============================================================ */
 
 function renderCategories() {
-
-  document.querySelector("#categories tbody").innerHTML =
-
-    categories
-      .map(player => `
-
-        <tr>
-
-          <td>
-            ${escapeHTML(player.Categoria ?? "—")}
-          </td>
-
-          <td class="player">
-            ${escapeHTML(player.Nick ?? "—")}
-          </td>
-
-          <td>
-            ${fmt(player.Rating_Medio)}
-          </td>
-
-          <td class="points-cell">
-            ${fmt(player.Pontos)}
-          </td>
-
-        </tr>
-
-      `)
-      .join("");
+  document.querySelector("#categories tbody").innerHTML = categories
+    .map(player => `
+      <tr>
+        <td>${escapeHTML(player.Categoria ?? "—")}</td>
+        <td class="player">
+          <div class="player-cell">
+            <img 
+              src="${getPlayerAvatar(player.Nick)}" 
+              alt="${escapeHTML(player.Nick ?? '')}" 
+              class="player-avatar"
+              onclick="event.stopPropagation(); openAvatarModal(this.src, '${escapeHTML(player.Nick ?? '')}')"
+            >
+            <span>${escapeHTML(player.Nick ?? "—")}</span>
+          </div>
+        </td>
+        <td>${fmt(player.Rating_Medio)}</td>
+        <td class="points-cell">${fmt(player.Pontos)}</td>
+      </tr>
+    `).join("");
 }
-
-
-/* ============================================================
-   TORNEIOS
-   ============================================================ */
 
 function renderTournaments() {
-
   const recent = [...tournaments]
-
-    .sort(
-      (a, b) =>
-        new Date(b.startsAt) -
-        new Date(a.startsAt)
-    )
-
+    .sort((a, b) => new Date(b.startsAt) - new Date(a.startsAt))
     .slice(0, 30);
 
-
-  document.querySelector("#tournaments tbody").innerHTML =
-
-    recent
-      .map(tournament => `
-
-        <tr>
-
-          <td>
-            ${dateFmt(tournament.startsAt)}
-          </td>
-
-          <td class="player">
-            ${escapeHTML(tournament.name ?? "—")}
-          </td>
-
-          <td>
-            ${escapeHTML(tournament.winner ?? "—")}
-          </td>
-
-          <td>
-
-            ${
-              tournament.url
-
-                ? `
-                  <a
-                    href="${escapeHTML(tournament.url)}"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Lichess ↗
-                  </a>
-                `
-
-                : "—"
-            }
-
-          </td>
-
-        </tr>
-
-      `)
-      .join("");
+  document.querySelector("#tournaments tbody").innerHTML = recent
+    .map(tournament => `
+      <tr>
+        <td>${dateFmt(tournament.startsAt)}</td>
+        <td class="player">${escapeHTML(tournament.name ?? "—")}</td>
+        <td>${escapeHTML(tournament.winner ?? "—")}</td>
+        <td>
+          ${tournament.url ? `
+            <a href="${escapeHTML(tournament.url)}" target="_blank" rel="noopener noreferrer">
+              Lichess ↗
+            </a>
+          ` : "—"}
+        </td>
+      </tr>
+    `).join("");
 }
 
 
 /* ============================================================
-   SELECTOR DE JOGADORES
+   8. SELEÇÃO E DESEMPENHO DO JOGADOR
    ============================================================ */
 
 function renderPlayerSelector() {
-
-  const select =
-    document.querySelector("#player-select");
-
-
-  const current =
-    select.value;
-
+  const select = document.querySelector("#player-select");
+  const current = select.value;
 
   select.innerHTML = `
-
-    <option value="">
-      Selecione um jogador...
-    </option>
-
-    ${
-      ranking.map(player => `
-
-        <option value="${escapeHTML(player.Nick)}">
-
-          #${fmt(player.Posicao)}
-          — ${escapeHTML(player.Nick)}
-
-        </option>
-
-      `).join("")
-    }
-
+    <option value="">Selecione um jogador...</option>
+    ${ranking.map(player => `
+      <option value="${escapeHTML(player.Nick)}">
+        #${fmt(player.Posicao)} —${escapeHTML(player.Nick)}
+      </option>
+    `).join("")}
   `;
 
-
-  if (current) {
-
-    select.value = current;
-
-  }
+  if (current) select.value = current;
 }
-
-
-/* ============================================================
-   LOCALIZAR PARTICIPAÇÕES
-   ============================================================ */
 
 function getPlayerParticipations(nick) {
-
-  if (!nick) {
-
-    return [];
-
-  }
-
-
-  const normalized =
-    nick.trim().toLowerCase();
-
+  if (!nick) return [];
+  const normalized = nick.trim().toLowerCase();
 
   return participations
-
     .filter(item => {
-
-      const username =
-        (
-          item.username ??
-          item.Nick ??
-          item.nick ??
-          ""
-        )
-        .trim()
-        .toLowerCase();
-
+      const username = (item.username ?? item.Nick ?? item.nick ?? "").trim().toLowerCase();
       return username === normalized;
-
     })
-
-    .sort(
-      (a, b) =>
-        new Date(a.startsAt) -
-        new Date(b.startsAt)
-    );
+    .sort((a, b) => new Date(a.startsAt) - new Date(b.startsAt));
 }
-
-
-/* ============================================================
-   SELECIONAR JOGADOR
-   ============================================================ */
 
 function selectPlayer(nick) {
-
-  const select =
-    document.querySelector("#player-select");
-
-
+  const select = document.querySelector("#player-select");
   select.value = nick;
 
-
   if (!nick) {
-
     showEmptyPlayer();
-
     return;
-
   }
 
-
-  const player =
-    ranking.find(
-      p => p.Nick === nick
-    );
-
-
+  const player = ranking.find(p => p.Nick === nick);
   if (!player) {
-
     showEmptyPlayer();
-
     return;
-
   }
 
+  const history = getPlayerParticipations(nick);
 
-  const history =
-    getPlayerParticipations(nick);
+  renderPlayerSummary(player, history);
+  renderPointsChart(player, history);
+  renderPositionChart(history);
+  renderParticipationsTable(history);
 
+  document.querySelector("#player-empty").classList.add("hidden");
+  document.querySelector("#player-performance").classList.remove("hidden");
+}
 
-  renderPlayerSummary(
-    player,
-    history
-  );
+function renderPlayerSummary(player, history) {
+  const avatarImg = document.querySelector("#selected-player-avatar");
+  if (avatarImg) {
+    const avatarSrc = getPlayerAvatar(player.Nick);
+    avatarImg.src = avatarSrc;
+    avatarImg.alt = player.Nick ?? "Foto do jogador";
+    avatarImg.onclick = () => openAvatarModal(avatarSrc, player.Nick ?? "");
+  }
 
+  document.querySelector("#selected-player-name").textContent = player.Nick ?? "—";
+  document.querySelector("#selected-player-position").textContent = `#${fmt(player.Posicao)}`;
+  document.querySelector("#player-participations").textContent = fmt(player.Participacoes);
+  document.querySelector("#player-points").textContent = fmt(player.Pontos);
+  document.querySelector("#player-ranking-position").textContent = `#${fmt(player.Posicao)}`;
+  document.querySelector("#player-points-average").textContent = fmt(player.Pontos_por_Torneio, 1);
+}
 
-  renderPointsChart(
-    player,
-    history
-  );
+function showEmptyPlayer() {
+  document.querySelector("#player-performance").classList.add("hidden");
+  document.querySelector("#player-empty").classList.remove("hidden");
 
+  if (pointsChart) {
+    pointsChart.destroy();
+    pointsChart = null;
+  }
 
-  renderPositionChart(
-    history
-  );
-
-
-  renderParticipationsTable(
-    history
-  );
-
-
-  document
-    .querySelector("#player-empty")
-    .classList.add("hidden");
-
-
-  document
-    .querySelector("#player-performance")
-    .classList.remove("hidden");
-
+  if (positionChart) {
+    positionChart.destroy();
+    positionChart = null;
+  }
 }
 
 
 /* ============================================================
-   RESUMO DO JOGADOR
-   ============================================================ */
-
-function renderPlayerSummary(
-  player,
-  history
-) {
-
-  document
-    .querySelector("#selected-player-name")
-    .textContent =
-      player.Nick ?? "—";
-
-
-  document
-    .querySelector("#selected-player-position")
-    .textContent =
-      `#${fmt(player.Posicao)}`;
-
-
-  document
-    .querySelector("#player-participations")
-    .textContent =
-      fmt(player.Participacoes);
-
-
-  document
-    .querySelector("#player-points")
-    .textContent =
-      fmt(player.Pontos);
-
-
-  document
-    .querySelector("#player-ranking-position")
-    .textContent =
-      `#${fmt(player.Posicao)}`;
-
-
-  document
-    .querySelector("#player-points-average")
-    .textContent =
-      fmt(player.Pontos_por_Torneio, 1);
-}
-
-
-/* ============================================================
-   GRÁFICO DE PONTOS
+   9. GRÁFICOS (CHART.JS)
    ============================================================ */
 
 function renderPointsChart(player, history) {
@@ -816,21 +397,19 @@ function renderPointsChart(player, history) {
     type: "line",
     data: {
       labels,
-      datasets: [
-        {
-          label: "Pontos",
-          data,
-          borderWidth: 2,
-          pointRadius: history.length > 40 ? 2 : 4,
-          pointHoverRadius: 6,
-          tension: 0.2,
-          borderColor: "#2ecc71",
-          backgroundColor: "rgba(46, 204, 113, 0.1)",
-          pointBackgroundColor: "#2ecc71",
-          pointBorderColor: "#101923",
-          fill: true
-        }
-      ]
+      datasets: [{
+        label: "Pontos",
+        data,
+        borderWidth: 2,
+        pointRadius: history.length > 40 ? 2 : 4,
+        pointHoverRadius: 6,
+        tension: 0.2,
+        borderColor: "#2ecc71",
+        backgroundColor: "rgba(46, 204, 113, 0.1)",
+        pointBackgroundColor: "#2ecc71",
+        pointBorderColor: "#101923",
+        fill: true
+      }]
     },
     options: {
       responsive: true,
@@ -854,7 +433,7 @@ function renderPointsChart(player, history) {
         x: {
           ticks: {
             color: "rgba(255, 255, 255, 0.7)",
-            maxTicksLimit: 8, // Limita as datas no eixo X para não embolar
+            maxTicksLimit: 8,
             maxRotation: 0
           },
           grid: { color: "rgba(255, 255, 255, 0.08)" }
@@ -868,11 +447,6 @@ function renderPointsChart(player, history) {
     }
   });
 }
-
-
-/* ============================================================
-   GRÁFICO DE POSIÇÃO
-   ============================================================ */
 
 function renderPositionChart(history) {
   const canvas = document.querySelector("#position-chart");
@@ -897,21 +471,19 @@ function renderPositionChart(history) {
     type: "line",
     data: {
       labels,
-      datasets: [
-        {
-          label: "Posição",
-          data: positions,
-          borderWidth: 2,
-          pointRadius: history.length > 40 ? 2 : 4,
-          pointHoverRadius: 6,
-          tension: 0.2,
-          borderColor: "#f1c40f",
-          backgroundColor: "rgba(241, 196, 15, 0.1)",
-          pointBackgroundColor: "#f1c40f",
-          pointBorderColor: "#101923",
-          fill: true
-        }
-      ]
+      datasets: [{
+        label: "Posição",
+        data: positions,
+        borderWidth: 2,
+        pointRadius: history.length > 40 ? 2 : 4,
+        pointHoverRadius: 6,
+        tension: 0.2,
+        borderColor: "#f1c40f",
+        backgroundColor: "rgba(241, 196, 15, 0.1)",
+        pointBackgroundColor: "#f1c40f",
+        pointBorderColor: "#101923",
+        fill: true
+      }]
     },
     options: {
       responsive: true,
@@ -935,7 +507,7 @@ function renderPositionChart(history) {
         x: {
           ticks: {
             color: "rgba(255, 255, 255, 0.7)",
-            maxTicksLimit: 8, // Limita as datas no eixo X para não embolar
+            maxTicksLimit: 8,
             maxRotation: 0
           },
           grid: { color: "rgba(255, 255, 255, 0.08)" }
@@ -955,332 +527,145 @@ function renderPositionChart(history) {
     }
   });
 }
+
+
 /* ============================================================
-   TABELA DE PARTICIPAÇÕES
+   10. HISTÓRICO DE PARTICIPAÇÕES
    ============================================================ */
 
 function renderParticipationsTable(history) {
-
-  const tbody =
-    document.querySelector(
-      "#participations-table tbody"
-    );
-
-
+  const tbody = document.querySelector("#participations-table tbody");
   tbody.innerHTML = "";
 
-
   if (!history.length) {
-
     tbody.innerHTML = `
-
       <tr>
-
-        <td colspan="7" class="muted">
-
-          Nenhuma participação encontrada.
-
-        </td>
-
+        <td colspan="7" class="muted">Nenhuma participação encontrada.</td>
       </tr>
-
     `;
-
     return;
-
   }
 
-
   tbody.innerHTML = history
-
     .slice()
-
     .reverse()
-
     .map(item => {
-
-      const tournamentName =
-        item.tournament_name ??
-        "Torneio";
-
-
-      const url =
-        item.tournament_url ??
-        item.url ??
-        "";
-
+      const tournamentName = item.tournament_name ?? "Torneio";
+      const url = item.tournament_url ?? item.url ?? "";
 
       return `
-
         <tr>
-
-          <td>
-            ${dateOnly(item.startsAt)}
-          </td>
-
+          <td>${dateOnly(item.startsAt)}</td>
           <td class="player">
-
-            ${
-              url
-
-                ? `
-                  <a
-                    href="${escapeHTML(url)}"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    ${escapeHTML(tournamentName)}
-                  </a>
-                `
-
-                : escapeHTML(tournamentName)
-            }
-
+            ${url ? `
+              <a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">
+                ${escapeHTML(tournamentName)}
+              </a>
+            ` : escapeHTML(tournamentName)}
           </td>
-
-          <td class="points-cell">
-            <strong>
-              ${fmt(item.score)}
-            </strong>
-          </td>
-
+          <td class="points-cell"><strong>${fmt(item.score)}</strong></td>
+          <td>${fmt(item.rank)}º</td>
+          <td>${fmt(item.rating)}</td>
+          <td>${fmt(item.performance)}</td>
           <td>
-            ${fmt(item.rank)}º
+            ${url ? `
+              <a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">↗</a>
+            ` : ""}
           </td>
-
-          <td>
-            ${fmt(item.rating)}
-          </td>
-
-          <td>
-            ${fmt(item.performance)}
-          </td>
-
-          <td>
-
-            ${
-              url
-
-                ? `
-                  <a
-                    href="${escapeHTML(url)}"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    ↗
-                  </a>
-                `
-
-                : ""
-            }
-
-          </td>
-
         </tr>
-
       `;
-
     })
-
     .join("");
 }
 
 
 /* ============================================================
-   ESTADO VAZIO
+   11. MODAL DO AVATAR
    ============================================================ */
 
-function showEmptyPlayer() {
+function openAvatarModal(imgSrc, username) {
+  const modal = document.querySelector("#avatar-modal");
+  const modalImg = document.querySelector("#avatar-modal-img");
+  const modalCaption = document.querySelector("#avatar-modal-caption");
 
-  document
-    .querySelector("#player-performance")
-    .classList.add("hidden");
+  if (modal && modalImg && modalCaption) {
+    modalImg.src = imgSrc;
+    modalCaption.textContent = username;
+    modal.classList.remove("hidden");
+  }
+}
 
+function initAvatarModalEvents() {
+  const modal = document.querySelector("#avatar-modal");
+  const closeBtn = document.querySelector("#avatar-modal-close");
 
-  document
-    .querySelector("#player-empty")
-    .classList.remove("hidden");
-
-
-  if (pointsChart) {
-
-    pointsChart.destroy();
-
-    pointsChart = null;
-
+  if (closeBtn) {
+    closeBtn.addEventListener("click", () => {
+      modal.classList.add("hidden");
+    });
   }
 
-
-  if (positionChart) {
-
-    positionChart.destroy();
-
-    positionChart = null;
-
+  if (modal) {
+    modal.addEventListener("click", event => {
+      if (event.target === modal) {
+        modal.classList.add("hidden");
+      }
+    });
   }
-
 }
 
 
 /* ============================================================
-   EVENTOS
+   12. EVENTOS E INICIALIZAÇÃO
    ============================================================ */
 
-document
-  .querySelector("#search")
-  .addEventListener(
-    "input",
-    event => {
+document.querySelector("#search").addEventListener("input", event => {
+  renderRanking(event.target.value);
+});
 
-      renderRanking(
-        event.target.value
-      );
-
-    }
-  );
-
-
-document
-  .querySelector("#player-select")
-  .addEventListener(
-    "change",
-    event => {
-
-      selectPlayer(
-        event.target.value
-      );
-
-    }
-  );
-
-
-/* ============================================================
-   INICIALIZAÇÃO
-   ============================================================ */
+document.querySelector("#player-select").addEventListener("change", event => {
+  selectPlayer(event.target.value);
+});
 
 async function init() {
-
   try {
-
     [
-
       ranking,
-
       winners,
-
       categories,
-
       tournaments,
-
       participations,
-
       status
-
     ] = await Promise.all([
-
       loadJSON("jogadores.json"),
-
       loadJSON("vencedores.json"),
-
       loadJSON("categorias.json"),
-
       loadJSON("torneios.json"),
-
       loadJSON("participacoes.json"),
-
       loadJSON("status.json")
-
     ]);
 
-
-    /* -----------------------------------------
-       Renderização
-       ----------------------------------------- */
-
     renderCards();
-
     renderInterval();
-
     renderTournamentPeriod();
-
     renderRanking();
-
     renderPlayerSelector();
-
     renderWinners();
-
     renderCategories();
-
     renderTournaments();
 
+    initAvatarModalEvents();
 
-    /* -----------------------------------------
-       Status
-       ----------------------------------------- */
-
-    document
-      .querySelector("#status")
-      .textContent =
-
-      status.updated_at
-
-        ? `Última atualização: ${dateFmt(status.updated_at)}`
-
-        : "Aguardando a primeira atualização automática.";
-
+    document.querySelector("#status").textContent = status.updated_at
+      ? `Última atualização: ${dateFmt(status.updated_at)}`
+      : "Aguardando a primeira atualização automática.";
 
   } catch (error) {
-
     console.error(error);
 
-
-    document
-      .querySelector("#status")
-      .textContent =
-        "Não foi possível carregar os dados.";
-
-
-    document
-      .querySelector("#interval")
-      .textContent =
-        "Verifique os arquivos JSON e execute o workflow de atualização.";
-
+    document.querySelector("#status").textContent = "Não foi possível carregar os dados.";
+    document.querySelector("#interval").textContent = "Verifique os arquivos JSON e execute o workflow de atualização.";
   }
-
 }
-
-   /* ============================================================
-      FUNÇÃO PARA AMPLIAR O AVATAR (MODAL)
-      ============================================================ */
-   
-   function openAvatarModal(imgSrc, username) {
-     const modal = document.querySelector("#avatar-modal");
-     const modalImg = document.querySelector("#avatar-modal-img");
-     const modalCaption = document.querySelector("#avatar-modal-caption");
-   
-     modalImg.src = imgSrc;
-     modalCaption.textContent = username;
-     modal.classList.remove("hidden");
-   }
-   
-   function initAvatarModalEvents() {
-     const modal = document.querySelector("#avatar-modal");
-     const closeBtn = document.querySelector("#avatar-modal-close");
-   
-     if (closeBtn) {
-       closeBtn.addEventListener("click", () => {
-         modal.classList.add("hidden");
-       });
-     }
-   
-     // Fechar ao clicar fora da imagem
-     if (modal) {
-       modal.addEventListener("click", event => {
-         if (event.target === modal) {
-           modal.classList.add("hidden");
-         }
-       });
-     }
-   }
 
 init();
