@@ -416,3 +416,33 @@ footer .container {
     grid-template-columns: 1fr;
   }
 }
+
+/* ============================================================
+   AVATARES / FOTOS DOS JOGADORES
+   ============================================================ */
+
+/* Contêiner para alinhar a foto e o nome do jogador na mesma linha */
+.player-cell {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  vertical-align: middle;
+}
+
+/* Estilo da imagem circular */
+.player-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1.5px solid rgba(255, 255, 255, 0.2);
+  flex-shrink: 0;
+  background-color: #101923;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+/* Destaque suave na foto ao passar o mouse na linha da tabela */
+tr:hover .player-avatar {
+  border-color: #2ecc71; /* Ou a cor de destaque do seu tema */
+  transform: scale(1.05);
+}
