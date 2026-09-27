@@ -1,5 +1,5 @@
 /* ============================================================
-   PALETA DE CORES E CONFIGURAÇÕES DO MOCKUP
+   1. PALETA DE CORES E VARIÁVEIS GLOBAIS
    ============================================================ */
 
 * {
@@ -7,16 +7,16 @@
 }
 
 :root {
-  --bg-color: #001229;        /* Azul fundo bem escuro */
-  --surface-card: #001F42;    /* Cards estatísticos */
-  --surface-panel: #001A38;   /* Painéis principais */
-  --surface-hover: #002D5E;   /* Hover da tabela */
-  --border-color: #003366;    /* Bordas azuis */
-  --text-primary: #FFFFFF;    /* Texto branco */
-  --text-muted: #8AA8CE;      /* Texto secundário */
-  --accent-gold: #E5C158;     /* Dourado para 1º lugar */
-  --accent-green: #38E5A3;    /* Verde para pontos */
-  --accent-blue: #3B92FF;     /* Azul dos ícones */
+  --bg-color: #001229;         /* Azul fundo bem escuro */
+  --surface-card: #001F42;     /* Cards estatísticos */
+  --surface-panel: #001A38;    /* Painéis principais */
+  --surface-hover: #002D5E;    /* Hover da tabela */
+  --border-color: #003366;     /* Bordas azuis */
+  --text-primary: #FFFFFF;     /* Texto branco */
+  --text-muted: #8AA8CE;       /* Texto secundário */
+  --accent-gold: #E5C158;      /* Dourado para 1º lugar */
+  --accent-green: #38E5A3;     /* Verde para pontos */
+  --accent-blue: #3B92FF;      /* Azul dos ícones */
   --silver: #C0C0C0;
   --bronze: #CD7F32;
 }
@@ -35,8 +35,13 @@ body {
   margin: 0 auto;
 }
 
+.hidden {
+  display: none !important;
+}
+
+
 /* ============================================================
-   NAVBAR & HEADER (OPÇÃO A: BADGE COM INTERVALO DE DATAS)
+   2. NAVBAR & CABEÇALHO
    ============================================================ */
 
 .navbar {
@@ -98,7 +103,6 @@ body {
   letter-spacing: 0.5px;
 }
 
-/* Destaque das datas no cabeçalho */
 .badge-season .tournament-period {
   color: #FFFFFF;
   font-weight: 600;
@@ -127,8 +131,9 @@ body {
   border-bottom: 2px solid var(--accent-gold);
 }
 
+
 /* ============================================================
-   MAIN & CARDS ESTATÍSTICOS
+   3. CARDS ESTATÍSTICOS
    ============================================================ */
 
 main {
@@ -167,8 +172,9 @@ main {
   line-height: 1;
 }
 
+
 /* ============================================================
-   PAINÉIS E TABELAS
+   4. PAINÉIS E FORMULÁRIOS
    ============================================================ */
 
 .panel {
@@ -219,6 +225,11 @@ select:focus {
   border-color: var(--accent-blue);
 }
 
+
+/* ============================================================
+   5. TABELAS E PÓDIO
+   ============================================================ */
+
 .table-wrap {
   max-height: 520px;
   overflow-y: auto;
@@ -259,10 +270,7 @@ th {
   text-transform: uppercase;
 }
 
-/* ============================================================
-   LINHAS INTERCALADAS (ZEBRA STRIPING - CORREÇÃO DE SOBREPOSIÇÃO)
-   ============================================================ */
-
+/* Zebra Striping */
 tbody tr:nth-child(even),
 tbody tr:nth-child(even) td {
   background-color: #002247 !important;
@@ -290,10 +298,7 @@ table td:last-child i {
   text-decoration: none;
 }
 
-/* ============================================================
-   PÓDIO E CORES DAS COLUNAS (CONFORME MOCKUP)
-   ============================================================ */
-
+/* Estilos de Pódio e Movimentação */
 #ranking .points-cell,
 .points-cell {
   color: var(--accent-green) !important;
@@ -322,8 +327,41 @@ table td:last-child i {
 .movement.same { color: var(--text-muted); }
 .movement.new { color: var(--accent-gold); font-weight: 800; }
 
+
 /* ============================================================
-   GRID, DESEMPENHO E FOOTER
+   6. AVATARES NAS TABELAS
+   ============================================================ */
+
+.player-cell {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  vertical-align: middle;
+}
+
+.player-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1.5px solid rgba(255, 255, 255, 0.2);
+  flex-shrink: 0;
+  background-color: #101923;
+  cursor: pointer;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+tr:hover .player-avatar {
+  border-color: var(--accent-green);
+}
+
+.player-avatar:hover {
+  transform: scale(1.15);
+}
+
+
+/* ============================================================
+   7. PAINEL DE DESEMPENHO INDIVIDUAL
    ============================================================ */
 
 .grid {
@@ -341,6 +379,28 @@ table td:last-child i {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+}
+
+.selected-player-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.selected-player-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent-green);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  background-color: #101923;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.selected-player-avatar:hover {
+  transform: scale(1.08);
 }
 
 .player-cards {
@@ -382,6 +442,77 @@ table td:last-child i {
   color: var(--text-muted);
 }
 
+
+/* ============================================================
+   8. MODAL DE VISUALIZAÇÃO DE AVATAR (LIGHTBOX)
+   ============================================================ */
+
+.avatar-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  opacity: 1;
+  transition: opacity 0.25s ease;
+}
+
+.avatar-modal-content {
+  position: relative;
+  background-color: #001F42;
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  text-align: center;
+  max-width: 90vw;
+  max-height: 90vh;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+.avatar-modal-content img {
+  max-width: 280px;
+  max-height: 280px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--accent-green);
+  margin-top: 10px;
+}
+
+#avatar-modal-caption {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: var(--text-primary);
+}
+
+#avatar-modal-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--text-muted);
+  cursor: pointer;
+  line-height: 1;
+}
+
+#avatar-modal-close:hover {
+  color: var(--text-primary);
+}
+
+
+/* ============================================================
+   9. RODAPÉ
+   ============================================================ */
+
 footer {
   padding: 22px 0;
   color: var(--text-muted);
@@ -395,8 +526,9 @@ footer .container {
   justify-content: space-between;
 }
 
+
 /* ============================================================
-   RESPONSIVIDADE
+   10. RESPONSIVIDADE (MOBILE & TABLETS)
    ============================================================ */
 
 @media (max-width: 900px) {
@@ -415,115 +547,4 @@ footer .container {
   .grid {
     grid-template-columns: 1fr;
   }
-}
-
-/* ============================================================
-   AVATARES / FOTOS DOS JOGADORES
-   ============================================================ */
-
-/* Contêiner para alinhar a foto e o nome do jogador na mesma linha */
-.player-cell {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  vertical-align: middle;
-}
-
-/* Estilo da imagem circular */
-.player-avatar {
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 1.5px solid rgba(255, 255, 255, 0.2);
-  flex-shrink: 0;
-  background-color: #101923;
-  transition: border-color 0.2s ease, transform 0.2s ease;
-}
-
-/* Destaque suave na foto ao passar o mouse na linha da tabela */
-tr:hover .player-avatar {
-  border-color: #2ecc71; /* Ou a cor de destaque do seu tema */
-  transform: scale(1.05);
-}
-
-/* ============================================================
-   MODAL DE VISUALIZAÇÃO DE AVATAR
-   ============================================================ */
-
-.player-avatar {
-  cursor: pointer; /* Indica que o avatar é clicável */
-  transition: transform 0.2s ease, border-color 0.2s ease;
-}
-
-.player-avatar:hover {
-  transform: scale(1.15);
-}
-
-/* Fundo escuro do modal */
-.avatar-modal-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(4px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 9999;
-  opacity: 1;
-  transition: opacity 0.25s ease;
-}
-
-.avatar-modal-overlay.hidden {
-  display: none;
-}
-
-/* Caixa centralizada do modal */
-.avatar-modal-content {
-  position: relative;
-  background-color: #101923;
-  padding: 20px;
-  border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  text-align: center;
-  max-width: 90vw;
-  max-height: 90vh;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-}
-
-.avatar-modal-content img {
-  max-width: 300px;
-  max-height: 300px;
-  width: 100%;
-  height: auto;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #2ecc71;
-  margin-top: 10px;
-}
-
-#avatar-modal-caption {
-  margin-top: 15px;
-  font-weight: bold;
-  font-size: 1.1rem;
-  color: #ffffff;
-}
-
-/* Botão de fechar (X) */
-#avatar-modal-close {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  font-size: 28px;
-  font-weight: bold;
-  color: #aaaaaa;
-  cursor: pointer;
-  line-height: 1;
-}
-
-#avatar-modal-close:hover {
-  color: #ffffff;
 }
