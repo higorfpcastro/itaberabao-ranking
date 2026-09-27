@@ -3,8 +3,8 @@
    ============================================================ */
 
 const playerAvatars = {
-  "Aprendiz17": "avatars/Aprendiz17.ppg",
-  "higorfpcastro": "avatars/higorfpcastro.ppg"
+  "Aprendiz17": "avatars/Aprendiz17.png",
+  "higorfpcastro": "avatars/higorfpcastro.jpg"
 };
 
 function getPlayerAvatar(username) {
