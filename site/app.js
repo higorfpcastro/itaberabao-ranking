@@ -372,6 +372,8 @@ function renderRanking(filter = "") {
             src="${getPlayerAvatar(player.Nick)}" 
             alt="${escapeHTML(player.Nick ?? '')}" 
             class="player-avatar"
+            onclick="event.stopPropagation(); openAvatarModal(this.src, '${escapeHTML(player.Nick ?? '')}')"
+            title="Clique para ampliar a foto"
           >
           <span>${escapeHTML(player.Nick ?? "—")}</span>
         </div>
