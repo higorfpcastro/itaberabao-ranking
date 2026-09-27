@@ -1247,5 +1247,38 @@ async function init() {
 
 }
 
+   /* ============================================================
+      FUNÇÃO PARA AMPLIAR O AVATAR (MODAL)
+      ============================================================ */
+   
+   function openAvatarModal(imgSrc, username) {
+     const modal = document.querySelector("#avatar-modal");
+     const modalImg = document.querySelector("#avatar-modal-img");
+     const modalCaption = document.querySelector("#avatar-modal-caption");
+   
+     modalImg.src = imgSrc;
+     modalCaption.textContent = username;
+     modal.classList.remove("hidden");
+   }
+   
+   function initAvatarModalEvents() {
+     const modal = document.querySelector("#avatar-modal");
+     const closeBtn = document.querySelector("#avatar-modal-close");
+   
+     if (closeBtn) {
+       closeBtn.addEventListener("click", () => {
+         modal.classList.add("hidden");
+       });
+     }
+   
+     // Fechar ao clicar fora da imagem
+     if (modal) {
+       modal.addEventListener("click", event => {
+         if (event.target === modal) {
+           modal.classList.add("hidden");
+         }
+       });
+     }
+   }
 
 init();
