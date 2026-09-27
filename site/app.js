@@ -4,7 +4,7 @@
 
 const playerAvatars = {
   "Aprendiz17": "avatars/Aprendiz17.png",
-  "HigorFPCastro": "avatars/HigorFPcastro.png",
+  "HigorFPCastro": "avatars/HigorFPCastro.png",
    "EnxadristaHeterodoxo": "avatars/EnxadristaHeterodoxo.png"
 };
 
