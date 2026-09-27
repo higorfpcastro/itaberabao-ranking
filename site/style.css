@@ -446,3 +446,84 @@ tr:hover .player-avatar {
   border-color: #2ecc71; /* Ou a cor de destaque do seu tema */
   transform: scale(1.05);
 }
+
+/* ============================================================
+   MODAL DE VISUALIZAÇÃO DE AVATAR
+   ============================================================ */
+
+.player-avatar {
+  cursor: pointer; /* Indica que o avatar é clicável */
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.player-avatar:hover {
+  transform: scale(1.15);
+}
+
+/* Fundo escuro do modal */
+.avatar-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  opacity: 1;
+  transition: opacity 0.25s ease;
+}
+
+.avatar-modal-overlay.hidden {
+  display: none;
+}
+
+/* Caixa centralizada do modal */
+.avatar-modal-content {
+  position: relative;
+  background-color: #101923;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+  max-width: 90vw;
+  max-height: 90vh;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.avatar-modal-content img {
+  max-width: 300px;
+  max-height: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #2ecc71;
+  margin-top: 10px;
+}
+
+#avatar-modal-caption {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+
+/* Botão de fechar (X) */
+#avatar-modal-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #aaaaaa;
+  cursor: pointer;
+  line-height: 1;
+}
+
+#avatar-modal-close:hover {
+  color: #ffffff;
+}
