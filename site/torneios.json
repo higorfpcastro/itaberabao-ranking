@@ -1204,18 +1204,18 @@
     "url": "https://lichess.org/tournament/Qr9WjbQR"
   },
   {
-    "id": "MYlcxGIA",
-    "name": "ITABERABÃO Arena",
-    "winner": "gaelpov",
-    "startsAt": "2026-05-02T00:30:00+00:00",
-    "url": "https://lichess.org/tournament/MYlcxGIA"
-  },
-  {
     "id": "MyuFiqUE",
     "name": "ITABERABÃO SEXTOUU Arena",
     "winner": "MauroAmaral",
     "startsAt": "2026-05-02T00:30:00+00:00",
     "url": "https://lichess.org/tournament/MyuFiqUE"
+  },
+  {
+    "id": "MYlcxGIA",
+    "name": "ITABERABÃO Arena",
+    "winner": "gaelpov",
+    "startsAt": "2026-05-02T00:30:00+00:00",
+    "url": "https://lichess.org/tournament/MYlcxGIA"
   },
   {
     "id": "CZZ40W50",
@@ -1965,5 +1965,12 @@
     "winner": "macgyversp",
     "startsAt": "2026-09-29T00:30:00+00:00",
     "url": "https://lichess.org/tournament/8X1xGum9"
+  },
+  {
+    "id": "cjwBidyW",
+    "name": "iTABERABÃO De Terça Arena",
+    "winner": "Aprendiz17",
+    "startsAt": "2026-09-30T00:30:00+00:00",
+    "url": "https://lichess.org/tournament/cjwBidyW"
   }
 ]
