@@ -497,18 +497,18 @@
     "url": "https://lichess.org/tournament/C5YwWdan"
   },
   {
-    "id": "bqU2PCTi",
-    "name": "iTABERABÃO de Terça Arena",
-    "winner": "Luiz_GO",
-    "startsAt": "2025-12-17T00:30:00+00:00",
-    "url": "https://lichess.org/tournament/bqU2PCTi"
-  },
-  {
     "id": "z90m07N9",
     "name": "iTABERABÃO de Terça Arena",
     "winner": "JPRICKARDOSALAZAR",
     "startsAt": "2025-12-17T00:30:00+00:00",
     "url": "https://lichess.org/tournament/z90m07N9"
+  },
+  {
+    "id": "bqU2PCTi",
+    "name": "iTABERABÃO de Terça Arena",
+    "winner": "Luiz_GO",
+    "startsAt": "2025-12-17T00:30:00+00:00",
+    "url": "https://lichess.org/tournament/bqU2PCTi"
   },
   {
     "id": "vNe0lmys",
@@ -1972,5 +1972,12 @@
     "winner": "Aprendiz17",
     "startsAt": "2026-09-30T00:30:00+00:00",
     "url": "https://lichess.org/tournament/cjwBidyW"
+  },
+  {
+    "id": "xPv1gjVw",
+    "name": "ITABERABÃO Arena",
+    "winner": "Bauruzinho7",
+    "startsAt": "2026-10-01T00:30:00+00:00",
+    "url": "https://lichess.org/tournament/xPv1gjVw"
   }
 ]
