@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-11T07:51:30.080447+00:00",
-  "duration_seconds": 185.06,
+  "updated_at": "2026-10-12T08:01:17.161102+00:00",
+  "duration_seconds": 190.43,
   "team": "itaberabao",
   "tournaments": 290,
-  "players": 594,
-  "participations": 6940,
+  "players": 584,
+  "participations": 7053,
   "interval_start": "2025-09-09T00:30:00+00:00",
   "interval_end": "2026-10-10T00:30:00+00:00",
   "success": true
