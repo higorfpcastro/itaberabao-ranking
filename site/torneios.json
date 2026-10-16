@@ -1477,18 +1477,18 @@
     "url": "https://lichess.org/tournament/vTCO8ZyQ"
   },
   {
-    "id": "C11XYtgy",
-    "name": "iTABERABÃO Arena",
-    "winner": "estevaoluiz",
-    "startsAt": "2026-06-25T00:30:00+00:00",
-    "url": "https://lichess.org/tournament/C11XYtgy"
-  },
-  {
     "id": "PFGTRMMU",
     "name": "ITABERABÃO Arena",
     "winner": "Tanzinho",
     "startsAt": "2026-06-25T00:30:00+00:00",
     "url": "https://lichess.org/tournament/PFGTRMMU"
+  },
+  {
+    "id": "C11XYtgy",
+    "name": "iTABERABÃO Arena",
+    "winner": "estevaoluiz",
+    "startsAt": "2026-06-25T00:30:00+00:00",
+    "url": "https://lichess.org/tournament/C11XYtgy"
   },
   {
     "id": "sMKUux64",
@@ -2049,5 +2049,12 @@
     "winner": "Tanzinho",
     "startsAt": "2026-10-15T00:30:00+00:00",
     "url": "https://lichess.org/tournament/sNBD9ZXI"
+  },
+  {
+    "id": "lh93UlqI",
+    "name": "iTABERABÃO Arena",
+    "winner": "vitorkalangoo",
+    "startsAt": "2026-10-16T00:30:00+00:00",
+    "url": "https://lichess.org/tournament/lh93UlqI"
   }
 ]
