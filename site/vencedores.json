@@ -540,8 +540,8 @@
     "Menor_Ranking": 1,
     "Participacoes": 181,
     "Posicao": 8,
-    "Movimento": 1,
-    "Movimento_Texto": "↑ 1"
+    "Movimento": 0,
+    "Movimento_Texto": "—"
   },
   {
     "vencedores": "Cirov",
@@ -761,8 +761,8 @@
     "Menor_Ranking": 1,
     "Participacoes": 135,
     "Posicao": 9,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0,
+    "Movimento_Texto": "—"
   },
   {
     "vencedores": "Aprendiz17",
@@ -982,8 +982,8 @@
     "Menor_Ranking": 1,
     "Participacoes": 24,
     "Posicao": 92,
-    "Movimento": 1,
-    "Movimento_Texto": "↑ 1"
+    "Movimento": 0,
+    "Movimento_Texto": "—"
   },
   {
     "vencedores": "Canal_Chessveja",
@@ -1203,8 +1203,8 @@
     "Menor_Ranking": 1,
     "Participacoes": 7,
     "Posicao": 173,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0,
+    "Movimento_Texto": "—"
   },
   {
     "vencedores": "JAIME_SONHO01",
