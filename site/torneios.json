@@ -497,18 +497,18 @@
     "url": "https://lichess.org/tournament/C5YwWdan"
   },
   {
-    "id": "bqU2PCTi",
-    "name": "iTABERABÃO de Terça Arena",
-    "winner": "Luiz_GO",
-    "startsAt": "2025-12-17T00:30:00+00:00",
-    "url": "https://lichess.org/tournament/bqU2PCTi"
-  },
-  {
     "id": "z90m07N9",
     "name": "iTABERABÃO de Terça Arena",
     "winner": "JPRICKARDOSALAZAR",
     "startsAt": "2025-12-17T00:30:00+00:00",
     "url": "https://lichess.org/tournament/z90m07N9"
+  },
+  {
+    "id": "bqU2PCTi",
+    "name": "iTABERABÃO de Terça Arena",
+    "winner": "Luiz_GO",
+    "startsAt": "2025-12-17T00:30:00+00:00",
+    "url": "https://lichess.org/tournament/bqU2PCTi"
   },
   {
     "id": "vNe0lmys",
@@ -1204,18 +1204,18 @@
     "url": "https://lichess.org/tournament/Qr9WjbQR"
   },
   {
-    "id": "MyuFiqUE",
-    "name": "ITABERABÃO SEXTOUU Arena",
-    "winner": "MauroAmaral",
-    "startsAt": "2026-05-02T00:30:00+00:00",
-    "url": "https://lichess.org/tournament/MyuFiqUE"
-  },
-  {
     "id": "MYlcxGIA",
     "name": "ITABERABÃO Arena",
     "winner": "gaelpov",
     "startsAt": "2026-05-02T00:30:00+00:00",
     "url": "https://lichess.org/tournament/MYlcxGIA"
+  },
+  {
+    "id": "MyuFiqUE",
+    "name": "ITABERABÃO SEXTOUU Arena",
+    "winner": "MauroAmaral",
+    "startsAt": "2026-05-02T00:30:00+00:00",
+    "url": "https://lichess.org/tournament/MyuFiqUE"
   },
   {
     "id": "CZZ40W50",
@@ -2112,5 +2112,26 @@
     "winner": "vitorkalangoo",
     "startsAt": "2026-10-28T00:30:00+00:00",
     "url": "https://lichess.org/tournament/SOw7xup0"
+  },
+  {
+    "id": "IL81tEPS",
+    "name": "ITABERABÃO Arena",
+    "winner": "macgyversp",
+    "startsAt": "2026-10-29T00:30:00+00:00",
+    "url": "https://lichess.org/tournament/IL81tEPS"
+  },
+  {
+    "id": "oVCdxVfR",
+    "name": "iTABERABÃO Arena",
+    "winner": "Tonystar111",
+    "startsAt": "2026-10-30T00:30:00+00:00",
+    "url": "https://lichess.org/tournament/oVCdxVfR"
+  },
+  {
+    "id": "mJFYzbsx",
+    "name": "ITABERABÃO SEXTOUU Arena",
+    "winner": "TradeMed",
+    "startsAt": "2026-10-31T00:30:00+00:00",
+    "url": "https://lichess.org/tournament/mJFYzbsx"
   }
 ]
