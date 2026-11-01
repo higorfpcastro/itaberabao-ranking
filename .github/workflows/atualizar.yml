@@ -50,7 +50,7 @@ jobs:
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.12'   # fixo (antes: '3.x', que pega sempre o Python mais novo)
 
       # ======================================================
       # DEPENDÊNCIAS
@@ -60,6 +60,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          pip list | grep -i -E "pandas|numpy|requests"   # registra as versões no log
 
       # ======================================================
       # ATUALIZAÇÃO
@@ -67,7 +68,7 @@ jobs:
 
       - name: Rodar script de atualização
         run: |
-          python python/atualizar.py
+          python -X faulthandler -u python/atualizar.py
 
       # ======================================================
       # COMMIT
