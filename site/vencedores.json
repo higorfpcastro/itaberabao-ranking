@@ -30,8 +30,8 @@
     "Menor_Ranking": 1,
     "Participacoes": 50,
     "Posicao": 21,
-    "Movimento": 2,
-    "Movimento_Texto": "↑ 2"
+    "Movimento": 0,
+    "Movimento_Texto": "—"
   },
   {
     "vencedores": "TradeMed",
@@ -70,8 +70,8 @@
   {
     "vencedores": "vitorkalangoo",
     "vitorias": 14,
-    "Pontos": 1270,
-    "Desempenho_Medio": 2075.0,
+    "Pontos": 1280,
+    "Desempenho_Medio": 2079.0,
     "podio_primeiro": 14,
     "podio_segundo": 7,
     "podio_terceiro": 5,
@@ -79,10 +79,10 @@
     "Pontos_por_Torneio": 23.0,
     "Maior_Pontuacao": 56,
     "Menor_Ranking": 1,
-    "Participacoes": 55,
+    "Participacoes": 56,
     "Posicao": 25,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0,
+    "Movimento_Texto": "—"
   },
   {
     "vencedores": "Tanzinho",
@@ -149,8 +149,8 @@
     "Menor_Ranking": 1,
     "Participacoes": 71,
     "Posicao": 23,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0,
+    "Movimento_Texto": "—"
   },
   {
     "vencedores": "JPRICKARDOSALAZAR",
@@ -183,8 +183,8 @@
     "Menor_Ranking": 1,
     "Participacoes": 26,
     "Posicao": 22,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0,
+    "Movimento_Texto": "—"
   },
   {
     "vencedores": "Luiz_GO",
@@ -206,7 +206,7 @@
   {
     "vencedores": "j_erry",
     "vitorias": 5,
-    "Pontos": 3963,
+    "Pontos": 3973,
     "Desempenho_Medio": 1968.0,
     "podio_primeiro": 5,
     "podio_segundo": 12,
@@ -215,7 +215,7 @@
     "Pontos_por_Torneio": 15.0,
     "Maior_Pontuacao": 36,
     "Menor_Ranking": 1,
-    "Participacoes": 262,
+    "Participacoes": 263,
     "Posicao": 1,
     "Movimento": 0,
     "Movimento_Texto": "—"
@@ -325,8 +325,8 @@
   {
     "vencedores": "Mikhailtaldonordeste",
     "vitorias": 4,
-    "Pontos": 1686,
-    "Desempenho_Medio": 2006.0,
+    "Pontos": 1697,
+    "Desempenho_Medio": 2007.0,
     "podio_primeiro": 4,
     "podio_segundo": 9,
     "podio_terceiro": 3,
@@ -334,8 +334,25 @@
     "Pontos_por_Torneio": 15.0,
     "Maior_Pontuacao": 37,
     "Menor_Ranking": 1,
-    "Participacoes": 109,
+    "Participacoes": 110,
     "Posicao": 12,
+    "Movimento": 0,
+    "Movimento_Texto": "—"
+  },
+  {
+    "vencedores": "nibrchess",
+    "vitorias": 4,
+    "Pontos": 1294,
+    "Desempenho_Medio": 1964.0,
+    "podio_primeiro": 4,
+    "podio_segundo": 8,
+    "podio_terceiro": 2,
+    "Rating_Medio": 2008.0,
+    "Pontos_por_Torneio": 13.0,
+    "Maior_Pontuacao": 33,
+    "Menor_Ranking": 1,
+    "Participacoes": 96,
+    "Posicao": 24,
     "Movimento": 0,
     "Movimento_Texto": "—"
   },
@@ -359,36 +376,19 @@
   {
     "vencedores": "DeSousa_Leonardo",
     "vitorias": 4,
-    "Pontos": 470,
-    "Desempenho_Medio": 2006.0,
+    "Pontos": 490,
+    "Desempenho_Medio": 2002.0,
     "podio_primeiro": 4,
-    "podio_segundo": 1,
+    "podio_segundo": 2,
     "podio_terceiro": 3,
-    "Rating_Medio": 2115.0,
+    "Rating_Medio": 2113.0,
     "Pontos_por_Torneio": 11.0,
     "Maior_Pontuacao": 39,
     "Menor_Ranking": 1,
-    "Participacoes": 43,
-    "Posicao": 81,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
-  },
-  {
-    "vencedores": "nibrchess",
-    "vitorias": 3,
-    "Pontos": 1274,
-    "Desempenho_Medio": 1961.0,
-    "podio_primeiro": 3,
-    "podio_segundo": 8,
-    "podio_terceiro": 2,
-    "Rating_Medio": 2008.0,
-    "Pontos_por_Torneio": 13.0,
-    "Maior_Pontuacao": 33,
-    "Menor_Ranking": 1,
-    "Participacoes": 95,
-    "Posicao": 24,
-    "Movimento": 1,
-    "Movimento_Texto": "↑ 1"
+    "Participacoes": 44,
+    "Posicao": 77,
+    "Movimento": 4,
+    "Movimento_Texto": "↑ 4"
   },
   {
     "vencedores": "One_Capi",
@@ -444,16 +444,16 @@
   {
     "vencedores": "Valdenicio2022",
     "vitorias": 3,
-    "Pontos": 636,
-    "Desempenho_Medio": 2156.0,
+    "Pontos": 638,
+    "Desempenho_Medio": 2159.0,
     "podio_primeiro": 3,
     "podio_segundo": 2,
     "podio_terceiro": 0,
-    "Rating_Medio": 2123.0,
-    "Pontos_por_Torneio": 23.0,
+    "Rating_Medio": 2126.0,
+    "Pontos_por_Torneio": 22.0,
     "Maior_Pontuacao": 42,
     "Menor_Ranking": 1,
-    "Participacoes": 28,
+    "Participacoes": 29,
     "Posicao": 63,
     "Movimento": 0,
     "Movimento_Texto": "—"
@@ -488,9 +488,9 @@
     "Maior_Pontuacao": 42,
     "Menor_Ranking": 1,
     "Participacoes": 27,
-    "Posicao": 77,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 78,
+    "Movimento": -1,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "vencedores": "mhaykov",
@@ -546,8 +546,8 @@
   {
     "vencedores": "Cirov",
     "vitorias": 2,
-    "Pontos": 1732,
-    "Desempenho_Medio": 2116.0,
+    "Pontos": 1735,
+    "Desempenho_Medio": 2117.0,
     "podio_primeiro": 2,
     "podio_segundo": 8,
     "podio_terceiro": 10,
@@ -555,7 +555,7 @@
     "Pontos_por_Torneio": 14.0,
     "Maior_Pontuacao": 38,
     "Menor_Ranking": 1,
-    "Participacoes": 123,
+    "Participacoes": 124,
     "Posicao": 11,
     "Movimento": 0,
     "Movimento_Texto": "—"
@@ -727,8 +727,8 @@
     "Menor_Ranking": 1,
     "Participacoes": 5,
     "Posicao": 203,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0,
+    "Movimento_Texto": "—"
   },
   {
     "vencedores": "ViggNG",
@@ -767,7 +767,7 @@
   {
     "vencedores": "Aprendiz17",
     "vitorias": 1,
-    "Pontos": 1646,
+    "Pontos": 1650,
     "Desempenho_Medio": 1713.0,
     "podio_primeiro": 1,
     "podio_segundo": 0,
@@ -776,10 +776,10 @@
     "Pontos_por_Torneio": 6.0,
     "Maior_Pontuacao": 24,
     "Menor_Ranking": 1,
-    "Participacoes": 299,
-    "Posicao": 14,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Participacoes": 300,
+    "Posicao": 13,
+    "Movimento": 1,
+    "Movimento_Texto": "↑ 1"
   },
   {
     "vencedores": "Numsei01",
@@ -887,15 +887,15 @@
     "vencedores": "JOAOCESAR063URUG",
     "vitorias": 1,
     "Pontos": 579,
-    "Desempenho_Medio": 2041.0,
+    "Desempenho_Medio": 2033.0,
     "podio_primeiro": 1,
     "podio_segundo": 1,
     "podio_terceiro": 1,
-    "Rating_Medio": 2077.0,
+    "Rating_Medio": 2078.0,
     "Pontos_por_Torneio": 8.0,
     "Maior_Pontuacao": 32,
     "Menor_Ranking": 1,
-    "Participacoes": 74,
+    "Participacoes": 75,
     "Posicao": 66,
     "Movimento": 0,
     "Movimento_Texto": "—"
@@ -1071,6 +1071,23 @@
     "Movimento_Texto": "—"
   },
   {
+    "vencedores": "cleitonino",
+    "vitorias": 1,
+    "Pontos": 310,
+    "Desempenho_Medio": 2164.0,
+    "podio_primeiro": 1,
+    "podio_segundo": 1,
+    "podio_terceiro": 1,
+    "Rating_Medio": 2155.0,
+    "Pontos_por_Torneio": 11.0,
+    "Maior_Pontuacao": 32,
+    "Menor_Ranking": 1,
+    "Participacoes": 29,
+    "Posicao": 123,
+    "Movimento": 3,
+    "Movimento_Texto": "↑ 3"
+  },
+  {
     "vencedores": "Showdrez",
     "vitorias": 1,
     "Pontos": 304,
@@ -1083,26 +1100,9 @@
     "Maior_Pontuacao": 29,
     "Menor_Ranking": 1,
     "Participacoes": 27,
-    "Posicao": 125,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
-  },
-  {
-    "vencedores": "cleitonino",
-    "vitorias": 1,
-    "Pontos": 294,
-    "Desempenho_Medio": 2158.0,
-    "podio_primeiro": 1,
-    "podio_segundo": 1,
-    "podio_terceiro": 1,
-    "Rating_Medio": 2157.0,
-    "Pontos_por_Torneio": 10.0,
-    "Maior_Pontuacao": 32,
-    "Menor_Ranking": 1,
-    "Participacoes": 28,
     "Posicao": 126,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Movimento": -1,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "vencedores": "Fabsonpalhano",
@@ -1288,8 +1288,8 @@
     "Menor_Ranking": 1,
     "Participacoes": 5,
     "Posicao": 202,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0,
+    "Movimento_Texto": "—"
   },
   {
     "vencedores": "Xx-ELI-KarLPoV-xX",
@@ -1305,8 +1305,8 @@
     "Menor_Ranking": 1,
     "Participacoes": 5,
     "Posicao": 205,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0,
+    "Movimento_Texto": "—"
   },
   {
     "vencedores": "Vlad-RJ",
@@ -1355,9 +1355,9 @@
     "Maior_Pontuacao": 37,
     "Menor_Ranking": 1,
     "Participacoes": 6,
-    "Posicao": 240,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 241,
+    "Movimento": -1,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "vencedores": "pedro-queijo",
