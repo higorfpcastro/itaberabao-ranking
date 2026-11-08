@@ -421,8 +421,8 @@
     "Menor_Ranking": 13,
     "Participacoes": 18,
     "Posicao": 278,
-    "Movimento": 2,
-    "Movimento_Texto": "↑ 2"
+    "Movimento": 0,
+    "Movimento_Texto": "—"
   },
   {
     "Categoria": "1400–1499",
@@ -608,8 +608,8 @@
     "Menor_Ranking": 4,
     "Participacoes": 30,
     "Posicao": 124,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0,
+    "Movimento_Texto": "—"
   },
   {
     "Categoria": "1600–1699",
@@ -659,8 +659,8 @@
     "Menor_Ranking": 1,
     "Participacoes": 300,
     "Posicao": 13,
-    "Movimento": 1,
-    "Movimento_Texto": "↑ 1"
+    "Movimento": 0,
+    "Movimento_Texto": "—"
   },
   {
     "Categoria": "1700–1799",
@@ -676,8 +676,8 @@
     "Menor_Ranking": 2,
     "Participacoes": 238,
     "Posicao": 14,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0,
+    "Movimento_Texto": "—"
   },
   {
     "Categoria": "1700–1799",
