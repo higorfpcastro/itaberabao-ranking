@@ -1,24 +1,24 @@
 [
   {
     "Nick": "j_erry",
-    "Pontos": 4005,
-    "Desempenho_Medio": 1968.0,
+    "Pontos": 4016,
+    "Desempenho_Medio": 1967.0,
     "podio_primeiro": 5,
     "podio_segundo": 12,
     "podio_terceiro": 12,
-    "Rating_Medio": 1957.0,
+    "Rating_Medio": 1956.0,
     "Pontos_por_Torneio": 15.0,
     "Maior_Pontuacao": 36,
     "Menor_Ranking": 1,
-    "Participacoes": 265,
+    "Participacoes": 266,
     "Posicao": 1,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
     "Nick": "LCesarini27",
-    "Pontos": 3318,
-    "Desempenho_Medio": 2278.0,
+    "Pontos": 3340,
+    "Desempenho_Medio": 2277.0,
     "podio_primeiro": 44,
     "podio_segundo": 25,
     "podio_terceiro": 9,
@@ -26,14 +26,14 @@
     "Pontos_por_Torneio": 28.0,
     "Maior_Pontuacao": 51,
     "Menor_Ranking": 1,
-    "Participacoes": 118,
+    "Participacoes": 119,
     "Posicao": 2,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
     "Nick": "macgyversp",
-    "Pontos": 3001,
+    "Pontos": 3020,
     "Desempenho_Medio": 2066.0,
     "podio_primeiro": 14,
     "podio_segundo": 17,
@@ -42,15 +42,15 @@
     "Pontos_por_Torneio": 20.0,
     "Maior_Pontuacao": 41,
     "Menor_Ranking": 1,
-    "Participacoes": 151,
+    "Participacoes": 152,
     "Posicao": 3,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
     "Nick": "SAT_BATURITE_SAT",
-    "Pontos": 2660,
-    "Desempenho_Medio": 1903.0,
+    "Pontos": 2668,
+    "Desempenho_Medio": 1904.0,
     "podio_primeiro": 4,
     "podio_segundo": 4,
     "podio_terceiro": 5,
@@ -58,9 +58,9 @@
     "Pontos_por_Torneio": 13.0,
     "Maior_Pontuacao": 35,
     "Menor_Ranking": 1,
-    "Participacoes": 201,
+    "Participacoes": 202,
     "Posicao": 4,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -76,7 +76,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 149,
     "Posicao": 5,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -92,7 +92,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 130,
     "Posicao": 6,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -108,7 +108,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 155,
     "Posicao": 7,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -124,7 +124,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 137,
     "Posicao": 8,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -140,77 +140,77 @@
     "Menor_Ranking": 1,
     "Participacoes": 186,
     "Posicao": 9,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
     "Nick": "marcoskaparov",
-    "Pontos": 2078,
-    "Desempenho_Medio": 2152.0,
-    "podio_primeiro": 4,
+    "Pontos": 2116,
+    "Desempenho_Medio": 2154.0,
+    "podio_primeiro": 5,
     "podio_segundo": 7,
     "podio_terceiro": 8,
     "Rating_Medio": 2139.0,
-    "Pontos_por_Torneio": 16.0,
-    "Maior_Pontuacao": 36,
+    "Pontos_por_Torneio": 17.0,
+    "Maior_Pontuacao": 38,
     "Menor_Ranking": 1,
-    "Participacoes": 126,
+    "Participacoes": 127,
     "Posicao": 10,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
     "Nick": "Cirov",
-    "Pontos": 1780,
-    "Desempenho_Medio": 2118.0,
+    "Pontos": 1809,
+    "Desempenho_Medio": 2119.0,
     "podio_primeiro": 2,
-    "podio_segundo": 9,
+    "podio_segundo": 10,
     "podio_terceiro": 10,
     "Rating_Medio": 2090.0,
     "Pontos_por_Torneio": 14.0,
     "Maior_Pontuacao": 38,
     "Menor_Ranking": 1,
-    "Participacoes": 126,
+    "Participacoes": 127,
     "Posicao": 11,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
     "Nick": "Mikhailtaldonordeste",
-    "Pontos": 1756,
-    "Desempenho_Medio": 2011.0,
+    "Pontos": 1761,
+    "Desempenho_Medio": 2010.0,
     "podio_primeiro": 5,
     "podio_segundo": 9,
     "podio_terceiro": 3,
-    "Rating_Medio": 2028.0,
+    "Rating_Medio": 2029.0,
     "Pontos_por_Torneio": 16.0,
     "Maior_Pontuacao": 37,
     "Menor_Ranking": 1,
-    "Participacoes": 112,
+    "Participacoes": 113,
     "Posicao": 12,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
     "Nick": "magal100",
-    "Pontos": 1656,
-    "Desempenho_Medio": 1763.0,
+    "Pontos": 1667,
+    "Desempenho_Medio": 1762.0,
     "podio_primeiro": 0,
     "podio_segundo": 1,
     "podio_terceiro": 0,
-    "Rating_Medio": 1785.0,
+    "Rating_Medio": 1784.0,
     "Pontos_por_Torneio": 7.0,
     "Maior_Pontuacao": 20,
     "Menor_Ranking": 2,
-    "Participacoes": 240,
+    "Participacoes": 241,
     "Posicao": 13,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
     "Nick": "Aprendiz17",
-    "Pontos": 1650,
-    "Desempenho_Medio": 1710.0,
+    "Pontos": 1664,
+    "Desempenho_Medio": 1711.0,
     "podio_primeiro": 1,
     "podio_segundo": 0,
     "podio_terceiro": 0,
@@ -218,15 +218,15 @@
     "Pontos_por_Torneio": 5.0,
     "Maior_Pontuacao": 24,
     "Menor_Ranking": 1,
-    "Participacoes": 302,
+    "Participacoes": 303,
     "Posicao": 14,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
     "Nick": "Andersonchess84",
-    "Pontos": 1476,
-    "Desempenho_Medio": 1817.0,
+    "Pontos": 1492,
+    "Desempenho_Medio": 1818.0,
     "podio_primeiro": 1,
     "podio_segundo": 0,
     "podio_terceiro": 2,
@@ -234,10 +234,10 @@
     "Pontos_por_Torneio": 10.0,
     "Maior_Pontuacao": 31,
     "Menor_Ranking": 1,
-    "Participacoes": 148,
+    "Participacoes": 149,
     "Posicao": 15,
-    "Movimento": 3,
-    "Movimento_Texto": "↑ 3"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "TradeMed",
@@ -252,8 +252,8 @@
     "Menor_Ranking": 1,
     "Participacoes": 49,
     "Posicao": 16,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "CaioAngelicoSilva",
@@ -268,8 +268,8 @@
     "Menor_Ranking": 1,
     "Participacoes": 25,
     "Posicao": 17,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "Numsei01",
@@ -284,12 +284,12 @@
     "Menor_Ranking": 1,
     "Participacoes": 239,
     "Posicao": 18,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "detrez",
-    "Pontos": 1408,
+    "Pontos": 1418,
     "Desempenho_Medio": 1815.0,
     "podio_primeiro": 0,
     "podio_segundo": 0,
@@ -298,10 +298,26 @@
     "Pontos_por_Torneio": 9.0,
     "Maior_Pontuacao": 24,
     "Menor_Ranking": 5,
-    "Participacoes": 162,
+    "Participacoes": 163,
     "Posicao": 19,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
+  },
+  {
+    "Nick": "Bauruzinho7",
+    "Pontos": 1393,
+    "Desempenho_Medio": 2135.0,
+    "podio_primeiro": 18,
+    "podio_segundo": 6,
+    "podio_terceiro": 9,
+    "Rating_Medio": 2123.0,
+    "Pontos_por_Torneio": 27.0,
+    "Maior_Pontuacao": 57,
+    "Menor_Ranking": 1,
+    "Participacoes": 51,
+    "Posicao": 20,
+    "Movimento": 1.0,
+    "Movimento_Texto": "↑ 1"
   },
   {
     "Nick": "buscapato33",
@@ -315,25 +331,9 @@
     "Maior_Pontuacao": 45,
     "Menor_Ranking": 1,
     "Participacoes": 103,
-    "Posicao": 20,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
-  },
-  {
-    "Nick": "Bauruzinho7",
-    "Pontos": 1369,
-    "Desempenho_Medio": 2136.0,
-    "podio_primeiro": 18,
-    "podio_segundo": 6,
-    "podio_terceiro": 8,
-    "Rating_Medio": 2123.0,
-    "Pontos_por_Torneio": 27.0,
-    "Maior_Pontuacao": 57,
-    "Menor_Ranking": 1,
-    "Participacoes": 50,
     "Posicao": 21,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "XADREZCSC",
@@ -348,7 +348,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 26,
     "Posicao": 22,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -364,7 +364,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 71,
     "Posicao": 23,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -380,8 +380,8 @@
     "Menor_Ranking": 1,
     "Participacoes": 57,
     "Posicao": 24,
-    "Movimento": 1,
-    "Movimento_Texto": "↑ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "nibrchess",
@@ -396,23 +396,23 @@
     "Menor_Ranking": 1,
     "Participacoes": 98,
     "Posicao": 25,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "CORRIEA",
-    "Pontos": 1233,
+    "Pontos": 1250,
     "Desempenho_Medio": 1850.0,
     "podio_primeiro": 0,
     "podio_segundo": 6,
     "podio_terceiro": 5,
-    "Rating_Medio": 1887.0,
+    "Rating_Medio": 1886.0,
     "Pontos_por_Torneio": 17.0,
     "Maior_Pontuacao": 37,
     "Menor_Ranking": 2,
-    "Participacoes": 71,
+    "Participacoes": 72,
     "Posicao": 26,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -428,7 +428,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 98,
     "Posicao": 27,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -444,7 +444,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 70,
     "Posicao": 28,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -460,7 +460,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 92,
     "Posicao": 29,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -476,7 +476,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 28,
     "Posicao": 30,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -492,12 +492,12 @@
     "Menor_Ranking": 1,
     "Participacoes": 24,
     "Posicao": 31,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
     "Nick": "ubiramesq",
-    "Pontos": 1100,
+    "Pontos": 1107,
     "Desempenho_Medio": 1662.0,
     "podio_primeiro": 0,
     "podio_segundo": 0,
@@ -506,15 +506,15 @@
     "Pontos_por_Torneio": 5.0,
     "Maior_Pontuacao": 15,
     "Menor_Ranking": 7,
-    "Participacoes": 203,
+    "Participacoes": 204,
     "Posicao": 32,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
     "Nick": "Tanzinho",
-    "Pontos": 1065,
-    "Desempenho_Medio": 2091.0,
+    "Pontos": 1085,
+    "Desempenho_Medio": 2093.0,
     "podio_primeiro": 13,
     "podio_segundo": 3,
     "podio_terceiro": 5,
@@ -522,9 +522,9 @@
     "Pontos_por_Torneio": 18.0,
     "Maior_Pontuacao": 45,
     "Menor_Ranking": 1,
-    "Participacoes": 58,
+    "Participacoes": 59,
     "Posicao": 33,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -540,7 +540,7 @@
     "Menor_Ranking": 2,
     "Participacoes": 87,
     "Posicao": 34,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -556,7 +556,7 @@
     "Menor_Ranking": 2,
     "Participacoes": 116,
     "Posicao": 35,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -572,7 +572,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 35,
     "Posicao": 36,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -588,7 +588,7 @@
     "Menor_Ranking": 3,
     "Participacoes": 106,
     "Posicao": 37,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -604,7 +604,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 20,
     "Posicao": 38,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -620,7 +620,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 112,
     "Posicao": 39,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -636,7 +636,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 61,
     "Posicao": 40,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -652,7 +652,7 @@
     "Menor_Ranking": 2,
     "Participacoes": 112,
     "Posicao": 41,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -668,8 +668,24 @@
     "Menor_Ranking": 3,
     "Participacoes": 139,
     "Posicao": 42,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
+  },
+  {
+    "Nick": "Pensativophb",
+    "Pontos": 860,
+    "Desempenho_Medio": 1756.0,
+    "podio_primeiro": 0,
+    "podio_segundo": 0,
+    "podio_terceiro": 0,
+    "Rating_Medio": 1770.0,
+    "Pontos_por_Torneio": 7.0,
+    "Maior_Pontuacao": 24,
+    "Menor_Ranking": 5,
+    "Participacoes": 129,
+    "Posicao": 43,
+    "Movimento": 1.0,
+    "Movimento_Texto": "↑ 1"
   },
   {
     "Nick": "luandson",
@@ -683,25 +699,9 @@
     "Maior_Pontuacao": 31,
     "Menor_Ranking": 3,
     "Participacoes": 60,
-    "Posicao": 43,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
-  },
-  {
-    "Nick": "Pensativophb",
-    "Pontos": 853,
-    "Desempenho_Medio": 1756.0,
-    "podio_primeiro": 0,
-    "podio_segundo": 0,
-    "podio_terceiro": 0,
-    "Rating_Medio": 1770.0,
-    "Pontos_por_Torneio": 7.0,
-    "Maior_Pontuacao": 24,
-    "Menor_Ranking": 5,
-    "Participacoes": 128,
     "Posicao": 44,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Thunder2021",
@@ -716,7 +716,7 @@
     "Menor_Ranking": 2,
     "Participacoes": 83,
     "Posicao": 45,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -732,7 +732,7 @@
     "Menor_Ranking": 2,
     "Participacoes": 80,
     "Posicao": 46,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -748,8 +748,8 @@
     "Menor_Ranking": 3,
     "Participacoes": 90,
     "Posicao": 47,
-    "Movimento": 1,
-    "Movimento_Texto": "↑ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "Produtor_Musical",
@@ -764,8 +764,40 @@
     "Menor_Ranking": 4,
     "Participacoes": 91,
     "Posicao": 48,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
+  },
+  {
+    "Nick": "kleberbios",
+    "Pontos": 726,
+    "Desempenho_Medio": 1916.0,
+    "podio_primeiro": 0,
+    "podio_segundo": 1,
+    "podio_terceiro": 5,
+    "Rating_Medio": 1928.0,
+    "Pontos_por_Torneio": 14.0,
+    "Maior_Pontuacao": 25,
+    "Menor_Ranking": 2,
+    "Participacoes": 53,
+    "Posicao": 49,
+    "Movimento": 4.0,
+    "Movimento_Texto": "↑ 4"
+  },
+  {
+    "Nick": "Reginaldoacre",
+    "Pontos": 721,
+    "Desempenho_Medio": 1986.0,
+    "podio_primeiro": 0,
+    "podio_segundo": 1,
+    "podio_terceiro": 1,
+    "Rating_Medio": 1984.0,
+    "Pontos_por_Torneio": 8.0,
+    "Maior_Pontuacao": 30,
+    "Menor_Ranking": 2,
+    "Participacoes": 88,
+    "Posicao": 50,
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "VultoSSA",
@@ -779,25 +811,9 @@
     "Maior_Pontuacao": 24,
     "Menor_Ranking": 5,
     "Participacoes": 75,
-    "Posicao": 49,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
-  },
-  {
-    "Nick": "Reginaldoacre",
-    "Pontos": 717,
-    "Desempenho_Medio": 1990.0,
-    "podio_primeiro": 0,
-    "podio_segundo": 1,
-    "podio_terceiro": 1,
-    "Rating_Medio": 1984.0,
-    "Pontos_por_Torneio": 8.0,
-    "Maior_Pontuacao": 30,
-    "Menor_Ranking": 2,
-    "Participacoes": 87,
-    "Posicao": 50,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 51,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "andreavb",
@@ -811,9 +827,9 @@
     "Maior_Pontuacao": 29,
     "Menor_Ranking": 3,
     "Participacoes": 77,
-    "Posicao": 51,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 52,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "weslleyabreu",
@@ -827,25 +843,9 @@
     "Maior_Pontuacao": 42,
     "Menor_Ranking": 2,
     "Participacoes": 51,
-    "Posicao": 52,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
-  },
-  {
-    "Nick": "kleberbios",
-    "Pontos": 710,
-    "Desempenho_Medio": 1915.0,
-    "podio_primeiro": 0,
-    "podio_segundo": 1,
-    "podio_terceiro": 5,
-    "Rating_Medio": 1927.0,
-    "Pontos_por_Torneio": 14.0,
-    "Maior_Pontuacao": 25,
-    "Menor_Ranking": 2,
-    "Participacoes": 52,
     "Posicao": 53,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "besztok",
@@ -860,13 +860,13 @@
     "Menor_Ranking": 1,
     "Participacoes": 15,
     "Posicao": 54,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
     "Nick": "lucavasilva",
     "Pontos": 701,
-    "Desempenho_Medio": 1794.0,
+    "Desempenho_Medio": 1789.0,
     "podio_primeiro": 0,
     "podio_segundo": 0,
     "podio_terceiro": 1,
@@ -874,10 +874,10 @@
     "Pontos_por_Torneio": 6.0,
     "Maior_Pontuacao": 24,
     "Menor_Ranking": 3,
-    "Participacoes": 113,
+    "Participacoes": 114,
     "Posicao": 55,
-    "Movimento": 1,
-    "Movimento_Texto": "↑ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "EnxadristaHeterodoxo",
@@ -892,8 +892,8 @@
     "Menor_Ranking": 3,
     "Participacoes": 122,
     "Posicao": 56,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "OXXENTE",
@@ -908,7 +908,7 @@
     "Menor_Ranking": 2,
     "Participacoes": 80,
     "Posicao": 57,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -924,7 +924,7 @@
     "Menor_Ranking": 2,
     "Participacoes": 28,
     "Posicao": 58,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -940,7 +940,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 34,
     "Posicao": 59,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -956,7 +956,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 74,
     "Posicao": 60,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -972,7 +972,7 @@
     "Menor_Ranking": 2,
     "Participacoes": 91,
     "Posicao": 61,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -988,7 +988,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 40,
     "Posicao": 62,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1004,7 +1004,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 29,
     "Posicao": 63,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1020,7 +1020,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 57,
     "Posicao": 64,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1036,7 +1036,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 28,
     "Posicao": 65,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1052,7 +1052,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 75,
     "Posicao": 66,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1068,7 +1068,7 @@
     "Menor_Ranking": 4,
     "Participacoes": 98,
     "Posicao": 67,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1084,7 +1084,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 24,
     "Posicao": 68,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1100,7 +1100,7 @@
     "Menor_Ranking": 6,
     "Participacoes": 34,
     "Posicao": 69,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1116,7 +1116,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 33,
     "Posicao": 70,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1132,8 +1132,24 @@
     "Menor_Ranking": 5,
     "Participacoes": 80,
     "Posicao": 71,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
+  },
+  {
+    "Nick": "Evandrobezerra",
+    "Pontos": 527,
+    "Desempenho_Medio": 1839.0,
+    "podio_primeiro": 0,
+    "podio_segundo": 0,
+    "podio_terceiro": 1,
+    "Rating_Medio": 1915.0,
+    "Pontos_por_Torneio": 6.0,
+    "Maior_Pontuacao": 24,
+    "Menor_Ranking": 3,
+    "Participacoes": 84,
+    "Posicao": 72,
+    "Movimento": 1.0,
+    "Movimento_Texto": "↑ 1"
   },
   {
     "Nick": "Hyoukami",
@@ -1147,25 +1163,9 @@
     "Maior_Pontuacao": 73,
     "Menor_Ranking": 1,
     "Participacoes": 20,
-    "Posicao": 72,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
-  },
-  {
-    "Nick": "Evandrobezerra",
-    "Pontos": 523,
-    "Desempenho_Medio": 1835.0,
-    "podio_primeiro": 0,
-    "podio_segundo": 0,
-    "podio_terceiro": 1,
-    "Rating_Medio": 1915.0,
-    "Pontos_por_Torneio": 6.0,
-    "Maior_Pontuacao": 24,
-    "Menor_Ranking": 3,
-    "Participacoes": 83,
     "Posicao": 73,
-    "Movimento": 1,
-    "Movimento_Texto": "↑ 1"
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "CaicoAmaral",
@@ -1180,8 +1180,24 @@
     "Menor_Ranking": 1,
     "Participacoes": 59,
     "Posicao": 74,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
+  },
+  {
+    "Nick": "carlosmaia",
+    "Pontos": 506,
+    "Desempenho_Medio": 1943.0,
+    "podio_primeiro": 0,
+    "podio_segundo": 1,
+    "podio_terceiro": 0,
+    "Rating_Medio": 1956.0,
+    "Pontos_por_Torneio": 11.0,
+    "Maior_Pontuacao": 24,
+    "Menor_Ranking": 2,
+    "Participacoes": 45,
+    "Posicao": 75,
+    "Movimento": 2.0,
+    "Movimento_Texto": "↑ 2"
   },
   {
     "Nick": "milenio",
@@ -1195,9 +1211,9 @@
     "Maior_Pontuacao": 30,
     "Menor_Ranking": 2,
     "Participacoes": 53,
-    "Posicao": 75,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 76,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "BobbyThi",
@@ -1211,25 +1227,9 @@
     "Maior_Pontuacao": 20,
     "Menor_Ranking": 6,
     "Participacoes": 87,
-    "Posicao": 76,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
-  },
-  {
-    "Nick": "carlosmaia",
-    "Pontos": 496,
-    "Desempenho_Medio": 1939.0,
-    "podio_primeiro": 0,
-    "podio_segundo": 1,
-    "podio_terceiro": 0,
-    "Rating_Medio": 1956.0,
-    "Pontos_por_Torneio": 11.0,
-    "Maior_Pontuacao": 24,
-    "Menor_Ranking": 2,
-    "Participacoes": 44,
     "Posicao": 77,
-    "Movimento": 1,
-    "Movimento_Texto": "↑ 1"
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "DeSousa_Leonardo",
@@ -1244,8 +1244,8 @@
     "Menor_Ranking": 1,
     "Participacoes": 44,
     "Posicao": 78,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "Ceara_mn",
@@ -1260,7 +1260,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 27,
     "Posicao": 79,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1276,7 +1276,7 @@
     "Menor_Ranking": 2,
     "Participacoes": 62,
     "Posicao": 80,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1292,7 +1292,7 @@
     "Menor_Ranking": 7,
     "Participacoes": 43,
     "Posicao": 81,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1308,7 +1308,7 @@
     "Menor_Ranking": 5,
     "Participacoes": 57,
     "Posicao": 82,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1324,7 +1324,7 @@
     "Menor_Ranking": 2,
     "Participacoes": 38,
     "Posicao": 83,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1340,7 +1340,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 27,
     "Posicao": 84,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1356,7 +1356,7 @@
     "Menor_Ranking": 5,
     "Participacoes": 72,
     "Posicao": 85,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1372,7 +1372,7 @@
     "Menor_Ranking": 4,
     "Participacoes": 55,
     "Posicao": 86,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1388,13 +1388,13 @@
     "Menor_Ranking": 1,
     "Participacoes": 49,
     "Posicao": 87,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
     "Nick": "Ib_100",
-    "Pontos": 430,
-    "Desempenho_Medio": 1803.0,
+    "Pontos": 432,
+    "Desempenho_Medio": 1804.0,
     "podio_primeiro": 0,
     "podio_segundo": 0,
     "podio_terceiro": 0,
@@ -1402,9 +1402,9 @@
     "Pontos_por_Torneio": 4.0,
     "Maior_Pontuacao": 20,
     "Menor_Ranking": 5,
-    "Participacoes": 96,
+    "Participacoes": 97,
     "Posicao": 88,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1420,7 +1420,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 31,
     "Posicao": 89,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1436,7 +1436,7 @@
     "Menor_Ranking": 3,
     "Participacoes": 81,
     "Posicao": 90,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1452,23 +1452,23 @@
     "Menor_Ranking": 1,
     "Participacoes": 34,
     "Posicao": 91,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
     "Nick": "The_Heimdall",
-    "Pontos": 411,
-    "Desempenho_Medio": 1690.0,
+    "Pontos": 415,
+    "Desempenho_Medio": 1687.0,
     "podio_primeiro": 0,
     "podio_segundo": 0,
     "podio_terceiro": 0,
-    "Rating_Medio": 1707.0,
+    "Rating_Medio": 1708.0,
     "Pontos_por_Torneio": 6.0,
     "Maior_Pontuacao": 17,
     "Menor_Ranking": 7,
-    "Participacoes": 69,
+    "Participacoes": 70,
     "Posicao": 92,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1484,8 +1484,24 @@
     "Menor_Ranking": 3,
     "Participacoes": 60,
     "Posicao": 93,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
+  },
+  {
+    "Nick": "RickVeteris",
+    "Pontos": 404,
+    "Desempenho_Medio": 1559.0,
+    "podio_primeiro": 0,
+    "podio_segundo": 0,
+    "podio_terceiro": 0,
+    "Rating_Medio": 1580.0,
+    "Pontos_por_Torneio": 5.0,
+    "Maior_Pontuacao": 16,
+    "Menor_Ranking": 8,
+    "Participacoes": 88,
+    "Posicao": 94,
+    "Movimento": 2.0,
+    "Movimento_Texto": "↑ 2"
   },
   {
     "Nick": "lucasmito",
@@ -1499,9 +1515,9 @@
     "Maior_Pontuacao": 68,
     "Menor_Ranking": 1,
     "Participacoes": 8,
-    "Posicao": 94,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 95,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "LouisLins",
@@ -1515,25 +1531,9 @@
     "Maior_Pontuacao": 26,
     "Menor_Ranking": 2,
     "Participacoes": 36,
-    "Posicao": 95,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
-  },
-  {
-    "Nick": "RickVeteris",
-    "Pontos": 400,
-    "Desempenho_Medio": 1559.0,
-    "podio_primeiro": 0,
-    "podio_segundo": 0,
-    "podio_terceiro": 0,
-    "Rating_Medio": 1579.0,
-    "Pontos_por_Torneio": 5.0,
-    "Maior_Pontuacao": 16,
-    "Menor_Ranking": 8,
-    "Participacoes": 87,
     "Posicao": 96,
-    "Movimento": 1,
-    "Movimento_Texto": "↑ 1"
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "carevchess",
@@ -1548,8 +1548,8 @@
     "Menor_Ranking": 3,
     "Participacoes": 96,
     "Posicao": 97,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "Papangu2020",
@@ -1564,7 +1564,7 @@
     "Menor_Ranking": 5,
     "Participacoes": 30,
     "Posicao": 98,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1580,7 +1580,7 @@
     "Menor_Ranking": 3,
     "Participacoes": 43,
     "Posicao": 99,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1596,7 +1596,7 @@
     "Menor_Ranking": 8,
     "Participacoes": 56,
     "Posicao": 100,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1612,7 +1612,7 @@
     "Menor_Ranking": 5,
     "Participacoes": 53,
     "Posicao": 101,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1628,8 +1628,24 @@
     "Menor_Ranking": 3,
     "Participacoes": 31,
     "Posicao": 102,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
+  },
+  {
+    "Nick": "Edu22",
+    "Pontos": 383,
+    "Desempenho_Medio": 1718.0,
+    "podio_primeiro": 0,
+    "podio_segundo": 0,
+    "podio_terceiro": 1,
+    "Rating_Medio": 1737.0,
+    "Pontos_por_Torneio": 6.0,
+    "Maior_Pontuacao": 26,
+    "Menor_Ranking": 3,
+    "Participacoes": 61,
+    "Posicao": 103,
+    "Movimento": 1.0,
+    "Movimento_Texto": "↑ 1"
   },
   {
     "Nick": "Canal_Chessveja",
@@ -1643,25 +1659,9 @@
     "Maior_Pontuacao": 30,
     "Menor_Ranking": 1,
     "Participacoes": 26,
-    "Posicao": 103,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
-  },
-  {
-    "Nick": "Edu22",
-    "Pontos": 381,
-    "Desempenho_Medio": 1719.0,
-    "podio_primeiro": 0,
-    "podio_segundo": 0,
-    "podio_terceiro": 1,
-    "Rating_Medio": 1736.0,
-    "Pontos_por_Torneio": 6.0,
-    "Maior_Pontuacao": 26,
-    "Menor_Ranking": 3,
-    "Participacoes": 60,
     "Posicao": 104,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "lafitt",
@@ -1676,7 +1676,7 @@
     "Menor_Ranking": 12,
     "Participacoes": 38,
     "Posicao": 105,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1692,7 +1692,7 @@
     "Menor_Ranking": 2,
     "Participacoes": 54,
     "Posicao": 106,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1708,7 +1708,7 @@
     "Menor_Ranking": 5,
     "Participacoes": 75,
     "Posicao": 107,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1724,7 +1724,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 104,
     "Posicao": 108,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1740,7 +1740,7 @@
     "Menor_Ranking": 3,
     "Participacoes": 34,
     "Posicao": 109,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1756,7 +1756,7 @@
     "Menor_Ranking": 2,
     "Participacoes": 59,
     "Posicao": 110,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1772,7 +1772,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 20,
     "Posicao": 111,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1788,7 +1788,7 @@
     "Menor_Ranking": 2,
     "Participacoes": 15,
     "Posicao": 112,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1804,7 +1804,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 39,
     "Posicao": 113,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1820,7 +1820,7 @@
     "Menor_Ranking": 12,
     "Participacoes": 29,
     "Posicao": 114,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1836,7 +1836,7 @@
     "Menor_Ranking": 4,
     "Participacoes": 36,
     "Posicao": 115,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1852,7 +1852,7 @@
     "Menor_Ranking": 8,
     "Participacoes": 67,
     "Posicao": 116,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1868,7 +1868,7 @@
     "Menor_Ranking": 3,
     "Participacoes": 47,
     "Posicao": 117,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1884,7 +1884,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 28,
     "Posicao": 118,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1900,7 +1900,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 30,
     "Posicao": 119,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1916,7 +1916,7 @@
     "Menor_Ranking": 4,
     "Participacoes": 39,
     "Posicao": 120,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1932,7 +1932,7 @@
     "Menor_Ranking": 4,
     "Participacoes": 28,
     "Posicao": 121,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1948,7 +1948,7 @@
     "Menor_Ranking": 4,
     "Participacoes": 40,
     "Posicao": 122,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1964,7 +1964,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 29,
     "Posicao": 123,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1980,7 +1980,7 @@
     "Menor_Ranking": 4,
     "Participacoes": 30,
     "Posicao": 124,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -1996,7 +1996,7 @@
     "Menor_Ranking": 4,
     "Participacoes": 68,
     "Posicao": 125,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -2012,7 +2012,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 27,
     "Posicao": 126,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -2028,7 +2028,7 @@
     "Menor_Ranking": 9,
     "Participacoes": 52,
     "Posicao": 127,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -2044,7 +2044,7 @@
     "Menor_Ranking": 3,
     "Participacoes": 26,
     "Posicao": 128,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -2060,7 +2060,7 @@
     "Menor_Ranking": 2,
     "Participacoes": 17,
     "Posicao": 129,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -2076,7 +2076,7 @@
     "Menor_Ranking": 8,
     "Participacoes": 80,
     "Posicao": 130,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -2092,7 +2092,7 @@
     "Menor_Ranking": 7,
     "Participacoes": 16,
     "Posicao": 131,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -2108,7 +2108,7 @@
     "Menor_Ranking": 2,
     "Participacoes": 32,
     "Posicao": 132,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -2124,7 +2124,7 @@
     "Menor_Ranking": 3,
     "Participacoes": 16,
     "Posicao": 133,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -2140,7 +2140,7 @@
     "Menor_Ranking": 11,
     "Participacoes": 25,
     "Posicao": 134,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -2156,7 +2156,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 12,
     "Posicao": 135,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -2172,7 +2172,7 @@
     "Menor_Ranking": 4,
     "Participacoes": 169,
     "Posicao": 136,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -2188,13 +2188,13 @@
     "Menor_Ranking": 4,
     "Participacoes": 88,
     "Posicao": 137,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
     "Nick": "gilsoney",
     "Pontos": 251,
-    "Desempenho_Medio": 1795.0,
+    "Desempenho_Medio": 1791.0,
     "podio_primeiro": 0,
     "podio_segundo": 0,
     "podio_terceiro": 0,
@@ -2202,9 +2202,9 @@
     "Pontos_por_Torneio": 4.0,
     "Maior_Pontuacao": 22,
     "Menor_Ranking": 8,
-    "Participacoes": 66,
+    "Participacoes": 67,
     "Posicao": 138,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -2220,7 +2220,7 @@
     "Menor_Ranking": 2,
     "Participacoes": 24,
     "Posicao": 139,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -2236,7 +2236,7 @@
     "Menor_Ranking": 3,
     "Participacoes": 24,
     "Posicao": 140,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -2252,7 +2252,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 28,
     "Posicao": 141,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -2268,7 +2268,7 @@
     "Menor_Ranking": 5,
     "Participacoes": 8,
     "Posicao": 142,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -2284,8 +2284,24 @@
     "Menor_Ranking": 1,
     "Participacoes": 8,
     "Posicao": 143,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
+  },
+  {
+    "Nick": "liki",
+    "Pontos": 226,
+    "Desempenho_Medio": 1726.0,
+    "podio_primeiro": 0,
+    "podio_segundo": 0,
+    "podio_terceiro": 0,
+    "Rating_Medio": 1709.0,
+    "Pontos_por_Torneio": 7.0,
+    "Maior_Pontuacao": 16,
+    "Menor_Ranking": 6,
+    "Participacoes": 32,
+    "Posicao": 144,
+    "Movimento": 9.0,
+    "Movimento_Texto": "↑ 9"
   },
   {
     "Nick": "westcampos",
@@ -2299,9 +2315,9 @@
     "Maior_Pontuacao": 39,
     "Menor_Ranking": 1,
     "Participacoes": 13,
-    "Posicao": 144,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 145,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "NoryReis",
@@ -2315,9 +2331,9 @@
     "Maior_Pontuacao": 24,
     "Menor_Ranking": 5,
     "Participacoes": 32,
-    "Posicao": 145,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 146,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "gross1987",
@@ -2331,9 +2347,9 @@
     "Maior_Pontuacao": 21,
     "Menor_Ranking": 6,
     "Participacoes": 20,
-    "Posicao": 146,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 147,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "RafaelCampos88",
@@ -2347,9 +2363,9 @@
     "Maior_Pontuacao": 21,
     "Menor_Ranking": 14,
     "Participacoes": 19,
-    "Posicao": 147,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 148,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "gaelpov",
@@ -2363,9 +2379,9 @@
     "Maior_Pontuacao": 52,
     "Menor_Ranking": 1,
     "Participacoes": 10,
-    "Posicao": 148,
-    "Movimento": 12,
-    "Movimento_Texto": "↑ 12"
+    "Posicao": 149,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Eric_Areco",
@@ -2379,8 +2395,8 @@
     "Maior_Pontuacao": 39,
     "Menor_Ranking": 3,
     "Participacoes": 14,
-    "Posicao": 149,
-    "Movimento": -1,
+    "Posicao": 150,
+    "Movimento": -1.0,
     "Movimento_Texto": "↓ 1"
   },
   {
@@ -2395,8 +2411,8 @@
     "Maior_Pontuacao": 35,
     "Menor_Ranking": 2,
     "Participacoes": 12,
-    "Posicao": 150,
-    "Movimento": -1,
+    "Posicao": 151,
+    "Movimento": -1.0,
     "Movimento_Texto": "↓ 1"
   },
   {
@@ -2411,8 +2427,8 @@
     "Maior_Pontuacao": 12,
     "Menor_Ranking": 7,
     "Participacoes": 49,
-    "Posicao": 151,
-    "Movimento": -1,
+    "Posicao": 152,
+    "Movimento": -1.0,
     "Movimento_Texto": "↓ 1"
   },
   {
@@ -2427,25 +2443,9 @@
     "Maior_Pontuacao": 14,
     "Menor_Ranking": 8,
     "Participacoes": 33,
-    "Posicao": 152,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
-  },
-  {
-    "Nick": "liki",
-    "Pontos": 212,
-    "Desempenho_Medio": 1715.0,
-    "podio_primeiro": 0,
-    "podio_segundo": 0,
-    "podio_terceiro": 0,
-    "Rating_Medio": 1708.0,
-    "Pontos_por_Torneio": 7.0,
-    "Maior_Pontuacao": 16,
-    "Menor_Ranking": 6,
-    "Participacoes": 31,
     "Posicao": 153,
-    "Movimento": 1,
-    "Movimento_Texto": "↑ 1"
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "mallet1917",
@@ -2460,8 +2460,8 @@
     "Menor_Ranking": 3,
     "Participacoes": 43,
     "Posicao": 154,
-    "Movimento": -2,
-    "Movimento_Texto": "↓ 2"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "jpessoa409",
@@ -2476,8 +2476,8 @@
     "Menor_Ranking": 1,
     "Participacoes": 19,
     "Posicao": 155,
-    "Movimento": -2,
-    "Movimento_Texto": "↓ 2"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "MauroAmaral",
@@ -2492,8 +2492,8 @@
     "Menor_Ranking": 1,
     "Participacoes": 14,
     "Posicao": 156,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "RogerioX",
@@ -2508,8 +2508,8 @@
     "Menor_Ranking": 10,
     "Participacoes": 62,
     "Posicao": 157,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "KalysonK",
@@ -2524,8 +2524,8 @@
     "Menor_Ranking": 10,
     "Participacoes": 28,
     "Posicao": 158,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "wilchess1979",
@@ -2540,8 +2540,8 @@
     "Menor_Ranking": 5,
     "Participacoes": 47,
     "Posicao": 159,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "Luzardo1Braga2Ramos3",
@@ -2556,8 +2556,8 @@
     "Menor_Ranking": 3,
     "Participacoes": 12,
     "Posicao": 160,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "Darcio_Alberico",
@@ -2572,7 +2572,7 @@
     "Menor_Ranking": 7,
     "Participacoes": 28,
     "Posicao": 161,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -2588,7 +2588,7 @@
     "Menor_Ranking": 5,
     "Participacoes": 35,
     "Posicao": 162,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -2604,7 +2604,7 @@
     "Menor_Ranking": 8,
     "Participacoes": 52,
     "Posicao": 163,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -2620,7 +2620,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 10,
     "Posicao": 164,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -2636,7 +2636,7 @@
     "Menor_Ranking": 3,
     "Participacoes": 16,
     "Posicao": 165,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -2652,7 +2652,7 @@
     "Menor_Ranking": 9,
     "Participacoes": 46,
     "Posicao": 166,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -2668,7 +2668,7 @@
     "Menor_Ranking": 15,
     "Participacoes": 41,
     "Posicao": 167,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -2684,7 +2684,7 @@
     "Menor_Ranking": 3,
     "Participacoes": 33,
     "Posicao": 168,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -2700,7 +2700,7 @@
     "Menor_Ranking": 8,
     "Participacoes": 13,
     "Posicao": 169,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -2716,7 +2716,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 13,
     "Posicao": 170,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -2732,7 +2732,7 @@
     "Menor_Ranking": 9,
     "Participacoes": 47,
     "Posicao": 171,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -2748,7 +2748,7 @@
     "Menor_Ranking": 9,
     "Participacoes": 45,
     "Posicao": 172,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -2764,7 +2764,7 @@
     "Menor_Ranking": 3,
     "Participacoes": 8,
     "Posicao": 173,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -2780,8 +2780,8 @@
     "Menor_Ranking": 2,
     "Participacoes": 14,
     "Posicao": 174,
-    "Movimento": 20,
-    "Movimento_Texto": "↑ 20"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "Atila_90",
@@ -2796,8 +2796,8 @@
     "Menor_Ranking": 1,
     "Participacoes": 7,
     "Posicao": 175,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "maicon_novaiguacu",
@@ -2812,8 +2812,8 @@
     "Menor_Ranking": 13,
     "Participacoes": 41,
     "Posicao": 176,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "Charllos",
@@ -2828,8 +2828,8 @@
     "Menor_Ranking": 9,
     "Participacoes": 40,
     "Posicao": 177,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "Ai_dentu",
@@ -2844,8 +2844,24 @@
     "Menor_Ranking": 14,
     "Participacoes": 26,
     "Posicao": 178,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
+  },
+  {
+    "Nick": "tucanrojo23",
+    "Pontos": 150,
+    "Desempenho_Medio": 2039.0,
+    "podio_primeiro": 0,
+    "podio_segundo": 0,
+    "podio_terceiro": 0,
+    "Rating_Medio": 1974.0,
+    "Pontos_por_Torneio": 7.0,
+    "Maior_Pontuacao": 13,
+    "Menor_Ranking": 8,
+    "Participacoes": 21,
+    "Posicao": 179,
+    "Movimento": 1.0,
+    "Movimento_Texto": "↑ 1"
   },
   {
     "Nick": "Neysid",
@@ -2859,24 +2875,8 @@
     "Maior_Pontuacao": 10,
     "Menor_Ranking": 10,
     "Participacoes": 41,
-    "Posicao": 179,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
-  },
-  {
-    "Nick": "tucanrojo23",
-    "Pontos": 146,
-    "Desempenho_Medio": 2008.0,
-    "podio_primeiro": 0,
-    "podio_segundo": 0,
-    "podio_terceiro": 0,
-    "Rating_Medio": 1972.0,
-    "Pontos_por_Torneio": 7.0,
-    "Maior_Pontuacao": 13,
-    "Menor_Ranking": 8,
-    "Participacoes": 20,
     "Posicao": 180,
-    "Movimento": -1,
+    "Movimento": -1.0,
     "Movimento_Texto": "↓ 1"
   },
   {
@@ -2892,8 +2892,8 @@
     "Menor_Ranking": 9,
     "Participacoes": 27,
     "Posicao": 181,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "MNettoo",
@@ -2908,8 +2908,8 @@
     "Menor_Ranking": 4,
     "Participacoes": 9,
     "Posicao": 182,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "JAIME_SONHO01",
@@ -2924,8 +2924,8 @@
     "Menor_Ranking": 1,
     "Participacoes": 5,
     "Posicao": 183,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "Pacha2023",
@@ -2940,8 +2940,8 @@
     "Menor_Ranking": 6,
     "Participacoes": 45,
     "Posicao": 184,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "PCalixto",
@@ -2956,8 +2956,8 @@
     "Menor_Ranking": 1,
     "Participacoes": 14,
     "Posicao": 185,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "vonWerlich",
@@ -2972,8 +2972,8 @@
     "Menor_Ranking": 6,
     "Participacoes": 16,
     "Posicao": 186,
-    "Movimento": 11,
-    "Movimento_Texto": "↑ 11"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "princeofchess",
@@ -2988,8 +2988,8 @@
     "Menor_Ranking": 10,
     "Participacoes": 6,
     "Posicao": 187,
-    "Movimento": -2,
-    "Movimento_Texto": "↓ 2"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "msvdo",
@@ -3004,8 +3004,8 @@
     "Menor_Ranking": 24,
     "Participacoes": 39,
     "Posicao": 188,
-    "Movimento": -2,
-    "Movimento_Texto": "↓ 2"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "Nandomga",
@@ -3020,8 +3020,8 @@
     "Menor_Ranking": 1,
     "Participacoes": 7,
     "Posicao": 189,
-    "Movimento": -2,
-    "Movimento_Texto": "↓ 2"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "AbraKadabraAlakazam",
@@ -3036,8 +3036,8 @@
     "Menor_Ranking": 11,
     "Participacoes": 9,
     "Posicao": 190,
-    "Movimento": -2,
-    "Movimento_Texto": "↓ 2"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "NATANAEL92",
@@ -3052,8 +3052,8 @@
     "Menor_Ranking": 3,
     "Participacoes": 14,
     "Posicao": 191,
-    "Movimento": -2,
-    "Movimento_Texto": "↓ 2"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "MestreItaberabense",
@@ -3068,8 +3068,8 @@
     "Menor_Ranking": 7,
     "Participacoes": 59,
     "Posicao": 192,
-    "Movimento": -2,
-    "Movimento_Texto": "↓ 2"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "lucaxz",
@@ -3084,8 +3084,8 @@
     "Menor_Ranking": 3,
     "Participacoes": 15,
     "Posicao": 193,
-    "Movimento": -2,
-    "Movimento_Texto": "↓ 2"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "Takasugui",
@@ -3100,8 +3100,8 @@
     "Menor_Ranking": 6,
     "Participacoes": 10,
     "Posicao": 194,
-    "Movimento": -2,
-    "Movimento_Texto": "↓ 2"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "aquiles88",
@@ -3116,8 +3116,8 @@
     "Menor_Ranking": 2,
     "Participacoes": 8,
     "Posicao": 195,
-    "Movimento": -2,
-    "Movimento_Texto": "↓ 2"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "Ricardoandre87",
@@ -3132,8 +3132,8 @@
     "Menor_Ranking": 4,
     "Participacoes": 19,
     "Posicao": 196,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "KingSolomon64",
@@ -3148,8 +3148,8 @@
     "Menor_Ranking": 8,
     "Participacoes": 10,
     "Posicao": 197,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "Deris3",
@@ -3164,7 +3164,7 @@
     "Menor_Ranking": 4,
     "Participacoes": 14,
     "Posicao": 198,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -3180,7 +3180,7 @@
     "Menor_Ranking": 6,
     "Participacoes": 9,
     "Posicao": 199,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -3196,7 +3196,7 @@
     "Menor_Ranking": 3,
     "Participacoes": 20,
     "Posicao": 200,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -3212,7 +3212,7 @@
     "Menor_Ranking": 4,
     "Participacoes": 6,
     "Posicao": 201,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -3228,7 +3228,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 5,
     "Posicao": 202,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -3244,7 +3244,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 5,
     "Posicao": 203,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -3260,7 +3260,7 @@
     "Menor_Ranking": 2,
     "Participacoes": 16,
     "Posicao": 204,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -3276,7 +3276,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 5,
     "Posicao": 205,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -3292,7 +3292,7 @@
     "Menor_Ranking": 7,
     "Participacoes": 25,
     "Posicao": 206,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -3308,7 +3308,7 @@
     "Menor_Ranking": 13,
     "Participacoes": 25,
     "Posicao": 207,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -3324,7 +3324,7 @@
     "Menor_Ranking": 11,
     "Participacoes": 27,
     "Posicao": 208,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -3340,7 +3340,7 @@
     "Menor_Ranking": 7,
     "Participacoes": 24,
     "Posicao": 209,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -3356,8 +3356,24 @@
     "Menor_Ranking": 3,
     "Participacoes": 9,
     "Posicao": 210,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
+  },
+  {
+    "Nick": "Tonystar111",
+    "Pontos": 107,
+    "Desempenho_Medio": 1896.0,
+    "podio_primeiro": 1,
+    "podio_segundo": 0,
+    "podio_terceiro": 0,
+    "Rating_Medio": 2036.0,
+    "Pontos_por_Torneio": 13.0,
+    "Maior_Pontuacao": 37,
+    "Menor_Ranking": 1,
+    "Participacoes": 8,
+    "Posicao": 211,
+    "Movimento": 18.0,
+    "Movimento_Texto": "↑ 18"
   },
   {
     "Nick": "ARTUR_0662",
@@ -3371,9 +3387,9 @@
     "Maior_Pontuacao": 18,
     "Menor_Ranking": 5,
     "Participacoes": 11,
-    "Posicao": 211,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 212,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "soneca2017",
@@ -3387,9 +3403,9 @@
     "Maior_Pontuacao": 14,
     "Menor_Ranking": 10,
     "Participacoes": 45,
-    "Posicao": 212,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 213,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Deulefeu",
@@ -3403,9 +3419,9 @@
     "Maior_Pontuacao": 14,
     "Menor_Ranking": 11,
     "Participacoes": 25,
-    "Posicao": 213,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 214,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "e81-e82-e83",
@@ -3419,9 +3435,9 @@
     "Maior_Pontuacao": 10,
     "Menor_Ranking": 11,
     "Participacoes": 37,
-    "Posicao": 214,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 215,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Mateus10010",
@@ -3435,9 +3451,25 @@
     "Maior_Pontuacao": 11,
     "Menor_Ranking": 11,
     "Participacoes": 20,
-    "Posicao": 215,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 216,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
+  },
+  {
+    "Nick": "Gilbertooliveira78",
+    "Pontos": 101,
+    "Desempenho_Medio": 1568.0,
+    "podio_primeiro": 0,
+    "podio_segundo": 0,
+    "podio_terceiro": 0,
+    "Rating_Medio": 1780.0,
+    "Pontos_por_Torneio": 5.0,
+    "Maior_Pontuacao": 14,
+    "Menor_Ranking": 11,
+    "Participacoes": 21,
+    "Posicao": 217,
+    "Movimento": 6.0,
+    "Movimento_Texto": "↑ 6"
   },
   {
     "Nick": "Clarks9n",
@@ -3451,9 +3483,9 @@
     "Maior_Pontuacao": 20,
     "Menor_Ranking": 5,
     "Participacoes": 13,
-    "Posicao": 216,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 218,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "allessandrocarlos",
@@ -3467,9 +3499,9 @@
     "Maior_Pontuacao": 16,
     "Menor_Ranking": 14,
     "Participacoes": 21,
-    "Posicao": 217,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 219,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "Kinhozevich",
@@ -3483,9 +3515,9 @@
     "Maior_Pontuacao": 17,
     "Menor_Ranking": 16,
     "Participacoes": 21,
-    "Posicao": 218,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 220,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "Rolo_Compressor",
@@ -3499,9 +3531,9 @@
     "Maior_Pontuacao": 19,
     "Menor_Ranking": 5,
     "Participacoes": 19,
-    "Posicao": 219,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 221,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "costagalo",
@@ -3515,9 +3547,9 @@
     "Maior_Pontuacao": 28,
     "Menor_Ranking": 3,
     "Participacoes": 6,
-    "Posicao": 220,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 222,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "brazilian22",
@@ -3531,9 +3563,9 @@
     "Maior_Pontuacao": 28,
     "Menor_Ranking": 9,
     "Participacoes": 7,
-    "Posicao": 221,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 223,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "tarciobagdeve",
@@ -3547,25 +3579,9 @@
     "Maior_Pontuacao": 19,
     "Menor_Ranking": 22,
     "Participacoes": 20,
-    "Posicao": 222,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
-  },
-  {
-    "Nick": "Gilbertooliveira78",
-    "Pontos": 97,
-    "Desempenho_Medio": 1567.0,
-    "podio_primeiro": 0,
-    "podio_segundo": 0,
-    "podio_terceiro": 0,
-    "Rating_Medio": 1781.0,
-    "Pontos_por_Torneio": 5.0,
-    "Maior_Pontuacao": 14,
-    "Menor_Ranking": 11,
-    "Participacoes": 20,
-    "Posicao": 223,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 224,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "SMaurino",
@@ -3579,9 +3595,9 @@
     "Maior_Pontuacao": 24,
     "Menor_Ranking": 3,
     "Participacoes": 17,
-    "Posicao": 224,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 225,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "MiroBarbosa",
@@ -3595,9 +3611,9 @@
     "Maior_Pontuacao": 15,
     "Menor_Ranking": 6,
     "Participacoes": 18,
-    "Posicao": 225,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 226,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "tablasnomasbusco",
@@ -3611,9 +3627,9 @@
     "Maior_Pontuacao": 22,
     "Menor_Ranking": 4,
     "Participacoes": 18,
-    "Posicao": 226,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 227,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "mestreperigo",
@@ -3627,9 +3643,9 @@
     "Maior_Pontuacao": 18,
     "Menor_Ranking": 14,
     "Participacoes": 11,
-    "Posicao": 227,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 228,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Zebradozaire",
@@ -3643,40 +3659,24 @@
     "Maior_Pontuacao": 12,
     "Menor_Ranking": 12,
     "Participacoes": 32,
-    "Posicao": 228,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
-  },
-  {
-    "Nick": "Tonystar111",
-    "Pontos": 90,
-    "Desempenho_Medio": 1900.0,
-    "podio_primeiro": 1,
-    "podio_segundo": 0,
-    "podio_terceiro": 0,
-    "Rating_Medio": 2039.0,
-    "Pontos_por_Torneio": 13.0,
-    "Maior_Pontuacao": 37,
-    "Menor_Ranking": 1,
-    "Participacoes": 7,
     "Posicao": 229,
-    "Movimento": 12,
-    "Movimento_Texto": "↑ 12"
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Barquero33",
     "Pontos": 89,
-    "Desempenho_Medio": 1640.0,
+    "Desempenho_Medio": 1632.0,
     "podio_primeiro": 0,
     "podio_segundo": 0,
     "podio_terceiro": 0,
-    "Rating_Medio": 1522.0,
+    "Rating_Medio": 1520.0,
     "Pontos_por_Torneio": 2.0,
     "Maior_Pontuacao": 8,
     "Menor_Ranking": 11,
-    "Participacoes": 46,
+    "Participacoes": 47,
     "Posicao": 230,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -3692,8 +3692,8 @@
     "Menor_Ranking": 13,
     "Participacoes": 20,
     "Posicao": 231,
-    "Movimento": -2,
-    "Movimento_Texto": "↓ 2"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "Renatochess",
@@ -3708,8 +3708,8 @@
     "Menor_Ranking": 6,
     "Participacoes": 8,
     "Posicao": 232,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "Israelovich",
@@ -3724,8 +3724,8 @@
     "Menor_Ranking": 6,
     "Participacoes": 10,
     "Posicao": 233,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "Wagnerxp",
@@ -3740,8 +3740,8 @@
     "Menor_Ranking": 13,
     "Participacoes": 19,
     "Posicao": 234,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "Capisupremo",
@@ -3756,8 +3756,8 @@
     "Menor_Ranking": 16,
     "Participacoes": 10,
     "Posicao": 235,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "gopala53",
@@ -3772,8 +3772,8 @@
     "Menor_Ranking": 23,
     "Participacoes": 29,
     "Posicao": 236,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "HeronSilva10",
@@ -3788,8 +3788,8 @@
     "Menor_Ranking": 2,
     "Participacoes": 10,
     "Posicao": 237,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "Vlad-RJ",
@@ -3804,8 +3804,8 @@
     "Menor_Ranking": 1,
     "Participacoes": 3,
     "Posicao": 238,
-    "Movimento": -1,
-    "Movimento_Texto": "↓ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "Danlireza2003",
@@ -3820,8 +3820,8 @@
     "Menor_Ranking": 2,
     "Participacoes": 14,
     "Posicao": 239,
-    "Movimento": 1,
-    "Movimento_Texto": "↑ 1"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "jussa44",
@@ -3836,8 +3836,8 @@
     "Menor_Ranking": 13,
     "Participacoes": 35,
     "Posicao": 240,
-    "Movimento": -2,
-    "Movimento_Texto": "↓ 2"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "WOLVERINE-YOUTUBE",
@@ -3852,8 +3852,8 @@
     "Menor_Ranking": 1,
     "Participacoes": 4,
     "Posicao": 241,
-    "Movimento": -2,
-    "Movimento_Texto": "↓ 2"
+    "Movimento": 0.0,
+    "Movimento_Texto": "—"
   },
   {
     "Nick": "imnotcarlsen",
@@ -3868,8 +3868,24 @@
     "Menor_Ranking": 5,
     "Participacoes": 4,
     "Posicao": 242,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
+  },
+  {
+    "Nick": "pedro-queijo",
+    "Pontos": 78,
+    "Desempenho_Medio": 1985.0,
+    "podio_primeiro": 1,
+    "podio_segundo": 0,
+    "podio_terceiro": 0,
+    "Rating_Medio": 2160.0,
+    "Pontos_por_Torneio": 13.0,
+    "Maior_Pontuacao": 30,
+    "Menor_Ranking": 1,
+    "Participacoes": 6,
+    "Posicao": 243,
+    "Movimento": 39.0,
+    "Movimento_Texto": "↑ 39"
   },
   {
     "Nick": "clauberfm",
@@ -3883,9 +3899,9 @@
     "Maior_Pontuacao": 25,
     "Menor_Ranking": 2,
     "Participacoes": 10,
-    "Posicao": 243,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 244,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Torre_Tanque",
@@ -3899,9 +3915,9 @@
     "Maior_Pontuacao": 24,
     "Menor_Ranking": 6,
     "Participacoes": 13,
-    "Posicao": 244,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 245,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Calumbisempre",
@@ -3915,9 +3931,9 @@
     "Maior_Pontuacao": 13,
     "Menor_Ranking": 15,
     "Participacoes": 16,
-    "Posicao": 245,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 246,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "dadaniel93",
@@ -3931,9 +3947,9 @@
     "Maior_Pontuacao": 30,
     "Menor_Ranking": 3,
     "Participacoes": 10,
-    "Posicao": 246,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 247,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "rato23",
@@ -3947,9 +3963,9 @@
     "Maior_Pontuacao": 27,
     "Menor_Ranking": 3,
     "Participacoes": 4,
-    "Posicao": 247,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 248,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "UlissesMoschen",
@@ -3963,9 +3979,9 @@
     "Maior_Pontuacao": 17,
     "Menor_Ranking": 10,
     "Participacoes": 11,
-    "Posicao": 248,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 249,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Gabriel-2016",
@@ -3979,9 +3995,9 @@
     "Maior_Pontuacao": 23,
     "Menor_Ranking": 6,
     "Participacoes": 10,
-    "Posicao": 249,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 250,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "renatoluiz22",
@@ -3995,9 +4011,9 @@
     "Maior_Pontuacao": 13,
     "Menor_Ranking": 15,
     "Participacoes": 14,
-    "Posicao": 250,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 251,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "john2016",
@@ -4011,9 +4027,9 @@
     "Maior_Pontuacao": 20,
     "Menor_Ranking": 9,
     "Participacoes": 11,
-    "Posicao": 251,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 252,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "luizcapistrano",
@@ -4027,9 +4043,9 @@
     "Maior_Pontuacao": 10,
     "Menor_Ranking": 9,
     "Participacoes": 16,
-    "Posicao": 252,
-    "Movimento": 8,
-    "Movimento_Texto": "↑ 8"
+    "Posicao": 253,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "oviedopaula01",
@@ -4043,8 +4059,8 @@
     "Maior_Pontuacao": 25,
     "Menor_Ranking": 10,
     "Participacoes": 4,
-    "Posicao": 253,
-    "Movimento": -1,
+    "Posicao": 254,
+    "Movimento": -1.0,
     "Movimento_Texto": "↓ 1"
   },
   {
@@ -4059,8 +4075,8 @@
     "Maior_Pontuacao": 16,
     "Menor_Ranking": 7,
     "Participacoes": 14,
-    "Posicao": 254,
-    "Movimento": -1,
+    "Posicao": 255,
+    "Movimento": -1.0,
     "Movimento_Texto": "↓ 1"
   },
   {
@@ -4075,8 +4091,8 @@
     "Maior_Pontuacao": 22,
     "Menor_Ranking": 8,
     "Participacoes": 8,
-    "Posicao": 255,
-    "Movimento": -1,
+    "Posicao": 256,
+    "Movimento": -1.0,
     "Movimento_Texto": "↓ 1"
   },
   {
@@ -4091,24 +4107,24 @@
     "Maior_Pontuacao": 22,
     "Menor_Ranking": 5,
     "Participacoes": 17,
-    "Posicao": 256,
-    "Movimento": -1,
+    "Posicao": 257,
+    "Movimento": -1.0,
     "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "valdemiza",
     "Pontos": 71,
-    "Desempenho_Medio": 1489.0,
+    "Desempenho_Medio": 1457.0,
     "podio_primeiro": 0,
     "podio_segundo": 0,
     "podio_terceiro": 0,
-    "Rating_Medio": 1531.0,
+    "Rating_Medio": 1528.0,
     "Pontos_por_Torneio": 3.0,
     "Maior_Pontuacao": 8,
     "Menor_Ranking": 16,
-    "Participacoes": 24,
-    "Posicao": 257,
-    "Movimento": -1,
+    "Participacoes": 25,
+    "Posicao": 258,
+    "Movimento": -1.0,
     "Movimento_Texto": "↓ 1"
   },
   {
@@ -4123,8 +4139,8 @@
     "Maior_Pontuacao": 22,
     "Menor_Ranking": 4,
     "Participacoes": 6,
-    "Posicao": 258,
-    "Movimento": -1,
+    "Posicao": 259,
+    "Movimento": -1.0,
     "Movimento_Texto": "↓ 1"
   },
   {
@@ -4139,8 +4155,8 @@
     "Maior_Pontuacao": 25,
     "Menor_Ranking": 12,
     "Participacoes": 4,
-    "Posicao": 259,
-    "Movimento": -1,
+    "Posicao": 260,
+    "Movimento": -1.0,
     "Movimento_Texto": "↓ 1"
   },
   {
@@ -4155,8 +4171,8 @@
     "Maior_Pontuacao": 16,
     "Menor_Ranking": 8,
     "Participacoes": 18,
-    "Posicao": 260,
-    "Movimento": -1,
+    "Posicao": 261,
+    "Movimento": -1.0,
     "Movimento_Texto": "↓ 1"
   },
   {
@@ -4171,9 +4187,9 @@
     "Maior_Pontuacao": 40,
     "Menor_Ranking": 2,
     "Participacoes": 2,
-    "Posicao": 261,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 262,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Vitimtim132324",
@@ -4187,9 +4203,9 @@
     "Maior_Pontuacao": 18,
     "Menor_Ranking": 15,
     "Participacoes": 12,
-    "Posicao": 262,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 263,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Partyspin",
@@ -4203,9 +4219,9 @@
     "Maior_Pontuacao": 24,
     "Menor_Ranking": 4,
     "Participacoes": 7,
-    "Posicao": 263,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 264,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "evandrorsilva",
@@ -4219,9 +4235,9 @@
     "Maior_Pontuacao": 17,
     "Menor_Ranking": 8,
     "Participacoes": 9,
-    "Posicao": 264,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 265,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Diegoj89",
@@ -4235,9 +4251,9 @@
     "Maior_Pontuacao": 14,
     "Menor_Ranking": 5,
     "Participacoes": 10,
-    "Posicao": 265,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 266,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "NeilsonCL",
@@ -4251,9 +4267,9 @@
     "Maior_Pontuacao": 18,
     "Menor_Ranking": 12,
     "Participacoes": 9,
-    "Posicao": 266,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 267,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "kasparovcearense",
@@ -4267,9 +4283,9 @@
     "Maior_Pontuacao": 26,
     "Menor_Ranking": 2,
     "Participacoes": 4,
-    "Posicao": 267,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 268,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "bastiandash",
@@ -4283,9 +4299,9 @@
     "Maior_Pontuacao": 34,
     "Menor_Ranking": 9,
     "Participacoes": 2,
-    "Posicao": 268,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 269,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "batatinhaquandonasce",
@@ -4299,9 +4315,9 @@
     "Maior_Pontuacao": 26,
     "Menor_Ranking": 3,
     "Participacoes": 4,
-    "Posicao": 269,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 270,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Evarist-galois",
@@ -4315,9 +4331,9 @@
     "Maior_Pontuacao": 10,
     "Menor_Ranking": 19,
     "Participacoes": 26,
-    "Posicao": 270,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 271,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "ViggNG",
@@ -4331,9 +4347,9 @@
     "Maior_Pontuacao": 33,
     "Menor_Ranking": 1,
     "Participacoes": 2,
-    "Posicao": 271,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 272,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Silverov",
@@ -4347,9 +4363,9 @@
     "Maior_Pontuacao": 18,
     "Menor_Ranking": 7,
     "Participacoes": 7,
-    "Posicao": 272,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 273,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "laizizizi",
@@ -4363,9 +4379,9 @@
     "Maior_Pontuacao": 13,
     "Menor_Ranking": 16,
     "Participacoes": 9,
-    "Posicao": 273,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 274,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Matheusorei",
@@ -4379,9 +4395,9 @@
     "Maior_Pontuacao": 28,
     "Menor_Ranking": 3,
     "Participacoes": 5,
-    "Posicao": 274,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 275,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "RicardovskyBR",
@@ -4395,9 +4411,9 @@
     "Maior_Pontuacao": 16,
     "Menor_Ranking": 15,
     "Participacoes": 7,
-    "Posicao": 275,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 276,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Non-Vinco-Mai",
@@ -4411,8 +4427,24 @@
     "Maior_Pontuacao": 21,
     "Menor_Ranking": 11,
     "Participacoes": 6,
-    "Posicao": 276,
-    "Movimento": 0,
+    "Posicao": 277,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
+  },
+  {
+    "Nick": "Revers2000",
+    "Pontos": 62,
+    "Desempenho_Medio": 1530.0,
+    "podio_primeiro": 0,
+    "podio_segundo": 0,
+    "podio_terceiro": 0,
+    "Rating_Medio": 1464.0,
+    "Pontos_por_Torneio": 3.0,
+    "Maior_Pontuacao": 10,
+    "Menor_Ranking": 13,
+    "Participacoes": 19,
+    "Posicao": 278,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -4427,25 +4459,9 @@
     "Maior_Pontuacao": 18,
     "Menor_Ranking": 5,
     "Participacoes": 10,
-    "Posicao": 277,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
-  },
-  {
-    "Nick": "Revers2000",
-    "Pontos": 61,
-    "Desempenho_Medio": 1525.0,
-    "podio_primeiro": 0,
-    "podio_segundo": 0,
-    "podio_terceiro": 0,
-    "Rating_Medio": 1459.0,
-    "Pontos_por_Torneio": 3.0,
-    "Maior_Pontuacao": 10,
-    "Menor_Ranking": 13,
-    "Participacoes": 18,
-    "Posicao": 278,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 279,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "ProfessorCHESSVEJA",
@@ -4459,9 +4475,9 @@
     "Maior_Pontuacao": 20,
     "Menor_Ranking": 7,
     "Participacoes": 6,
-    "Posicao": 279,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 280,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "diegocuban30",
@@ -4475,9 +4491,9 @@
     "Maior_Pontuacao": 20,
     "Menor_Ranking": 7,
     "Participacoes": 10,
-    "Posicao": 280,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 281,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Capablanca13",
@@ -4491,25 +4507,9 @@
     "Maior_Pontuacao": 20,
     "Menor_Ranking": 4,
     "Participacoes": 4,
-    "Posicao": 281,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
-  },
-  {
-    "Nick": "pedro-queijo",
-    "Pontos": 58,
-    "Desempenho_Medio": 1956.0,
-    "podio_primeiro": 1,
-    "podio_segundo": 0,
-    "podio_terceiro": 0,
-    "Rating_Medio": 2160.0,
-    "Pontos_por_Torneio": 12.0,
-    "Maior_Pontuacao": 30,
-    "Menor_Ranking": 1,
-    "Participacoes": 5,
     "Posicao": 282,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "IanFonseca",
@@ -4524,7 +4524,7 @@
     "Menor_Ranking": 19,
     "Participacoes": 4,
     "Posicao": 283,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -4540,7 +4540,7 @@
     "Menor_Ranking": 15,
     "Participacoes": 23,
     "Posicao": 284,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -4556,7 +4556,7 @@
     "Menor_Ranking": 4,
     "Participacoes": 8,
     "Posicao": 285,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -4572,7 +4572,7 @@
     "Menor_Ranking": 12,
     "Participacoes": 4,
     "Posicao": 286,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -4588,7 +4588,7 @@
     "Menor_Ranking": 11,
     "Participacoes": 4,
     "Posicao": 287,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -4604,7 +4604,7 @@
     "Menor_Ranking": 10,
     "Participacoes": 12,
     "Posicao": 288,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -4620,7 +4620,7 @@
     "Menor_Ranking": 6,
     "Participacoes": 4,
     "Posicao": 289,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -4636,7 +4636,7 @@
     "Menor_Ranking": 5,
     "Participacoes": 6,
     "Posicao": 290,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -4652,7 +4652,7 @@
     "Menor_Ranking": 4,
     "Participacoes": 4,
     "Posicao": 291,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -4668,7 +4668,7 @@
     "Menor_Ranking": 9,
     "Participacoes": 6,
     "Posicao": 292,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -4684,7 +4684,7 @@
     "Menor_Ranking": 5,
     "Participacoes": 2,
     "Posicao": 293,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -4700,7 +4700,7 @@
     "Menor_Ranking": 8,
     "Participacoes": 13,
     "Posicao": 294,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -4716,7 +4716,7 @@
     "Menor_Ranking": 3,
     "Participacoes": 2,
     "Posicao": 295,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -4732,7 +4732,7 @@
     "Menor_Ranking": 4,
     "Participacoes": 4,
     "Posicao": 296,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -4748,7 +4748,7 @@
     "Menor_Ranking": 14,
     "Participacoes": 11,
     "Posicao": 297,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -4764,7 +4764,7 @@
     "Menor_Ranking": 17,
     "Participacoes": 9,
     "Posicao": 298,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -4780,7 +4780,7 @@
     "Menor_Ranking": 17,
     "Participacoes": 40,
     "Posicao": 299,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -4796,7 +4796,7 @@
     "Menor_Ranking": 5,
     "Participacoes": 3,
     "Posicao": 300,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -4812,7 +4812,7 @@
     "Menor_Ranking": 5,
     "Participacoes": 8,
     "Posicao": 301,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -4828,7 +4828,7 @@
     "Menor_Ranking": 11,
     "Participacoes": 11,
     "Posicao": 302,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -4844,7 +4844,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 1,
     "Posicao": 303,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -4860,7 +4860,7 @@
     "Menor_Ranking": 17,
     "Participacoes": 15,
     "Posicao": 304,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -4874,9 +4874,9 @@
     "Pontos_por_Torneio": 1.0,
     "Maior_Pontuacao": 10,
     "Menor_Ranking": 14,
-    "Participacoes": 74,
+    "Participacoes": 75,
     "Posicao": 305,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -4892,7 +4892,7 @@
     "Menor_Ranking": 26,
     "Participacoes": 4,
     "Posicao": 306,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -4908,7 +4908,7 @@
     "Menor_Ranking": 10,
     "Participacoes": 11,
     "Posicao": 307,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -4924,7 +4924,7 @@
     "Menor_Ranking": 13,
     "Participacoes": 8,
     "Posicao": 308,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -4940,7 +4940,7 @@
     "Menor_Ranking": 17,
     "Participacoes": 7,
     "Posicao": 309,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -4956,7 +4956,7 @@
     "Menor_Ranking": 16,
     "Participacoes": 15,
     "Posicao": 310,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -4972,7 +4972,7 @@
     "Menor_Ranking": 15,
     "Participacoes": 28,
     "Posicao": 311,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -4988,7 +4988,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 2,
     "Posicao": 312,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5004,7 +5004,7 @@
     "Menor_Ranking": 10,
     "Participacoes": 6,
     "Posicao": 313,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5020,7 +5020,7 @@
     "Menor_Ranking": 3,
     "Participacoes": 4,
     "Posicao": 314,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5036,7 +5036,7 @@
     "Menor_Ranking": 20,
     "Participacoes": 42,
     "Posicao": 315,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5052,7 +5052,7 @@
     "Menor_Ranking": 2,
     "Participacoes": 2,
     "Posicao": 316,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5068,7 +5068,7 @@
     "Menor_Ranking": 3,
     "Participacoes": 4,
     "Posicao": 317,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5084,7 +5084,7 @@
     "Menor_Ranking": 16,
     "Participacoes": 9,
     "Posicao": 318,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5100,7 +5100,7 @@
     "Menor_Ranking": 3,
     "Participacoes": 2,
     "Posicao": 319,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5116,7 +5116,7 @@
     "Menor_Ranking": 11,
     "Participacoes": 12,
     "Posicao": 320,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5132,7 +5132,7 @@
     "Menor_Ranking": 2,
     "Participacoes": 1,
     "Posicao": 321,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5148,7 +5148,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 2,
     "Posicao": 322,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5164,7 +5164,7 @@
     "Menor_Ranking": 4,
     "Participacoes": 8,
     "Posicao": 323,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5180,7 +5180,7 @@
     "Menor_Ranking": 12,
     "Participacoes": 9,
     "Posicao": 324,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5196,7 +5196,7 @@
     "Menor_Ranking": 6,
     "Participacoes": 2,
     "Posicao": 325,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5212,7 +5212,7 @@
     "Menor_Ranking": 17,
     "Participacoes": 9,
     "Posicao": 326,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5228,7 +5228,7 @@
     "Menor_Ranking": 19,
     "Participacoes": 9,
     "Posicao": 327,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5244,7 +5244,7 @@
     "Menor_Ranking": 16,
     "Participacoes": 10,
     "Posicao": 328,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5260,7 +5260,7 @@
     "Menor_Ranking": 5,
     "Participacoes": 2,
     "Posicao": 329,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5276,7 +5276,7 @@
     "Menor_Ranking": 6,
     "Participacoes": 3,
     "Posicao": 330,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5292,7 +5292,7 @@
     "Menor_Ranking": 10,
     "Participacoes": 3,
     "Posicao": 331,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5308,7 +5308,7 @@
     "Menor_Ranking": 24,
     "Participacoes": 8,
     "Posicao": 332,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5324,7 +5324,7 @@
     "Menor_Ranking": 5,
     "Participacoes": 2,
     "Posicao": 333,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5340,7 +5340,7 @@
     "Menor_Ranking": 8,
     "Participacoes": 3,
     "Posicao": 334,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5356,7 +5356,7 @@
     "Menor_Ranking": 22,
     "Participacoes": 6,
     "Posicao": 335,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5372,7 +5372,7 @@
     "Menor_Ranking": 5,
     "Participacoes": 2,
     "Posicao": 336,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5388,7 +5388,7 @@
     "Menor_Ranking": 2,
     "Participacoes": 3,
     "Posicao": 337,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5404,7 +5404,7 @@
     "Menor_Ranking": 9,
     "Participacoes": 3,
     "Posicao": 338,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5420,7 +5420,7 @@
     "Menor_Ranking": 5,
     "Participacoes": 4,
     "Posicao": 339,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5436,7 +5436,7 @@
     "Menor_Ranking": 25,
     "Participacoes": 9,
     "Posicao": 340,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5452,7 +5452,7 @@
     "Menor_Ranking": 20,
     "Participacoes": 9,
     "Posicao": 341,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5468,7 +5468,7 @@
     "Menor_Ranking": 2,
     "Participacoes": 2,
     "Posicao": 342,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5484,7 +5484,7 @@
     "Menor_Ranking": 2,
     "Participacoes": 2,
     "Posicao": 343,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5500,7 +5500,7 @@
     "Menor_Ranking": 6,
     "Participacoes": 6,
     "Posicao": 344,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5516,7 +5516,7 @@
     "Menor_Ranking": 9,
     "Participacoes": 5,
     "Posicao": 345,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5532,7 +5532,7 @@
     "Menor_Ranking": 11,
     "Participacoes": 6,
     "Posicao": 346,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5548,7 +5548,7 @@
     "Menor_Ranking": 7,
     "Participacoes": 5,
     "Posicao": 347,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5564,7 +5564,7 @@
     "Menor_Ranking": 2,
     "Participacoes": 1,
     "Posicao": 348,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5580,7 +5580,7 @@
     "Menor_Ranking": 1,
     "Participacoes": 1,
     "Posicao": 349,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5596,7 +5596,7 @@
     "Menor_Ranking": 2,
     "Participacoes": 1,
     "Posicao": 350,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5612,7 +5612,7 @@
     "Menor_Ranking": 12,
     "Participacoes": 5,
     "Posicao": 351,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5628,7 +5628,7 @@
     "Menor_Ranking": 12,
     "Participacoes": 3,
     "Posicao": 352,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5644,7 +5644,7 @@
     "Menor_Ranking": 7,
     "Participacoes": 4,
     "Posicao": 353,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5660,7 +5660,7 @@
     "Menor_Ranking": 47,
     "Participacoes": 17,
     "Posicao": 354,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5676,7 +5676,7 @@
     "Menor_Ranking": 5,
     "Participacoes": 4,
     "Posicao": 355,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5692,7 +5692,7 @@
     "Menor_Ranking": 13,
     "Participacoes": 11,
     "Posicao": 356,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5708,7 +5708,7 @@
     "Menor_Ranking": 9,
     "Participacoes": 9,
     "Posicao": 357,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5724,7 +5724,7 @@
     "Menor_Ranking": 10,
     "Participacoes": 9,
     "Posicao": 358,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5740,7 +5740,7 @@
     "Menor_Ranking": 7,
     "Participacoes": 2,
     "Posicao": 359,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5756,7 +5756,7 @@
     "Menor_Ranking": 10,
     "Participacoes": 3,
     "Posicao": 360,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5772,7 +5772,7 @@
     "Menor_Ranking": 7,
     "Participacoes": 7,
     "Posicao": 361,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5788,7 +5788,7 @@
     "Menor_Ranking": 5,
     "Participacoes": 3,
     "Posicao": 362,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5804,7 +5804,7 @@
     "Menor_Ranking": 18,
     "Participacoes": 10,
     "Posicao": 363,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5820,7 +5820,7 @@
     "Menor_Ranking": 12,
     "Participacoes": 3,
     "Posicao": 364,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5836,7 +5836,7 @@
     "Menor_Ranking": 17,
     "Participacoes": 9,
     "Posicao": 365,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5852,7 +5852,7 @@
     "Menor_Ranking": 15,
     "Participacoes": 6,
     "Posicao": 366,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5868,7 +5868,7 @@
     "Menor_Ranking": 8,
     "Participacoes": 2,
     "Posicao": 367,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5884,7 +5884,7 @@
     "Menor_Ranking": 28,
     "Participacoes": 11,
     "Posicao": 368,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5900,7 +5900,7 @@
     "Menor_Ranking": 2,
     "Participacoes": 1,
     "Posicao": 369,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5916,7 +5916,7 @@
     "Menor_Ranking": 4,
     "Participacoes": 2,
     "Posicao": 370,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5932,7 +5932,7 @@
     "Menor_Ranking": 9,
     "Participacoes": 3,
     "Posicao": 371,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5948,7 +5948,7 @@
     "Menor_Ranking": 2,
     "Participacoes": 2,
     "Posicao": 372,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5964,7 +5964,7 @@
     "Menor_Ranking": 17,
     "Participacoes": 6,
     "Posicao": 373,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5980,7 +5980,7 @@
     "Menor_Ranking": 5,
     "Participacoes": 3,
     "Posicao": 374,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -5996,7 +5996,7 @@
     "Menor_Ranking": 11,
     "Participacoes": 3,
     "Posicao": 375,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6012,7 +6012,7 @@
     "Menor_Ranking": 3,
     "Participacoes": 3,
     "Posicao": 376,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6028,7 +6028,7 @@
     "Menor_Ranking": 12,
     "Participacoes": 3,
     "Posicao": 377,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6044,7 +6044,7 @@
     "Menor_Ranking": 3,
     "Participacoes": 2,
     "Posicao": 378,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6060,7 +6060,7 @@
     "Menor_Ranking": 6,
     "Participacoes": 3,
     "Posicao": 379,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6076,7 +6076,7 @@
     "Menor_Ranking": 14,
     "Participacoes": 2,
     "Posicao": 380,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6092,7 +6092,7 @@
     "Menor_Ranking": 19,
     "Participacoes": 3,
     "Posicao": 381,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6108,7 +6108,7 @@
     "Menor_Ranking": 7,
     "Participacoes": 1,
     "Posicao": 382,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6124,7 +6124,7 @@
     "Menor_Ranking": 4,
     "Participacoes": 1,
     "Posicao": 383,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6140,7 +6140,7 @@
     "Menor_Ranking": 5,
     "Participacoes": 3,
     "Posicao": 384,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6156,7 +6156,7 @@
     "Menor_Ranking": 13,
     "Participacoes": 4,
     "Posicao": 385,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6172,7 +6172,7 @@
     "Menor_Ranking": 20,
     "Participacoes": 10,
     "Posicao": 386,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6188,7 +6188,7 @@
     "Menor_Ranking": 3,
     "Participacoes": 1,
     "Posicao": 387,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6204,7 +6204,7 @@
     "Menor_Ranking": 3,
     "Participacoes": 1,
     "Posicao": 388,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6220,7 +6220,7 @@
     "Menor_Ranking": 2,
     "Participacoes": 1,
     "Posicao": 389,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6236,7 +6236,7 @@
     "Menor_Ranking": 19,
     "Participacoes": 16,
     "Posicao": 390,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6252,7 +6252,7 @@
     "Menor_Ranking": 2,
     "Participacoes": 1,
     "Posicao": 391,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6268,7 +6268,7 @@
     "Menor_Ranking": 5,
     "Participacoes": 3,
     "Posicao": 392,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6284,7 +6284,7 @@
     "Menor_Ranking": 21,
     "Participacoes": 3,
     "Posicao": 393,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6300,7 +6300,7 @@
     "Menor_Ranking": 5,
     "Participacoes": 6,
     "Posicao": 394,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6316,7 +6316,7 @@
     "Menor_Ranking": 4,
     "Participacoes": 1,
     "Posicao": 395,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6332,7 +6332,7 @@
     "Menor_Ranking": 23,
     "Participacoes": 2,
     "Posicao": 396,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6348,7 +6348,7 @@
     "Menor_Ranking": 13,
     "Participacoes": 5,
     "Posicao": 397,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6364,7 +6364,7 @@
     "Menor_Ranking": 6,
     "Participacoes": 1,
     "Posicao": 398,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6380,7 +6380,7 @@
     "Menor_Ranking": 3,
     "Participacoes": 2,
     "Posicao": 399,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6396,7 +6396,7 @@
     "Menor_Ranking": 5,
     "Participacoes": 1,
     "Posicao": 400,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6412,7 +6412,7 @@
     "Menor_Ranking": 21,
     "Participacoes": 4,
     "Posicao": 401,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6428,7 +6428,7 @@
     "Menor_Ranking": 10,
     "Participacoes": 2,
     "Posicao": 402,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6444,7 +6444,7 @@
     "Menor_Ranking": 14,
     "Participacoes": 3,
     "Posicao": 403,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6460,7 +6460,7 @@
     "Menor_Ranking": 15,
     "Participacoes": 6,
     "Posicao": 404,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6476,7 +6476,7 @@
     "Menor_Ranking": 12,
     "Participacoes": 7,
     "Posicao": 405,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6492,7 +6492,7 @@
     "Menor_Ranking": 12,
     "Participacoes": 6,
     "Posicao": 406,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6508,7 +6508,7 @@
     "Menor_Ranking": 19,
     "Participacoes": 4,
     "Posicao": 407,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6524,7 +6524,7 @@
     "Menor_Ranking": 36,
     "Participacoes": 2,
     "Posicao": 408,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6540,7 +6540,7 @@
     "Menor_Ranking": 23,
     "Participacoes": 3,
     "Posicao": 409,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6556,7 +6556,7 @@
     "Menor_Ranking": 13,
     "Participacoes": 2,
     "Posicao": 410,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6572,7 +6572,7 @@
     "Menor_Ranking": 11,
     "Participacoes": 2,
     "Posicao": 411,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6588,7 +6588,7 @@
     "Menor_Ranking": 20,
     "Participacoes": 10,
     "Posicao": 412,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6604,7 +6604,7 @@
     "Menor_Ranking": 12,
     "Participacoes": 5,
     "Posicao": 413,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6620,7 +6620,7 @@
     "Menor_Ranking": 15,
     "Participacoes": 3,
     "Posicao": 414,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6636,7 +6636,7 @@
     "Menor_Ranking": 14,
     "Participacoes": 2,
     "Posicao": 415,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6652,7 +6652,7 @@
     "Menor_Ranking": 49,
     "Participacoes": 6,
     "Posicao": 416,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6668,7 +6668,7 @@
     "Menor_Ranking": 3,
     "Participacoes": 6,
     "Posicao": 417,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6684,7 +6684,7 @@
     "Menor_Ranking": 25,
     "Participacoes": 10,
     "Posicao": 418,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6700,7 +6700,7 @@
     "Menor_Ranking": 10,
     "Participacoes": 1,
     "Posicao": 419,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6716,7 +6716,7 @@
     "Menor_Ranking": 4,
     "Participacoes": 1,
     "Posicao": 420,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6732,7 +6732,7 @@
     "Menor_Ranking": 22,
     "Participacoes": 6,
     "Posicao": 421,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6748,7 +6748,7 @@
     "Menor_Ranking": 13,
     "Participacoes": 8,
     "Posicao": 422,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6764,7 +6764,7 @@
     "Menor_Ranking": 13,
     "Participacoes": 3,
     "Posicao": 423,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6780,7 +6780,7 @@
     "Menor_Ranking": 14,
     "Participacoes": 2,
     "Posicao": 424,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6796,7 +6796,7 @@
     "Menor_Ranking": 25,
     "Participacoes": 2,
     "Posicao": 425,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6812,7 +6812,7 @@
     "Menor_Ranking": 10,
     "Participacoes": 4,
     "Posicao": 426,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6828,7 +6828,7 @@
     "Menor_Ranking": 31,
     "Participacoes": 2,
     "Posicao": 427,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6844,7 +6844,7 @@
     "Menor_Ranking": 4,
     "Participacoes": 3,
     "Posicao": 428,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6860,7 +6860,7 @@
     "Menor_Ranking": 10,
     "Participacoes": 3,
     "Posicao": 429,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6876,7 +6876,7 @@
     "Menor_Ranking": 17,
     "Participacoes": 2,
     "Posicao": 430,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6892,7 +6892,7 @@
     "Menor_Ranking": 23,
     "Participacoes": 12,
     "Posicao": 431,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6908,7 +6908,7 @@
     "Menor_Ranking": 12,
     "Participacoes": 3,
     "Posicao": 432,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6924,7 +6924,7 @@
     "Menor_Ranking": 28,
     "Participacoes": 23,
     "Posicao": 433,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6940,7 +6940,7 @@
     "Menor_Ranking": 14,
     "Participacoes": 4,
     "Posicao": 434,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6956,7 +6956,7 @@
     "Menor_Ranking": 7,
     "Participacoes": 1,
     "Posicao": 435,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6972,7 +6972,7 @@
     "Menor_Ranking": 23,
     "Participacoes": 4,
     "Posicao": 436,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -6988,7 +6988,7 @@
     "Menor_Ranking": 26,
     "Participacoes": 8,
     "Posicao": 437,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7004,7 +7004,7 @@
     "Menor_Ranking": 14,
     "Participacoes": 1,
     "Posicao": 438,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7020,7 +7020,7 @@
     "Menor_Ranking": 19,
     "Participacoes": 1,
     "Posicao": 439,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7036,7 +7036,7 @@
     "Menor_Ranking": 19,
     "Participacoes": 2,
     "Posicao": 440,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7052,7 +7052,7 @@
     "Menor_Ranking": 13,
     "Participacoes": 2,
     "Posicao": 441,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7068,7 +7068,7 @@
     "Menor_Ranking": 19,
     "Participacoes": 4,
     "Posicao": 442,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7084,7 +7084,7 @@
     "Menor_Ranking": 10,
     "Participacoes": 1,
     "Posicao": 443,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7100,7 +7100,7 @@
     "Menor_Ranking": 30,
     "Participacoes": 1,
     "Posicao": 444,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7116,7 +7116,7 @@
     "Menor_Ranking": 14,
     "Participacoes": 5,
     "Posicao": 445,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7132,7 +7132,7 @@
     "Menor_Ranking": 10,
     "Participacoes": 2,
     "Posicao": 446,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7148,7 +7148,7 @@
     "Menor_Ranking": 32,
     "Participacoes": 6,
     "Posicao": 447,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7164,7 +7164,7 @@
     "Menor_Ranking": 20,
     "Participacoes": 26,
     "Posicao": 448,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7180,7 +7180,7 @@
     "Menor_Ranking": 11,
     "Participacoes": 1,
     "Posicao": 449,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7196,7 +7196,7 @@
     "Menor_Ranking": 9,
     "Participacoes": 1,
     "Posicao": 450,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7212,7 +7212,7 @@
     "Menor_Ranking": 19,
     "Participacoes": 2,
     "Posicao": 451,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7228,7 +7228,7 @@
     "Menor_Ranking": 29,
     "Participacoes": 2,
     "Posicao": 452,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7244,7 +7244,7 @@
     "Menor_Ranking": 26,
     "Participacoes": 4,
     "Posicao": 453,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7260,7 +7260,7 @@
     "Menor_Ranking": 50,
     "Participacoes": 4,
     "Posicao": 454,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7276,7 +7276,7 @@
     "Menor_Ranking": 13,
     "Participacoes": 1,
     "Posicao": 455,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7292,7 +7292,7 @@
     "Menor_Ranking": 25,
     "Participacoes": 4,
     "Posicao": 456,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7308,7 +7308,7 @@
     "Menor_Ranking": 13,
     "Participacoes": 1,
     "Posicao": 457,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7324,7 +7324,7 @@
     "Menor_Ranking": 26,
     "Participacoes": 2,
     "Posicao": 458,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7340,7 +7340,7 @@
     "Menor_Ranking": 14,
     "Participacoes": 1,
     "Posicao": 459,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7356,7 +7356,7 @@
     "Menor_Ranking": 23,
     "Participacoes": 2,
     "Posicao": 460,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7372,7 +7372,7 @@
     "Menor_Ranking": 7,
     "Participacoes": 1,
     "Posicao": 461,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7388,7 +7388,7 @@
     "Menor_Ranking": 24,
     "Participacoes": 2,
     "Posicao": 462,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7404,7 +7404,7 @@
     "Menor_Ranking": 22,
     "Participacoes": 3,
     "Posicao": 463,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7420,7 +7420,7 @@
     "Menor_Ranking": 14,
     "Participacoes": 3,
     "Posicao": 464,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7436,7 +7436,7 @@
     "Menor_Ranking": 33,
     "Participacoes": 2,
     "Posicao": 465,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7452,7 +7452,7 @@
     "Menor_Ranking": 18,
     "Participacoes": 5,
     "Posicao": 466,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7468,7 +7468,7 @@
     "Menor_Ranking": 20,
     "Participacoes": 2,
     "Posicao": 467,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7484,7 +7484,7 @@
     "Menor_Ranking": 13,
     "Participacoes": 3,
     "Posicao": 468,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7500,7 +7500,7 @@
     "Menor_Ranking": 33,
     "Participacoes": 9,
     "Posicao": 469,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7516,7 +7516,7 @@
     "Menor_Ranking": 18,
     "Participacoes": 5,
     "Posicao": 470,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7532,7 +7532,7 @@
     "Menor_Ranking": 10,
     "Participacoes": 2,
     "Posicao": 471,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7548,7 +7548,7 @@
     "Menor_Ranking": 33,
     "Participacoes": 4,
     "Posicao": 472,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7564,7 +7564,7 @@
     "Menor_Ranking": 13,
     "Participacoes": 4,
     "Posicao": 473,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7580,7 +7580,7 @@
     "Menor_Ranking": 26,
     "Participacoes": 1,
     "Posicao": 474,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7596,7 +7596,7 @@
     "Menor_Ranking": 9,
     "Participacoes": 1,
     "Posicao": 475,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7612,7 +7612,7 @@
     "Menor_Ranking": 30,
     "Participacoes": 2,
     "Posicao": 476,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7628,7 +7628,7 @@
     "Menor_Ranking": 17,
     "Participacoes": 3,
     "Posicao": 477,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7644,7 +7644,7 @@
     "Menor_Ranking": 18,
     "Participacoes": 3,
     "Posicao": 478,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7660,7 +7660,7 @@
     "Menor_Ranking": 11,
     "Participacoes": 1,
     "Posicao": 479,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7676,7 +7676,7 @@
     "Menor_Ranking": 11,
     "Participacoes": 1,
     "Posicao": 480,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7692,7 +7692,7 @@
     "Menor_Ranking": 14,
     "Participacoes": 1,
     "Posicao": 481,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7708,7 +7708,7 @@
     "Menor_Ranking": 10,
     "Participacoes": 1,
     "Posicao": 482,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7724,7 +7724,7 @@
     "Menor_Ranking": 15,
     "Participacoes": 1,
     "Posicao": 483,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7740,7 +7740,7 @@
     "Menor_Ranking": 16,
     "Participacoes": 1,
     "Posicao": 484,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7756,7 +7756,7 @@
     "Menor_Ranking": 7,
     "Participacoes": 2,
     "Posicao": 485,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7772,7 +7772,7 @@
     "Menor_Ranking": 32,
     "Participacoes": 7,
     "Posicao": 486,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7788,7 +7788,7 @@
     "Menor_Ranking": 42,
     "Participacoes": 3,
     "Posicao": 487,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7804,7 +7804,7 @@
     "Menor_Ranking": 14,
     "Participacoes": 2,
     "Posicao": 488,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7820,7 +7820,7 @@
     "Menor_Ranking": 28,
     "Participacoes": 2,
     "Posicao": 489,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7836,7 +7836,7 @@
     "Menor_Ranking": 18,
     "Participacoes": 1,
     "Posicao": 490,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7852,7 +7852,7 @@
     "Menor_Ranking": 17,
     "Participacoes": 5,
     "Posicao": 491,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7868,7 +7868,7 @@
     "Menor_Ranking": 22,
     "Participacoes": 2,
     "Posicao": 492,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7884,7 +7884,7 @@
     "Menor_Ranking": 13,
     "Participacoes": 7,
     "Posicao": 493,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7900,7 +7900,7 @@
     "Menor_Ranking": 21,
     "Participacoes": 4,
     "Posicao": 494,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7916,7 +7916,7 @@
     "Menor_Ranking": 11,
     "Participacoes": 1,
     "Posicao": 495,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7932,7 +7932,7 @@
     "Menor_Ranking": 21,
     "Participacoes": 2,
     "Posicao": 496,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7948,7 +7948,7 @@
     "Menor_Ranking": 23,
     "Participacoes": 2,
     "Posicao": 497,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7964,7 +7964,7 @@
     "Menor_Ranking": 12,
     "Participacoes": 1,
     "Posicao": 498,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7980,7 +7980,7 @@
     "Menor_Ranking": 17,
     "Participacoes": 1,
     "Posicao": 499,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -7996,7 +7996,7 @@
     "Menor_Ranking": 13,
     "Participacoes": 5,
     "Posicao": 500,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8012,7 +8012,7 @@
     "Menor_Ranking": 20,
     "Participacoes": 2,
     "Posicao": 501,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8028,7 +8028,7 @@
     "Menor_Ranking": 35,
     "Participacoes": 6,
     "Posicao": 502,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8044,7 +8044,7 @@
     "Menor_Ranking": 24,
     "Participacoes": 1,
     "Posicao": 503,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8060,7 +8060,7 @@
     "Menor_Ranking": 12,
     "Participacoes": 3,
     "Posicao": 504,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8076,7 +8076,7 @@
     "Menor_Ranking": 27,
     "Participacoes": 2,
     "Posicao": 505,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8092,7 +8092,7 @@
     "Menor_Ranking": 27,
     "Participacoes": 1,
     "Posicao": 506,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8108,7 +8108,7 @@
     "Menor_Ranking": 14,
     "Participacoes": 2,
     "Posicao": 507,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8124,7 +8124,7 @@
     "Menor_Ranking": 23,
     "Participacoes": 1,
     "Posicao": 508,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8140,7 +8140,7 @@
     "Menor_Ranking": 33,
     "Participacoes": 1,
     "Posicao": 509,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8156,7 +8156,7 @@
     "Menor_Ranking": 16,
     "Participacoes": 3,
     "Posicao": 510,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8172,7 +8172,7 @@
     "Menor_Ranking": 30,
     "Participacoes": 3,
     "Posicao": 511,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8188,7 +8188,7 @@
     "Menor_Ranking": 9,
     "Participacoes": 2,
     "Posicao": 512,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8204,7 +8204,7 @@
     "Menor_Ranking": 25,
     "Participacoes": 5,
     "Posicao": 513,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8220,7 +8220,7 @@
     "Menor_Ranking": 15,
     "Participacoes": 1,
     "Posicao": 514,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8236,7 +8236,7 @@
     "Menor_Ranking": 19,
     "Participacoes": 1,
     "Posicao": 515,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8252,7 +8252,7 @@
     "Menor_Ranking": 28,
     "Participacoes": 1,
     "Posicao": 516,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8268,7 +8268,7 @@
     "Menor_Ranking": 47,
     "Participacoes": 1,
     "Posicao": 517,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8284,7 +8284,7 @@
     "Menor_Ranking": 20,
     "Participacoes": 7,
     "Posicao": 518,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8300,7 +8300,7 @@
     "Menor_Ranking": 18,
     "Participacoes": 1,
     "Posicao": 519,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8316,7 +8316,7 @@
     "Menor_Ranking": 14,
     "Participacoes": 2,
     "Posicao": 520,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8332,7 +8332,7 @@
     "Menor_Ranking": 23,
     "Participacoes": 1,
     "Posicao": 521,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8348,7 +8348,7 @@
     "Menor_Ranking": 37,
     "Participacoes": 2,
     "Posicao": 522,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8364,7 +8364,7 @@
     "Menor_Ranking": 13,
     "Participacoes": 2,
     "Posicao": 523,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8380,7 +8380,7 @@
     "Menor_Ranking": 22,
     "Participacoes": 1,
     "Posicao": 524,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8396,7 +8396,7 @@
     "Menor_Ranking": 19,
     "Participacoes": 2,
     "Posicao": 525,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8412,7 +8412,7 @@
     "Menor_Ranking": 38,
     "Participacoes": 2,
     "Posicao": 526,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8428,7 +8428,7 @@
     "Menor_Ranking": 23,
     "Participacoes": 1,
     "Posicao": 527,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8444,7 +8444,7 @@
     "Menor_Ranking": 12,
     "Participacoes": 1,
     "Posicao": 528,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8460,7 +8460,7 @@
     "Menor_Ranking": 33,
     "Participacoes": 3,
     "Posicao": 529,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8476,7 +8476,7 @@
     "Menor_Ranking": 44,
     "Participacoes": 1,
     "Posicao": 530,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8492,7 +8492,7 @@
     "Menor_Ranking": 32,
     "Participacoes": 2,
     "Posicao": 531,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8508,7 +8508,7 @@
     "Menor_Ranking": 25,
     "Participacoes": 2,
     "Posicao": 532,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8524,7 +8524,7 @@
     "Menor_Ranking": 22,
     "Participacoes": 3,
     "Posicao": 533,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8540,7 +8540,7 @@
     "Menor_Ranking": 33,
     "Participacoes": 6,
     "Posicao": 534,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8556,7 +8556,7 @@
     "Menor_Ranking": 21,
     "Participacoes": 3,
     "Posicao": 535,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8572,7 +8572,7 @@
     "Menor_Ranking": 29,
     "Participacoes": 6,
     "Posicao": 536,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8588,7 +8588,7 @@
     "Menor_Ranking": 28,
     "Participacoes": 10,
     "Posicao": 537,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8604,7 +8604,7 @@
     "Menor_Ranking": 8,
     "Participacoes": 3,
     "Posicao": 538,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8620,7 +8620,7 @@
     "Menor_Ranking": 26,
     "Participacoes": 1,
     "Posicao": 539,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8636,7 +8636,7 @@
     "Menor_Ranking": 24,
     "Participacoes": 2,
     "Posicao": 540,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8652,7 +8652,7 @@
     "Menor_Ranking": 23,
     "Participacoes": 2,
     "Posicao": 541,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8668,7 +8668,7 @@
     "Menor_Ranking": 14,
     "Participacoes": 3,
     "Posicao": 542,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8684,7 +8684,7 @@
     "Menor_Ranking": 36,
     "Participacoes": 2,
     "Posicao": 543,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8700,7 +8700,7 @@
     "Menor_Ranking": 32,
     "Participacoes": 2,
     "Posicao": 544,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8716,7 +8716,7 @@
     "Menor_Ranking": 39,
     "Participacoes": 2,
     "Posicao": 545,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8732,7 +8732,7 @@
     "Menor_Ranking": 23,
     "Participacoes": 2,
     "Posicao": 546,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8748,7 +8748,7 @@
     "Menor_Ranking": 42,
     "Participacoes": 1,
     "Posicao": 547,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8764,7 +8764,7 @@
     "Menor_Ranking": 20,
     "Participacoes": 1,
     "Posicao": 548,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8780,7 +8780,7 @@
     "Menor_Ranking": 27,
     "Participacoes": 3,
     "Posicao": 549,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8796,7 +8796,7 @@
     "Menor_Ranking": 28,
     "Participacoes": 1,
     "Posicao": 550,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8812,7 +8812,7 @@
     "Menor_Ranking": 22,
     "Participacoes": 2,
     "Posicao": 551,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8828,7 +8828,7 @@
     "Menor_Ranking": 26,
     "Participacoes": 1,
     "Posicao": 552,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8844,7 +8844,7 @@
     "Menor_Ranking": 14,
     "Participacoes": 2,
     "Posicao": 553,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8860,7 +8860,7 @@
     "Menor_Ranking": 36,
     "Participacoes": 4,
     "Posicao": 554,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8876,7 +8876,7 @@
     "Menor_Ranking": 23,
     "Participacoes": 6,
     "Posicao": 555,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8892,7 +8892,7 @@
     "Menor_Ranking": 52,
     "Participacoes": 1,
     "Posicao": 556,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8908,7 +8908,7 @@
     "Menor_Ranking": 23,
     "Participacoes": 2,
     "Posicao": 557,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8924,7 +8924,7 @@
     "Menor_Ranking": 13,
     "Participacoes": 6,
     "Posicao": 558,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8940,7 +8940,7 @@
     "Menor_Ranking": 30,
     "Participacoes": 3,
     "Posicao": 559,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8956,7 +8956,7 @@
     "Menor_Ranking": 25,
     "Participacoes": 3,
     "Posicao": 560,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8972,7 +8972,7 @@
     "Menor_Ranking": 28,
     "Participacoes": 4,
     "Posicao": 561,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -8988,7 +8988,7 @@
     "Menor_Ranking": 27,
     "Participacoes": 5,
     "Posicao": 562,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -9004,7 +9004,7 @@
     "Menor_Ranking": 22,
     "Participacoes": 1,
     "Posicao": 563,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -9020,7 +9020,7 @@
     "Menor_Ranking": 30,
     "Participacoes": 1,
     "Posicao": 564,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -9036,7 +9036,7 @@
     "Menor_Ranking": 35,
     "Participacoes": 1,
     "Posicao": 565,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -9052,7 +9052,7 @@
     "Menor_Ranking": 33,
     "Participacoes": 4,
     "Posicao": 566,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -9068,7 +9068,7 @@
     "Menor_Ranking": 26,
     "Participacoes": 2,
     "Posicao": 567,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -9084,7 +9084,7 @@
     "Menor_Ranking": 37,
     "Participacoes": 1,
     "Posicao": 568,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -9100,7 +9100,7 @@
     "Menor_Ranking": 29,
     "Participacoes": 1,
     "Posicao": 569,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -9116,7 +9116,7 @@
     "Menor_Ranking": 41,
     "Participacoes": 2,
     "Posicao": 570,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -9132,7 +9132,7 @@
     "Menor_Ranking": 25,
     "Participacoes": 1,
     "Posicao": 571,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -9148,7 +9148,7 @@
     "Menor_Ranking": 26,
     "Participacoes": 3,
     "Posicao": 572,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -9164,7 +9164,7 @@
     "Menor_Ranking": 33,
     "Participacoes": 2,
     "Posicao": 573,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -9180,7 +9180,7 @@
     "Menor_Ranking": 17,
     "Participacoes": 1,
     "Posicao": 574,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -9196,7 +9196,7 @@
     "Menor_Ranking": 24,
     "Participacoes": 1,
     "Posicao": 575,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -9212,7 +9212,7 @@
     "Menor_Ranking": 61,
     "Participacoes": 1,
     "Posicao": 576,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -9228,7 +9228,7 @@
     "Menor_Ranking": 35,
     "Participacoes": 1,
     "Posicao": 577,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -9244,7 +9244,7 @@
     "Menor_Ranking": 21,
     "Participacoes": 3,
     "Posicao": 578,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -9260,7 +9260,7 @@
     "Menor_Ranking": 22,
     "Participacoes": 2,
     "Posicao": 579,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
   },
   {
@@ -9276,8 +9276,24 @@
     "Menor_Ranking": 24,
     "Participacoes": 3,
     "Posicao": 580,
-    "Movimento": 0,
+    "Movimento": 0.0,
     "Movimento_Texto": "—"
+  },
+  {
+    "Nick": "KABBAL",
+    "Pontos": 4,
+    "Desempenho_Medio": 1808.0,
+    "podio_primeiro": 0,
+    "podio_segundo": 0,
+    "podio_terceiro": 0,
+    "Rating_Medio": 1873.0,
+    "Pontos_por_Torneio": 4.0,
+    "Maior_Pontuacao": 4,
+    "Menor_Ranking": 24,
+    "Participacoes": 1,
+    "Posicao": 581,
+    "Movimento": null,
+    "Movimento_Texto": "NOVO"
   },
   {
     "Nick": "Fredeid",
@@ -9291,9 +9307,9 @@
     "Maior_Pontuacao": 4,
     "Menor_Ranking": 25,
     "Participacoes": 1,
-    "Posicao": 581,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 582,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "rai1308082013",
@@ -9307,9 +9323,9 @@
     "Maior_Pontuacao": 4,
     "Menor_Ranking": 26,
     "Participacoes": 1,
-    "Posicao": 582,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 583,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "diegoalmeida",
@@ -9323,9 +9339,9 @@
     "Maior_Pontuacao": 4,
     "Menor_Ranking": 43,
     "Participacoes": 1,
-    "Posicao": 583,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 584,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "KakoWalderrama",
@@ -9339,9 +9355,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 37,
     "Participacoes": 2,
-    "Posicao": 584,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 585,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "jacobinax",
@@ -9355,9 +9371,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 26,
     "Participacoes": 2,
-    "Posicao": 585,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 586,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Demitre",
@@ -9371,9 +9387,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 29,
     "Participacoes": 2,
-    "Posicao": 586,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 587,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "vitor2022_18",
@@ -9387,9 +9403,9 @@
     "Maior_Pontuacao": 4,
     "Menor_Ranking": 39,
     "Participacoes": 1,
-    "Posicao": 587,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 588,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Rota_Capixaba",
@@ -9403,9 +9419,9 @@
     "Maior_Pontuacao": 4,
     "Menor_Ranking": 23,
     "Participacoes": 1,
-    "Posicao": 588,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 589,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "ZeRatao2ponto0",
@@ -9419,9 +9435,9 @@
     "Maior_Pontuacao": 4,
     "Menor_Ranking": 15,
     "Participacoes": 2,
-    "Posicao": 589,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 590,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "estudantexadrez1",
@@ -9435,9 +9451,9 @@
     "Maior_Pontuacao": 4,
     "Menor_Ranking": 31,
     "Participacoes": 1,
-    "Posicao": 590,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 591,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "solanabitcoin",
@@ -9451,9 +9467,25 @@
     "Maior_Pontuacao": 4,
     "Menor_Ranking": 33,
     "Participacoes": 1,
-    "Posicao": 591,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 592,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
+  },
+  {
+    "Nick": "Re_alves",
+    "Pontos": 4,
+    "Desempenho_Medio": 1496.0,
+    "podio_primeiro": 0,
+    "podio_segundo": 0,
+    "podio_terceiro": 0,
+    "Rating_Medio": 1220.0,
+    "Pontos_por_Torneio": 1.0,
+    "Maior_Pontuacao": 2,
+    "Menor_Ranking": 22,
+    "Participacoes": 6,
+    "Posicao": 593,
+    "Movimento": 37.0,
+    "Movimento_Texto": "↑ 37"
   },
   {
     "Nick": "EspancadordeMoises",
@@ -9467,9 +9499,9 @@
     "Maior_Pontuacao": 4,
     "Menor_Ranking": 34,
     "Participacoes": 1,
-    "Posicao": 592,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 594,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "andersonbahia",
@@ -9483,9 +9515,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 26,
     "Participacoes": 4,
-    "Posicao": 593,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 595,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "Teco_enxadrista",
@@ -9499,9 +9531,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 37,
     "Participacoes": 4,
-    "Posicao": 594,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 596,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "caipivara",
@@ -9515,9 +9547,9 @@
     "Maior_Pontuacao": 4,
     "Menor_Ranking": 21,
     "Participacoes": 4,
-    "Posicao": 595,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 597,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "Massimus",
@@ -9531,9 +9563,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 37,
     "Participacoes": 8,
-    "Posicao": 596,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 598,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "muriben95",
@@ -9547,9 +9579,9 @@
     "Maior_Pontuacao": 4,
     "Menor_Ranking": 37,
     "Participacoes": 1,
-    "Posicao": 597,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 599,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "Maxwello_o",
@@ -9563,9 +9595,9 @@
     "Maior_Pontuacao": 3,
     "Menor_Ranking": 38,
     "Participacoes": 1,
-    "Posicao": 598,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 600,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "ipmanctes",
@@ -9579,9 +9611,9 @@
     "Maior_Pontuacao": 3,
     "Menor_Ranking": 64,
     "Participacoes": 1,
-    "Posicao": 599,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 601,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "reury",
@@ -9595,9 +9627,9 @@
     "Maior_Pontuacao": 3,
     "Menor_Ranking": 34,
     "Participacoes": 3,
-    "Posicao": 600,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 602,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "MURILOV",
@@ -9611,9 +9643,9 @@
     "Maior_Pontuacao": 3,
     "Menor_Ranking": 50,
     "Participacoes": 1,
-    "Posicao": 601,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 603,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "Benonejr",
@@ -9627,9 +9659,9 @@
     "Maior_Pontuacao": 3,
     "Menor_Ranking": 41,
     "Participacoes": 1,
-    "Posicao": 602,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 604,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "Tomasramospt",
@@ -9643,9 +9675,9 @@
     "Maior_Pontuacao": 3,
     "Menor_Ranking": 23,
     "Participacoes": 3,
-    "Posicao": 603,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 605,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "beotoch",
@@ -9659,9 +9691,9 @@
     "Maior_Pontuacao": 3,
     "Menor_Ranking": 47,
     "Participacoes": 1,
-    "Posicao": 604,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 606,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "civilpegou",
@@ -9675,9 +9707,9 @@
     "Maior_Pontuacao": 3,
     "Menor_Ranking": 41,
     "Participacoes": 1,
-    "Posicao": 605,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 607,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "Yggdrasilchess",
@@ -9691,9 +9723,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 57,
     "Participacoes": 1,
-    "Posicao": 606,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 608,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "NewbieLearner",
@@ -9707,9 +9739,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 22,
     "Participacoes": 1,
-    "Posicao": 607,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 609,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "MN_Koala",
@@ -9723,9 +9755,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 25,
     "Participacoes": 1,
-    "Posicao": 608,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 610,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "claudioxd",
@@ -9739,9 +9771,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 24,
     "Participacoes": 3,
-    "Posicao": 609,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 611,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "chrisrapid",
@@ -9755,9 +9787,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 43,
     "Participacoes": 1,
-    "Posicao": 610,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 612,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "mvarestelo",
@@ -9771,9 +9803,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 44,
     "Participacoes": 1,
-    "Posicao": 611,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 613,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "kaspabrazil",
@@ -9787,9 +9819,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 26,
     "Participacoes": 1,
-    "Posicao": 612,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 614,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "joaovictormo",
@@ -9803,9 +9835,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 19,
     "Participacoes": 1,
-    "Posicao": 613,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 615,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "BlusRS",
@@ -9819,9 +9851,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 29,
     "Participacoes": 2,
-    "Posicao": 614,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 616,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "Peluso100",
@@ -9835,9 +9867,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 46,
     "Participacoes": 1,
-    "Posicao": 615,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 617,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "matheuslao",
@@ -9851,9 +9883,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 44,
     "Participacoes": 1,
-    "Posicao": 616,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 618,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "Sgt_Claudionor",
@@ -9867,9 +9899,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 39,
     "Participacoes": 1,
-    "Posicao": 617,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 619,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "adilsonsantos",
@@ -9883,9 +9915,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 26,
     "Participacoes": 1,
-    "Posicao": 618,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 620,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "Oswaldoreina",
@@ -9899,9 +9931,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 21,
     "Participacoes": 2,
-    "Posicao": 619,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 621,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "Phernando39",
@@ -9915,9 +9947,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 32,
     "Participacoes": 2,
-    "Posicao": 620,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 622,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "capablanca_br",
@@ -9931,9 +9963,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 24,
     "Participacoes": 1,
-    "Posicao": 621,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 623,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "Loirinha",
@@ -9947,9 +9979,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 70,
     "Participacoes": 1,
-    "Posicao": 622,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 624,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "JairoM",
@@ -9963,9 +9995,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 74,
     "Participacoes": 1,
-    "Posicao": 623,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 625,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "Gilmarcassio2000",
@@ -9979,9 +10011,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 38,
     "Participacoes": 1,
-    "Posicao": 624,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 626,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "tarchess",
@@ -9995,9 +10027,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 37,
     "Participacoes": 1,
-    "Posicao": 625,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 627,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "Macaco-loco-XBA",
@@ -10011,9 +10043,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 70,
     "Participacoes": 2,
-    "Posicao": 626,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 628,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "Kristian2209",
@@ -10027,9 +10059,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 50,
     "Participacoes": 2,
-    "Posicao": 627,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 629,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "beto764",
@@ -10043,9 +10075,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 37,
     "Participacoes": 1,
-    "Posicao": 628,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 630,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "RIKOVISK",
@@ -10059,25 +10091,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 23,
     "Participacoes": 1,
-    "Posicao": 629,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
-  },
-  {
-    "Nick": "Re_alves",
-    "Pontos": 2,
-    "Desempenho_Medio": 1507.0,
-    "podio_primeiro": 0,
-    "podio_segundo": 0,
-    "podio_terceiro": 0,
-    "Rating_Medio": 1224.0,
-    "Pontos_por_Torneio": 0.0,
-    "Maior_Pontuacao": 2,
-    "Menor_Ranking": 22,
-    "Participacoes": 5,
-    "Posicao": 630,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 631,
+    "Movimento": -2.0,
+    "Movimento_Texto": "↓ 2"
   },
   {
     "Nick": "noureeddineelabeyeri",
@@ -10091,9 +10107,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 41,
     "Participacoes": 3,
-    "Posicao": 631,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 632,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Genilsonboy",
@@ -10107,9 +10123,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 37,
     "Participacoes": 1,
-    "Posicao": 632,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 633,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Tiagoheng",
@@ -10123,9 +10139,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 47,
     "Participacoes": 2,
-    "Posicao": 633,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 634,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "gabrielalves77",
@@ -10139,9 +10155,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 33,
     "Participacoes": 2,
-    "Posicao": 634,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 635,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Patrick-Morais",
@@ -10155,9 +10171,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 41,
     "Participacoes": 2,
-    "Posicao": 635,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 636,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "aprendizscuto",
@@ -10171,9 +10187,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 31,
     "Participacoes": 1,
-    "Posicao": 636,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 637,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Burguesinha",
@@ -10187,9 +10203,9 @@
     "Maior_Pontuacao": 2,
     "Menor_Ranking": 55,
     "Participacoes": 1,
-    "Posicao": 637,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 638,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "joaogabrielvasco",
@@ -10203,9 +10219,9 @@
     "Maior_Pontuacao": 1,
     "Menor_Ranking": 75,
     "Participacoes": 1,
-    "Posicao": 638,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 639,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "nelsonlopes",
@@ -10219,9 +10235,9 @@
     "Maior_Pontuacao": 1,
     "Menor_Ranking": 27,
     "Participacoes": 2,
-    "Posicao": 639,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 640,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "LangeCristina",
@@ -10235,9 +10251,9 @@
     "Maior_Pontuacao": 1,
     "Menor_Ranking": 29,
     "Participacoes": 1,
-    "Posicao": 640,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 641,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Gilbert007",
@@ -10251,9 +10267,9 @@
     "Maior_Pontuacao": 1,
     "Menor_Ranking": 23,
     "Participacoes": 3,
-    "Posicao": 641,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 642,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Vinicius_2026",
@@ -10267,9 +10283,9 @@
     "Maior_Pontuacao": 1,
     "Menor_Ranking": 39,
     "Participacoes": 2,
-    "Posicao": 642,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 643,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "joseRkasparov",
@@ -10283,9 +10299,9 @@
     "Maior_Pontuacao": 1,
     "Menor_Ranking": 48,
     "Participacoes": 1,
-    "Posicao": 643,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 644,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "kaspa100",
@@ -10299,9 +10315,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 37,
     "Participacoes": 1,
-    "Posicao": 644,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 645,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Joaojp",
@@ -10315,9 +10331,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 83,
     "Participacoes": 1,
-    "Posicao": 645,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 646,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Cruz_Sacalxot",
@@ -10331,9 +10347,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 48,
     "Participacoes": 1,
-    "Posicao": 646,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 647,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Miozinho",
@@ -10347,9 +10363,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 59,
     "Participacoes": 1,
-    "Posicao": 647,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 648,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "NascimentoBruno",
@@ -10363,9 +10379,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 68,
     "Participacoes": 1,
-    "Posicao": 648,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 649,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Book1500",
@@ -10379,9 +10395,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 38,
     "Participacoes": 1,
-    "Posicao": 649,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 650,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Rururenhos",
@@ -10395,9 +10411,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 40,
     "Participacoes": 1,
-    "Posicao": 650,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 651,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "MrDarkstein",
@@ -10411,9 +10427,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 46,
     "Participacoes": 1,
-    "Posicao": 651,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 652,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Zarachess",
@@ -10427,9 +10443,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 42,
     "Participacoes": 1,
-    "Posicao": 652,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 653,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "pamelaBruno",
@@ -10443,9 +10459,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 44,
     "Participacoes": 1,
-    "Posicao": 653,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 654,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "arikado969",
@@ -10459,9 +10475,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 41,
     "Participacoes": 1,
-    "Posicao": 654,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 655,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "FalcaoChess18",
@@ -10475,9 +10491,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 36,
     "Participacoes": 1,
-    "Posicao": 655,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 656,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Kojaqui",
@@ -10491,9 +10507,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 41,
     "Participacoes": 1,
-    "Posicao": 656,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 657,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Kovacs112",
@@ -10507,9 +10523,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 35,
     "Participacoes": 2,
-    "Posicao": 657,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 658,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "rabi1981",
@@ -10523,9 +10539,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 40,
     "Participacoes": 4,
-    "Posicao": 658,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 659,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Peluncur16",
@@ -10539,9 +10555,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 51,
     "Participacoes": 1,
-    "Posicao": 659,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 660,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "wllndr",
@@ -10555,9 +10571,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 40,
     "Participacoes": 2,
-    "Posicao": 660,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 661,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Brun0of",
@@ -10571,9 +10587,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 29,
     "Participacoes": 1,
-    "Posicao": 661,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 662,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "WendelMelo",
@@ -10587,9 +10603,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 72,
     "Participacoes": 1,
-    "Posicao": 662,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 663,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "TRON120P0",
@@ -10603,9 +10619,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 10,
     "Participacoes": 2,
-    "Posicao": 663,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 664,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "rgopires",
@@ -10619,9 +10635,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 42,
     "Participacoes": 1,
-    "Posicao": 664,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 665,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "fosforoazul",
@@ -10635,9 +10651,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 58,
     "Participacoes": 1,
-    "Posicao": 665,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 666,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "PapaleguasMT",
@@ -10651,9 +10667,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 39,
     "Participacoes": 1,
-    "Posicao": 666,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 667,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Rafael1-1",
@@ -10667,9 +10683,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 34,
     "Participacoes": 1,
-    "Posicao": 667,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 668,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "DaviMineiro",
@@ -10683,9 +10699,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 39,
     "Participacoes": 1,
-    "Posicao": 668,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 669,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "kassnts",
@@ -10699,9 +10715,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 39,
     "Participacoes": 2,
-    "Posicao": 669,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 670,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "CTXDiegoLages",
@@ -10715,9 +10731,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 76,
     "Participacoes": 1,
-    "Posicao": 670,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 671,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "motoUber",
@@ -10731,9 +10747,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 38,
     "Participacoes": 1,
-    "Posicao": 671,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 672,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "rolandobrazil",
@@ -10747,9 +10763,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 38,
     "Participacoes": 1,
-    "Posicao": 672,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 673,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Dabi_ribeirao0612",
@@ -10763,9 +10779,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 44,
     "Participacoes": 1,
-    "Posicao": 673,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 674,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "TerrorDasBatalhas",
@@ -10779,9 +10795,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 13,
     "Participacoes": 1,
-    "Posicao": 674,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 675,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Bad_ngueve",
@@ -10795,9 +10811,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 28,
     "Participacoes": 2,
-    "Posicao": 675,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 676,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "toncorreria",
@@ -10811,9 +10827,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 46,
     "Participacoes": 1,
-    "Posicao": 676,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 677,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Gaelcampos",
@@ -10827,9 +10843,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 72,
     "Participacoes": 1,
-    "Posicao": 677,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 678,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "EmersonXadreZ123",
@@ -10843,9 +10859,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 57,
     "Participacoes": 1,
-    "Posicao": 678,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 679,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "vinilipe",
@@ -10859,9 +10875,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 35,
     "Participacoes": 1,
-    "Posicao": 679,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 680,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "FelipeGarcia_CBX",
@@ -10875,9 +10891,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 51,
     "Participacoes": 1,
-    "Posicao": 680,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 681,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "mateusdireito",
@@ -10891,9 +10907,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 53,
     "Participacoes": 1,
-    "Posicao": 681,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 682,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "E3-ED-81-D2",
@@ -10907,9 +10923,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 35,
     "Participacoes": 1,
-    "Posicao": 682,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 683,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Seixas56",
@@ -10923,9 +10939,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 37,
     "Participacoes": 1,
-    "Posicao": 683,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 684,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "marcio1306",
@@ -10939,9 +10955,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 30,
     "Participacoes": 2,
-    "Posicao": 684,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 685,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "SCR_Hugo",
@@ -10955,9 +10971,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 14,
     "Participacoes": 1,
-    "Posicao": 685,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 686,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "gibinha",
@@ -10971,9 +10987,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 41,
     "Participacoes": 2,
-    "Posicao": 686,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 687,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "MqRmI",
@@ -10987,9 +11003,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 34,
     "Participacoes": 1,
-    "Posicao": 687,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 688,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "LeoUberaba",
@@ -11003,9 +11019,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 50,
     "Participacoes": 1,
-    "Posicao": 688,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 689,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "capapretaSS",
@@ -11019,9 +11035,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 49,
     "Participacoes": 1,
-    "Posicao": 689,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 690,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "FranSparky",
@@ -11035,9 +11051,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 40,
     "Participacoes": 1,
-    "Posicao": 690,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 691,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Catatauu",
@@ -11051,9 +11067,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 77,
     "Participacoes": 1,
-    "Posicao": 691,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 692,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "stansouza94",
@@ -11067,9 +11083,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 32,
     "Participacoes": 1,
-    "Posicao": 692,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 693,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "JoAna2010",
@@ -11083,9 +11099,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 40,
     "Participacoes": 1,
-    "Posicao": 693,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 694,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Guihermebernardi23",
@@ -11099,9 +11115,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 33,
     "Participacoes": 1,
-    "Posicao": 694,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 695,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "GiovaniFla",
@@ -11115,9 +11131,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 47,
     "Participacoes": 1,
-    "Posicao": 695,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 696,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "lord_matos_BR",
@@ -11131,9 +11147,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 9,
     "Participacoes": 3,
-    "Posicao": 696,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 697,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Ozymandias_Realista",
@@ -11147,9 +11163,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 36,
     "Participacoes": 1,
-    "Posicao": 697,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 698,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "odaniloassuncao",
@@ -11163,9 +11179,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 46,
     "Participacoes": 1,
-    "Posicao": 698,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 699,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Dan2016",
@@ -11179,9 +11195,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 36,
     "Participacoes": 1,
-    "Posicao": 699,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 700,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "feelthecrack",
@@ -11195,9 +11211,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 45,
     "Participacoes": 1,
-    "Posicao": 700,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 701,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "luisfernandosalleste",
@@ -11211,9 +11227,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 52,
     "Participacoes": 1,
-    "Posicao": 701,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 702,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Ivovf2",
@@ -11227,9 +11243,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 44,
     "Participacoes": 1,
-    "Posicao": 702,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 703,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "Leoturbo",
@@ -11243,9 +11259,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 42,
     "Participacoes": 1,
-    "Posicao": 703,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 704,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "FlipBarreto",
@@ -11259,9 +11275,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 66,
     "Participacoes": 1,
-    "Posicao": 704,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 705,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "RayChess87",
@@ -11275,9 +11291,9 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 43,
     "Participacoes": 2,
-    "Posicao": 705,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 706,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   },
   {
     "Nick": "ABNER10",
@@ -11291,8 +11307,8 @@
     "Maior_Pontuacao": 0,
     "Menor_Ranking": 60,
     "Participacoes": 1,
-    "Posicao": 706,
-    "Movimento": 0,
-    "Movimento_Texto": "—"
+    "Posicao": 707,
+    "Movimento": -1.0,
+    "Movimento_Texto": "↓ 1"
   }
 ]
